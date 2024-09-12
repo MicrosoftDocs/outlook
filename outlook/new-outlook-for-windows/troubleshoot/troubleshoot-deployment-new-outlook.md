@@ -95,7 +95,8 @@ To download, install and get continuous updates for new Outlook, make sure proxy
 ### Blocking executables
 Ensure there are no security policies or software blocking executables from running in the user’s temp directory.
 - Examples of security programs include: AppLocker, Anti-Virus, Group Policy, third party security software.
-- Win32 downloads the installer to %TEMP%, which is almost always inside of the C:\Users\ directory unless explicitly configured otherwise. If they're blocking exes in that directory, Desktop Outlook fails to start the installer.
+- Classic Outlook downloads the installer to %TEMP%, which is almost always inside of the C:\Users\ directory unless explicitly configured otherwise. If they're blocking exes in that directory, Desktop Outlook fails to start the installer.
+
 - “NewOutlookInstaller.exe” is the filename that needs to execute.
 
 ### Delivery optimization
