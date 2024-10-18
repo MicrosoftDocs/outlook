@@ -32,7 +32,7 @@ The change to the profile experience is part of a broader effort by Microsoft to
 
 As a modern client, new Outlook includes enhanced built-in supportability and improvements to managing the app. For example, if you or your users have issues when starting new Outlook for Windows, the troubleshooting workflow can assist you in a boot issue scenario.
 
-If the client fails to reach this stage [WHAT STAGE??] after three unsuccessful attempts, regardless of the reason, we will reset everything, and you will need to go through the initial setup process to add your accounts again. [WE NEED TO DESCRIBE WHAT THIS IS AND HOW TO DO IT--OR POINT TO CONTENT THAT EXPLAINS THE STEPS.]
+If the client fails to reach this stage [WHAT STAGE?] after three unsuccessful attempts, regardless of the reason, we'll reset everything, and you'll need to go through the initial setup process to add your accounts again. [WE NEED TO DESCRIBE WHAT THIS IS AND HOW TO DO IT--OR POINT TO CONTENT THAT EXPLAINS THE STEPS.]
 
 Is there a way to force new Outlook for Windows to do this manually? [DO WHAT MANUALLY? START FROM THE BOOT?]
 
@@ -69,20 +69,20 @@ There are two primary components to new Outlook: a lightweight Windows integrati
 
 In theory, one could just refresh the web interface, but since the two components are connected and dependent on each other, restarting new Outlook is the best solution. 
 
-- When new Outlook for Windows starts for the very first time, it downloads the latest bits available and then launches. 
-- After a few minutes new Outlook checks whether or not an update is available, but as this is the first time – there is nothing new available for us. [THIS IS UNCLEAR] 
+- When new Outlook for Windows starts for the first time, it downloads the latest bits available and then launches. 
+- After a few minutes new Outlook checks whether or not an update is available, but as this is the first time – there's nothing new available for us. [THIS IS UNCLEAR] 
 - At the next start of new Outlook, we check again if an update is available, and if it is, the update is downloaded in the background. 
 - The next time new Outlook starts, the downloaded update installs automatically. 
 
-When troubleshooting, we recommended launching new Outlook and then waiting 5 minutes to make sure all updates are downloaded. [IS THERE ANYTHING THAT TELLS THE USER WHEN A DOWNLOAD IS COMPLETE??] Close and restart new Outlook to ensure the most recent updates are installed.
+When troubleshooting, we recommended launching new Outlook and then waiting 5 minutes to make sure all updates are downloaded. [IS THERE ANYTHING THAT TELLS THE USER WHEN A DOWNLOAD IS COMPLETE?] Close and restart new Outlook to ensure the most recent updates are installed.
 
 ### New Outlook isn't open in a week
 
-If a user hasn't opened new Outlook in a week, they might not have the most recent updates because the downloaded update occured when new Outlook was last running. A new update might be available and won't have been downloaded until new Outlook starts again.
+If a user doesn't open new Outlook in a week, they might not have the most recent updates because the downloaded update occurred when new Outlook was last running. A new update might be available and won't be downloaded until new Outlook starts again.
 
 ### New Outlook isn't opened in three weeks
 
-If new Outlook wasn't open in three or more weeks, a new download will begin. The means the splash screen might show longer before the app completely opens.
+If new Outlook wasn't open in three or more weeks, a new download begins. The means the splash screen might show longer before the app completely opens.
 
 ### Manually apply an update to new Outlook
 
