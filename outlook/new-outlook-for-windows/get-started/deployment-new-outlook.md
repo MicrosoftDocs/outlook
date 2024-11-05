@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.custom: intro-overview
 recommendations: true
 description: "Provides an overview of deployment for new Outlook for Windows"
-ms.date: 11/09/2023
+ms.date: 11/05/2024
 ---
 
 # Deployment overview for the new Outlook for Windows
@@ -31,6 +31,8 @@ The new Outlook for Windows is also available as the upgrade from the Windows Ma
 
 ## Prerequisites for target computers
 
+As a requirement, Outlook on the web needs to be enabled for users' mailboxes for whom you're planning to deploy new Outlook for Windows, for more information, see: https://learn.microsoft.com/en-us/powershell/module/exchange/set-casmailbox?view=exchange-ps#-owaenabled
+
 For the new Outlook client to be successfully installed, computers must meet the minimum requirements listed here.
 
 ### System and app requirements
@@ -40,7 +42,7 @@ For the new Outlook client to be successfully installed, computers must meet the
 
 Requirement | Version
 ------------|-------
-Windows |- Windows 10 Version 1809 (Build 17763) or higher. The new Outlook for Windows will be preinstalled on new Windows devices and devices running Windows 11 version 23H2. </br>- Windows Server 2022 (20348.2402) or higher.
+Windows |- Windows 10 Version 1809 (Build 17763) or higher. The new Outlook for Windows is preinstalled on new Windows devices and devices running Windows 11 version 23H2. </br>- Windows Server 2022 (20348.2402) or higher.
 Classic Outlook app | Version 2303 Build 16227.20318 or higher to see the Try the new Outlook toggle. **Important:** Classic Outlook is only a requirement if you want users to be able to switch between classic Outlook and new Outlook. This prerequisite is optional if you only want your users to see the new Outlook client.
 
 ## Other deployment options
