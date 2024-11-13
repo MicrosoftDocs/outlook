@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.custom: intro-overview
 recommendations: true
 description: "Provides an overview of deployment for new Outlook for Windows"
-ms.date: 11/05/2024
+ms.date: 11/13/2024
 ---
 
 # Deployment overview for the new Outlook for Windows
@@ -31,7 +31,7 @@ The new Outlook for Windows is also available as the upgrade from the Windows Ma
 
 ## Prerequisites for target computers
 
-As a requirement, Outlook on the web needs to be enabled for users' mailboxes for whom you're planning to deploy new Outlook for Windows. For more information, see: [OWAEnabled parameter](/powershell/module/exchange/set-casmailbox#-owaenabled)
+As a requirement, Outlook on the web needs to be enabled for users' mailboxes for whom you're planning to deploy new Outlook for Windows. For more information, see: [OWAEnabled parameter](/powershell/module/exchange/set-casmailbox#-owaenabled).
 
 For the new Outlook client to be successfully installed, computers must meet the minimum requirements listed here.
 
@@ -59,7 +59,7 @@ To install new Outlook on a single computer with many users, follow these steps:
 4. Run the following command:
 
    ```powershell
-   .\Setup.exe --provision true --quiet --start-*
+   .\Setup.exe --provision true --quiet --start-
    ```
 
 ### Deploy new Outlook across your organization
