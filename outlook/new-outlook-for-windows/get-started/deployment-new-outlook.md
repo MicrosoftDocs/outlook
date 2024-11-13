@@ -31,7 +31,7 @@ The new Outlook for Windows is also available as the upgrade from the Windows Ma
 
 ## Prerequisites for target computers
 
-As a requirement, Outlook on the web needs to be enabled for users' mailboxes for whom you're planning to deploy new Outlook for Windows. For more information, see: [OWAEnabled parameter](/powershell/module/exchange/set-casmailbox#-owaenabled)
+As a requirement, Outlook on the web needs to be enabled for users' mailboxes for whom you're planning to deploy new Outlook for Windows. For more information, see: [OWAEnabled parameter](/powershell/module/exchange/set-casmailbox#-owaenabled).
 
 For the new Outlook client to be successfully installed, computers must meet the minimum requirements listed here.
 
