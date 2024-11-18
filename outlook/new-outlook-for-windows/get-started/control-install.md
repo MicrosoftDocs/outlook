@@ -16,7 +16,7 @@ search.appverid: MET150
 recommendations: true
 description: "Describes how to control the installation and use of new Outlook in an organization"
 ai-usage:  ai-assisted  
-ms.date: 07/02/2024 
+ms.date: 11/18/2024 
 ---  
 
 # Control the installation and use of new Outlook
@@ -60,7 +60,7 @@ Windows builds after 23H2 have the new Outlook app preinstalled for all users, a
 
 Currently, there isn't a way to block the new Outlook from being installed before it's first installed as a replacement for the Mail & Calendar app. If you prefer not to have new Outlook show up on your organization's devices, you can remove it after it's installed as part of the update.
 
-To remove it, follow the instructions in [Remove-AppxProvisionedPackage](/powershell/module/dism/remove-appxprovisionedpackage) to remove the app package using the *PackageName* parameter value `Microsoft.OutlookForWindows`. Once uninstalled, new Outlook won't be readded as part of a Windows update.
+To remove the app package, use the [Remove-AppxProvisionedPackage](/powershell/module/dism/remove-appxprovisionedpackage) cmdlet with the *PackageName* parameter value `Microsoft.OutlookForWindows`. After removal, Windows updates won't reinstall new Outlook.
 
 Use the following command in Windows PowerShell:
 
@@ -89,7 +89,7 @@ Remove-AppxPackage -AllUsers -Package (Get-AppxPackage Microsoft.OutlookForWindo
 
 ## Block new Outlook installation as part of Mail and Calendar deprecation
 
-Users can toggle to new Outlook from the Mail and Calendar applications that ship with Windows. Support for Windows Mail and Calendar will be out of support at the end of 2024, so we're also automatically switching active users to the new Outlook app.
+Users can switch to new Outlook from the Mail and Calendar apps included with Windows. Support for Windows Mail and Calendar ends on December 31, 2024. We're automatically switching active users to the new Outlook app.
 
 If you would like to block your users from acquiring the new Outlook from Windows Mail and Calendar applications, you can uninstall these apps from the user's devices.
 
@@ -113,6 +113,45 @@ Alternatively, you can remove the apps through Intune or by following the instru
 
 The new Outlook for Windows app is also available in the Microsoft Store. To prevent users from downloading the app from the store, you can block store access by following the instructions in [Configure access to the Microsoft Store app](/windows/configuration/store).
 
+## Opt-out of new Outlook migration
+
+Starting in January 2025, users with Microsoft 365 Business Standard and Premium licenses are automatically migrated from the classic Outlook for Windows to new Outlook for Windows. Users receive in-app notifications before the migration and can opt out of the automatic migration through **Outlook Options** > **General**. Users who are switched to the new Outlook can toggle back to the classic Outlook if they choose. 
+
+For more information, see: [Switch to new Outlook for Windows](https://learn.microsoft.com/microsoft-365-apps/outlook/manage/admin-controlled-migration-policy#hide-the-toggle-in-new-outlook-for-windows).
+
+### Admin control over migration
+
+Admins can disable the user setting for automatic migration to prevent users from being switched to the new Outlook.
+
+#### Policy: Manage user setting for new Outlook automatic migration
+
+The policy can be configured with the following values:
+
+- **Not set** (default): If you don’t configure this policy, the user setting for automatic migration remains uncontrolled, and users can manage it themselves. By default, this setting is enabled.
+- **1 (Enable)**: If you enable this policy, the user setting for automatic migration is enforced. Automatic migration to the new Outlook is allowed, and users can't change the setting.
+- **0 (Disable)**: If you disable this policy, the user setting for automatic migration is turned off. Automatic migration to the new Outlook is blocked, and users can't change the setting.
+
+> **Note**  
+> This policy does not apply to migrations initiated through the "Admin-Controlled Migration to New Outlook" policy. For more information, see: [Admin-Controlled Migration Policy](https://learn.microsoft.com/microsoft-365-apps/outlook/manage/admin-controlled-migration-policy#hide-the-toggle-in-new-outlook-for-windows).
+
+#### Configuring the policy using the Windows registry
+
+To disable automatic migration:
+
+```console
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\outlook\preferences]
+"NewOutlookMigrationUserSetting"=dword:00000000
+```
+To enable automatic migration:
+
+```console
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\outlook\preferences]
+"NewOutlookMigrationUserSetting"=dword:00000001
+```
+#### Future availability
+
+This policy will also be available through Group Policy, Cloud Policy, and Intune.
+
 ## Conditional access to the new Outlook App
 
 Many organizations have common access concerns that Conditional Access policies can help with, such as:
@@ -128,7 +167,7 @@ To learn more about Conditional Access and how to configure it, follow the instr
 
 ## Block Mailbox Access on new Outlook
 
-Users might acquire the new Outlook app through different flows, as outlined in the previous sections. To prevent mailbox access from new Outlook regardless of how users acquired it, an Exchange mailbox policy can be used to block organization (work or school) mailboxes from being added to the new Outlook. This is the final block as users can't use their work or school account even if they have the app on their device.
+Users might acquire the new Outlook app through different flows, as outlined in the previous sections. To prevent mailbox access from the new Outlook, regardless of how users acquired it, use an Exchange mailbox policy to block organization (work or school) mailboxes from being added to the app. This policy serves as the final block, ensuring users can't use their work or school accounts even if they have the app on their device.
 
 Mailbox policies are applied to the work or school email account and not at the device or app level. Therefore, to prevent users from using the app with other accounts that aren't their work or school email account, we recommend blocking access to the app (as described in previous sections).
 
