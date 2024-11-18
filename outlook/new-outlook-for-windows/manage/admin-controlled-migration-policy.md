@@ -13,7 +13,7 @@ ms.collection:
 ms.localizationpriority: medium
 ms.custom: intro-overview
 recommendations: true
-ms.date: 11/15/2024
+ms.date: 11/18/2024
 ---
 # Policy for Admin-Controlled Migration to new Outlook for Windows
 
@@ -45,7 +45,7 @@ This approach allows users in-app communication about the new Outlook migration 
 
 This teaching callout might not appear in some cases, for example, if a higher priority teaching callout is queued or if users navigate away too quickly. Users will still see the next migration step.
 
-**Step #2:** If users don’t switch to new Outlook in step 1, they’ll see this message in the next session: “Your organization recommends using the new Outlook for Windows. If you skip this now, you’ll be taken to the new experience the next time you start Outlook.”
+**Step #2:** If users don’t switch to new Outlook in step 1, they’ll see this message in the next session: “Your organization recommends using the new Outlook for Windows. If you skip this step now, you’ll be taken to the new experience the next time you start Outlook.”
 
 - If users select **Switch now**, classic Outlook is closed and new Outlook is launched.
 - If users close the business bar or don’t take any action, they’re able to continue using classic Outlook for Windows. They’ll see the experience defined in step #3, in the next session.
@@ -83,11 +83,11 @@ Possible Values (Boolean):
   - **1:** This value enables the new Outlook migration and initiates the migration flow as previously described.
   - **0:** This value disables the new Outlook migration and users stop seeing the associated experiences.
 
-The migration runs only once. You can set the [interval policy](#setting-the-interval-policy) to reinitiate migration in the scenario users toggle back to classic Outlook.
+The migration runs only once. You can set the [interval policy](#setting-the-interval-policy) to reinitiate migration if users toggle back to classic Outlook.
 
-Deleting the registry key associated with this policy disables the policy and stops the migration. If the policy is disabled, users who are already toggled into the new Outlook won't automatically be switched back to t classic Outlook, but they continue to see the toggle in new Outlook and can switch back anytime. 
+Deleting the registry key associated with this policy disables the policy and stops the migration. If you disable this policy setting, users who switch to the new Outlook don't revert to classic Outlook. However, they continue to see the toggle in the new Outlook and can switch back at any time.
 
-If you enable the policy again after disabling it or deleting the registry key, it will start migration again from step #1.
+If you enable the policy after disabling it or deleting the registry key, migration starts again from step #1.
 
 #### Setting as a Group Policy
 
@@ -230,7 +230,7 @@ It's a mailbox policy that can be set through Exchange PowerShell –
 
 ## Tracking new Outlook usage
 
-While we work on getting new Outlook in the email apps report for Exchange usage, you can use [this workaround](monitor-usage-reports.md) to get a proxy and approximate usage in your organization.
+While Microsofts work to include the new Outlook in the email apps report for Exchange usage, use the steps from [Monitor adoption of new Outlook](monitor-usage-reports.md) to get a proxy and approximate usage in your organization.
 
 ## View your organization’s feedback
 
