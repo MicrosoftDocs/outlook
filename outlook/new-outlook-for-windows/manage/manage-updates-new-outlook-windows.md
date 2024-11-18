@@ -13,7 +13,7 @@ ms.collection:
 ms.localizationpriority: medium
 ms.custom: intro-overview
 recommendations: true
-ms.date: 11/15/2024
+ms.date: 11/18/2024
 ---
 
 # Manage updates in new Outlook for Windows
@@ -22,7 +22,7 @@ ms.date: 11/15/2024
 
 The new Outlook for Windows app updates automatically, with new build updates shipping weekly. Unlike the classic version, though, features aren't delivered via build updates. The native component updates ensure that the app continues to work with the service, and updates are delivered automatically.
 
-To ensure reliable delivery of updates, administrators need to allow access to the Microsoft 365 CDN on the *.office.net domain. [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
+To ensure reliable delivery of updates, administrators should allow access to the Microsoft 365 Content Delivery Network (CDN) on the `*.office.net` domain. This domain is used by Microsoft to distribute updates and content efficiently. For a comprehensive list of Microsoft 365 URLs and IP address ranges, see [Microsoft 365 URLs and IP address ranges](https://learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 ## Service-delivered features
 
