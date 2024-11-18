@@ -117,7 +117,7 @@ The new Outlook for Windows app is also available in the Microsoft Store. To pre
 
 Starting in January 2025, users with Microsoft 365 Business Standard and Premium licenses are automatically migrated from the classic Outlook for Windows to new Outlook for Windows. Users receive in-app notifications before the migration and can opt out of the automatic migration through **Outlook Options** > **General**. Users who are switched to the new Outlook can toggle back to the classic Outlook if they choose. 
 
-For more information, see: [Switch to new Outlook for Windows](https://learn.microsoft.com/microsoft-365-apps/outlook/manage/admin-controlled-migration-policy#hide-the-toggle-in-new-outlook-for-windows).
+For more information, see: [Switch to new Outlook for Windows](../manage/admin-controlled-migration-policy.md#hide-the-toggle-in-new-outlook-for-windows).
 
 ### Admin control over migration
 
@@ -132,7 +132,7 @@ The policy can be configured with the following values:
 - **0 (Disable)**: If you disable this policy, the user setting for automatic migration is turned off. Automatic migration to the new Outlook is blocked, and users can't change the setting.
 
 > **Note**  
-> This policy does not apply to migrations initiated through the "Admin-Controlled Migration to New Outlook" policy. For more information, see: [Admin-Controlled Migration Policy](https://learn.microsoft.com/microsoft-365-apps/outlook/manage/admin-controlled-migration-policy#hide-the-toggle-in-new-outlook-for-windows).
+> This policy does not apply to migrations initiated through the "Admin-Controlled Migration to New Outlook" policy. For more information, see: [Admin-Controlled Migration Policy](../manage/admin-controlled-migration-policy.md#hide-the-toggle-in-new-outlook-for-windows).
 
 #### Configuring the policy using the Windows registry
 
