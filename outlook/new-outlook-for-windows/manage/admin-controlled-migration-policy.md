@@ -13,7 +13,7 @@ ms.collection:
 ms.localizationpriority: medium
 ms.custom: intro-overview
 recommendations: true
-ms.date: 08/27/2024
+ms.date: 11/18/2024
 ---
 # Policy for Admin-Controlled Migration to new Outlook for Windows
 
@@ -45,7 +45,7 @@ This approach allows users in-app communication about the new Outlook migration 
 
 This teaching callout might not appear in some cases, for example, if a higher priority teaching callout is queued or if users navigate away too quickly. Users will still see the next migration step.
 
-**Step #2:** If users don’t switch to new Outlook in step 1, they’ll see this message in the next session: “Your organization recommends using the new Outlook for Windows. If you skip this now, you’ll be taken to the new experience the next time you start Outlook.”
+**Step #2:** If users don’t switch to new Outlook in step 1, they’ll see this message in the next session: “Your organization recommends using the new Outlook for Windows. If you skip this step now, you’ll be taken to the new experience the next time you start Outlook.”
 
 - If users select **Switch now**, classic Outlook is closed and new Outlook is launched.
 - If users close the business bar or don’t take any action, they’re able to continue using classic Outlook for Windows. They’ll see the experience defined in step #3, in the next session.
@@ -83,11 +83,11 @@ Possible Values (Boolean):
   - **1:** This value enables the new Outlook migration and initiates the migration flow as previously described.
   - **0:** This value disables the new Outlook migration and users stop seeing the associated experiences.
 
-The migration runs only once. You can set the [interval policy](#setting-the-interval-policy) to reinitiate migration in the scenario users toggle back to classic Outlook.
+The migration runs only once. You can set the [interval policy](#setting-the-interval-policy) to reinitiate migration if users toggle back to classic Outlook.
 
-Deleting the registry key associated with this policy disables the policy and stops the migration. If the policy is disabled, users who are already toggled into the new Outlook won't automatically be switched back to t classic Outlook, but they continue to see the toggle in new Outlook and can switch back anytime. 
+Deleting the registry key associated with this policy disables the policy and stops the migration. If you disable this policy setting, users who switch to the new Outlook don't revert to classic Outlook. However, they continue to see the toggle in the new Outlook and can switch back at any time.
 
-If you enable the policy again after disabling it or deleting the registry key, it will start migration again from step #1.
+If you enable the policy after disabling it or deleting the registry key, migration starts again from step #1.
 
 #### Setting as a Group Policy
 
@@ -125,7 +125,7 @@ You can also set this policy as a [Cloud Policy](../../admin-center/overview-clo
 1. Run the *.reg* file and select **Yes** in the confirmation dialog that appears.
 
 > [!TIP]
-> Setting through Intune: This can be managed in Intune using administrative templates as well, since this is an ADMX policy. For more information, see [Use Windows 10/11 templates to configure group policy settings in Microsoft Intune](/mem/intune/configuration/administrative-templates-windows?tabs=template).  
+> You can manage this setting in Intune using administrative templates, as it's an ADMX policy. For more information, see [Use Windows 10/11 templates to configure group policy settings in Microsoft Intune](/mem/intune/configuration/administrative-templates-windows?tabs=template). Download the latest ADMX template from [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=49030&msockid=22d43a6aa2e46c5b0a7c29aea3576d18).
 
 ## Policy to define the interval between migration attempts
 
@@ -205,7 +205,7 @@ You can also set this policy as a [Cloud Policy](../../admin-center/overview-clo
 1. Run the *.reg* file and select  **Yes**  in the confirmation dialog that appears.
 
 > [!TIP]
-> Setting through Intune: This can be managed in Intune using administrative templates as well, since this is an ADMX policy. For more information, see [Use Windows 10/11 templates to configure group policy settings in Microsoft Intune](/mem/intune/configuration/administrative-templates-windows?tabs=template)  
+> You can manage this setting in Intune using administrative templates, as it is an ADMX policy. For more information, see [Use Windows 10/11 templates to configure group policy settings in Microsoft Intune](/mem/intune/configuration/administrative-templates-windows?tabs=template). Download the latest ADMX template from [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=49030&msockid=22d43a6aa2e46c5b0a7c29aea3576d18).
 
 > [!IMPORTANT]
 > New Outlook isn't supported for on-premises environments. So, if you have a hybrid environment with both Microsoft 365 and on-premises users, you should only target Microsoft 365 users for this policy. You can do this by using the cloud policy. New Outlook is also not available in sovereign clouds so do not enable the policy for these environments.
@@ -230,11 +230,7 @@ It's a mailbox policy that can be set through Exchange PowerShell –
 
 ## Tracking new Outlook usage
 
-You can view new Outlook app usage in your organization by using the [Usage and Insights report](/entra/identity/monitoring-health/concept-usage-insights-report?tabs=microsoft-entra-admin-center) in Microsoft Entra ID.
-
-To access this report, your organization needs an Azure subscription. Sign in to [Microsoft Azure](https://portal.azure.com) and select the **Microsoft Outlook** app from the list of applications. Confirm the app by checking the appID: `5d661950-3475-41cd-a2c3-d671a3162bc1`.
-
-To view this report, you must have the **Report reader** role. For more information, see [Sign-in logs in Microsoft Entra ID](/azure/active-directory/reports-monitoring/concept-sign-ins#prerequisites).
+While Microsofts work to include the new Outlook in the email apps report for Exchange usage, use the steps from [Monitor adoption of new Outlook](monitor-usage-reports.md) to get a proxy and approximate usage in your organization.
 
 ## View your organization’s feedback
 
