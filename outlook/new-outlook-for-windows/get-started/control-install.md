@@ -127,7 +127,7 @@ Admins can disable the user setting for automatic migration to prevent users fro
 
 The policy can be configured with the following values:
 
-- **Not set** (default): If you don’t configure this policy, the user setting for automatic migration remains uncontrolled, and users can manage it themselves. By default, this setting is enabled.
+- **Not set (Default)**: If you don’t configure this policy, the user setting for automatic migration remains uncontrolled, and users can manage it themselves. By default, this setting is enabled.
 - **1 (Enable)**: If you enable this policy, the user setting for automatic migration is enforced. Automatic migration to the new Outlook is allowed, and users can't change the setting.
 - **0 (Disable)**: If you disable this policy, the user setting for automatic migration is turned off. Automatic migration to the new Outlook is blocked, and users can't change the setting.
 
