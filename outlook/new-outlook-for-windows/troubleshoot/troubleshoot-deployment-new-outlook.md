@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.custom: intro-overview
 recommendations: true
 description: "Provides detailed solutions for troubleshooting deployment and installation issues encountered when transitioning to the new Outlook for Windows"
-ms.date: 08/01/2024
+ms.date: 11/21/2024
 ---
 
 # Troubleshoot deployment issues in new Outlook
