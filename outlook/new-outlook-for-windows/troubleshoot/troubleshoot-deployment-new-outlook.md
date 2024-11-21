@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.custom: intro-overview
 recommendations: true
 description: "Provides detailed solutions for troubleshooting deployment and installation issues encountered when transitioning to the new Outlook for Windows"
-ms.date: 08/01/2024
+ms.date: 11/21/2024
 ---
 
 # Troubleshoot deployment issues in new Outlook
@@ -94,8 +94,9 @@ To download, install and get continuous updates for new Outlook, make sure proxy
 
 ### Blocking executables
 Ensure there are no security policies or software blocking executables from running in the user’s temp directory.
-- Examples of security programs include: AppLocker, Anti-Virus, Group Policy, third party security software.
-- Win32 downloads the installer to %TEMP%, which is almost always inside of the C:\Users\ directory unless explicitly configured otherwise. If they're blocking exes in that directory, Desktop Outlook fails to start the installer.
+- Examples of security programs include: AppLocker, Anti-Virus, Group Policy, third-party security software.
+- Classic Outlook downloads the installer to %TEMP%, which is almost always inside of the C:\Users\ directory unless explicitly configured otherwise. If they're blocking exes in that directory, Desktop Outlook fails to start the installer.
+
 - “NewOutlookInstaller.exe” is the filename that needs to execute.
 
 ### Delivery optimization
