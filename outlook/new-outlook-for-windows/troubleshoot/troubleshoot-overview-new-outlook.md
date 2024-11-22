@@ -16,9 +16,9 @@ description: "Overview of troubleshooting issues with new Outlook for Windows"
 ms.date: 11/22/2024
 ---
 
-# Changes to troubleshooting steps in new Outlook
+# Troubleshoot new Outlook
 
-Some of the common steps users took to troubleshoot issues in classic Outlook are no longer needed in new Outlook. The architecture changes to new Outlook make actions such as creating a new profile or starting Outlook in safe mode unnecessary.
+Some of the common steps users took to troubleshoot issues in classic Outlook are no longer needed in new Outlook. For example, creating a new profile or starting Outlook in safe mode is no longer necessary because of the underlying architecture changes in new Outlook.
 
 ## Changes to profile experience
 
