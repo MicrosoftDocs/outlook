@@ -45,6 +45,8 @@ items:
 
   - name: Troubleshoot
     items:
+      - name: Troubleshoot new Outlook
+        href: troubleshoot/troubleshoot-overview-new-outlook.md    
       - name: Deployment issues in new Outlook
         href: troubleshoot/troubleshoot-deployment-new-outlook.md
       - name: Shared mailbox issues in new Outlook
