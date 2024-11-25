@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.custom: intro-overview
 recommendations: true
 description: "Provides an overview of transitioning from COM to web add-ins in Outlook"
-ms.date: 04/17/2024
+ms.date: 11/25/2024
 ---
 
 # Migrate from COM add-ins to web add-ins
@@ -59,7 +59,7 @@ If your organization is currently using web add-ins, no extra effort is required
       | Evernote.Outlook                        | Productivity           | [Evernote](https://appsource.microsoft.com/product/office365/wa104379617)                            |
       | Google Meet Outlook Add-in              | Online Meetings        | [Google Meet Add-In](https://appsource.microsoft.com/product/office365/wa104381851)                  |
       | GoToMeeting Outlook COM Add-in          | Online Meetings        | [GoTo for Outlook](https://appsource.microsoft.com/product/office365/WA200001676)                    |
-      | harmon.ie                               | Attachment Management  | [harmon.ie web add-in](https://appsource.microsoft.com/product/office365/wa103004101)                |
+      | harmon.ie                               | Attachment Management  | [harmon.ie web add-in](https://appsource.microsoft.com/product/office/wa200005667)                |
       | Jira                                    | Project Management     | [Jira Cloud](https://appsource.microsoft.com/product/office365/wa200002140)                          |
       | Mimecast for Outlook                    | Phishing/Spam Reporting| [Mimecast Essentials for Outlook](https://appsource.microsoft.com/product/office365/wa200002175)     |
       | OnePlaceMail                            | Attachment Management  | [OnePlaceMail for Outlook](https://appsource.microsoft.com/product/office365/wa104380723)            |
@@ -113,7 +113,7 @@ If you find gaps in the web add-in platform that don't support core workflows li
 
 1. **What are the capabilities supported by web add-ins?**: Outlook web add-ins support many scenarios involving composing and reading emails and events. Web add-in JS APIs support accessing many properties like the email body and details, event body and details, sensitivity labels and many more. It is also possible to launch web add-ins automatically on email compose and many more capabilities are being added to the web add-in platform. Learn more about the supported and upcoming scenarios in [Supported scenarios in Outlook web add-ins](/office/dev/add-ins/outlook/one-outlook#supported-scenarios-in-outlook-web-add-ins).
 
-2. **What are the JS API requirements sets supported in new Outlook?**: Web add-in JS API set upto 1.14 is supported in the new Outlook for Windows. This provides support for spam reporting and phisihing scenarios among several others. Learn more about the JS APIs in this requirement set here: [Outlook API reference](/javascript/api/outlook).
+2. **What are the JS API requirements sets supported in new Outlook?**: Web add-in JS API set upto 1.14 is supported in the new Outlook for Windows. This provides support for spam reporting and phishing scenarios among several others. Learn more about the JS APIs in this requirement set here: [Outlook API reference](/javascript/api/outlook).
 
-3. **How can spam reporting web add-ins replace the 'Report' button in new Outlook?**: Third-party spam reporting add-ins can replace the **Report** button in new Outlook by making a manifest change. It requires the web add-in manifest to set xsi:type attribute of the ExtensionPoint element to ReportPhishingCommandSurface. More details on the implementation here: [Implement an integrated spam-reporting add-in](/office/dev/add-ins/outlook/spam-reporting#configure-the-manifest).
+3. **How can spam reporting web add-ins replace the 'Report' button in new Outlook?**: Non-Microsoft spam reporting add-ins can replace the **Report** button in new Outlook by making a manifest change. It requires the web add-in manifest to set xsi:type attribute of the ExtensionPoint element to ReportPhishingCommandSurface. More details on the implementation here: [Implement an integrated spam-reporting add-in](/office/dev/add-ins/outlook/spam-reporting#configure-the-manifest).
  
