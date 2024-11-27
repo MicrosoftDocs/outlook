@@ -42,7 +42,7 @@ If your organization is currently using web add-ins, no extra effort is required
 
    Some Microsoft COM add-ins might be deployed within your organization. The plan for these COM add-ins is detailed in [Identify COM add-ins in your organization](state-of-com-add-ins.md).
 
-3. **Check if web add-ins are available for use**: If a web add-in is available, install, test, and assess it for usage with the new Outlook for Windows. You can follow the steps in [Deploy and manage Office Add-ins](/microsoft-365/admin/manage/office-addins) to install a web add-in.
+1. **Check if web add-ins are available for use**: If a web add-in is available, install, test, and assess it for usage with the new Outlook for Windows. You can follow the steps in [Deploy and manage Office Add-ins](/microsoft-365/admin/manage/office-addins) to install a web add-in.
 
    - Some widely used COM add-in publishers also published their web add-ins. The ones marked `PRIVATE` don't have a web add-in published to the store but have a private web add-in; you can reach out to the partners for requesting access to it.
 
@@ -74,8 +74,8 @@ If your organization is currently using web add-ins, no extra effort is required
       | Zoom Outlook Plugin                     | Online Meetings        | [Zoom for Outlook Extension](https://appsource.microsoft.com/product/office365/wa104381712)          |
 
    - If you don't find your relevant COM add-ins on this list, search for them in the [Microsoft commercial marketplace](https://appsource.microsoft.com/home).
-
-      > [!TIP]
+   
+           > [!TIP]
       > By default, users are given the option to install web add-in counterparts of their existing COM add-ins when they switch to new Outlook for Windows. For more information, see [Install web add-in counterparts of existing COM add-ins in new Outlook for Windows](install-web-add-ins.md). To learn how to prevent web add-in counterparts from being installed when a user switches to new Outlook for Windows, see [Prevent add-ins from being installed during setup](install-web-add-ins.md#prevent-add-ins-from-being-installed-during-setup).
 
    - Some developers build private web add-ins that aren't published to the store. Check with your partners to confirm if they developed or are developing a web add-in.
