@@ -27,8 +27,8 @@ The following licensing requirements apply when using DLP policy tips in New Out
 
 |License  |These conditions apply  |
 |---------|---------|
-|E3 and equivalent licenses    |<ul><li>Content contains Microsoft built-in or custom sensitive information types</li><li>Content is shared from Microsoft 365</li>      |
-|E5 and equivalent licenses     |<ul><li>Content contains built-in or custom sensitive information types</li><li>Content is shared</li><li>Content contains sensitivity labels (works for email and Office and PDF file types)</li><li>Sender is</li><li>Sender is member of (Only Distribution lists, Azure-based Dynamic Distribution groups, and email-enabled Security groups are supported)</li><li>Sender domain is</li><li>Recipient is</li><li>Recipient is a member of (Only Distribution lists, Azure-based Dynamic Distribution groups, and email-enabled Security groups are supported)</li><li>Recipient domain is</li><li>Subject contains words</li>       |
+|E3 and equivalent licenses    |- Content contains Microsoft built-in or custom sensitive information types</br>- Content is shared from Microsoft 365     |
+|E5 and equivalent licenses     |- Content contains built-in or custom sensitive information types</br>- Content is shared</br>- Content contains sensitivity labels (works for email and Office and PDF file types)</br>- Sender is</br>- Sender is member of (Only Distribution lists, Azure-based Dynamic Distribution groups, and email-enabled Security groups are supported)</br>- Sender domain is</br>- Recipient is</br>- Recipient is a member of (Only Distribution lists, Azure-based Dynamic Distribution groups, and email-enabled Security groups are supported)</br>- Recipient domain is</br>- Subject contains words     |
 
 ## Actions that support policy tips
 
