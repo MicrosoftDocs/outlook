@@ -120,7 +120,7 @@ Additionally, some features such as .pst support, [offline capabilities](https:/
 
 For a list of available features, see [Feature comparison between new and classic Outlook](https://support.microsoft.com/office/de453583-1e76-48bf-975a-2e9cd2ee16dd).
 
-### Download and install new Outlook using an offline installer:
+### Download and install new Outlook using an offline installer
 
 Admins can also use a local Outlook MSIX to provision new Outlook to minimize the amount of bandwidth used for the initial installation. For this option, download the MSIX packages for offline situations. Select the MSIX package for your needs:
 
