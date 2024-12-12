@@ -100,28 +100,43 @@ A Setup.exe bootstrapper can be used for a straightforward per-user installation
    .\Setup.exe --quiet --start-
    ```
 
-## Install new Outlook with a new Microsoft 365 deployment 
+## Install new Outlook with a new Microsoft 365 deployment
 
-For new Microsoft 365 deployments, new Outlook is now an option along with the already available classic Outlook app in the Office Deployment Tool (ODT). The toggle is set to install both by default to allow users in your organization to [run classic and new Outlook side-by-side](https://support.microsoft.com/office/a624c36d-c50f-43bc-9c8b-dd17b5690ffb). For help with the ODT, see [Overview of the Office Deployment Tool](/microsoft-365-apps/deploy/overview-office-deployment-tool)
+Starting with Version 2501 (to be updated in January 2025), new deployments of Microsoft 365 desktop client apps on Windows devices will include the new Outlook app by default. Admins might choose to exclude classic or new Outlook, or to have both installed side-by-side.  
 
-With the ODT, admins can choose to:
+The toggle to install both Outlooks is turned on by default to encourage organizations to [run classic and new Outlook side-by-side](https://support.microsoft.com/office/a624c36d-c50f-43bc-9c8b-dd17b5690ffb) for a gradual migration of users to new Outlook. However, admins can choose to install new Outlook or classic Outlook only by toggling the desired app off or on.
 
-- Install new Outlook only
-- Install classic Outlook only
-- Install both new and classic Outlook giving users the option to run the apps side-by-side for a gradual migration
+To exclude either Outlook, use the [Office Customization Tool](https://config.office.com/deploymentsettings) or configure with configuration XML directly <link to ODT config options - exclude apps section>.
 
-### Why run new Outlook and classic Outlook side-by-side?
+Administrators can always remove new Outlook later after an install by following the steps in [Control the installation and use of new Outlook](../get-started/control-install.md). Removing new Outlook this way doesn't affect existing installations.
 
-Some features such as .pst support, [offline capabilities](https://support.microsoft.com/office/2460e4a8-16c7-47fc-b204-b1549275aac9), and [delegation permissions](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5) aren't fully available in new Outlook as yet. Other features are available, but users might want to try them out in new Outlook first. Therefore, Microsoft recommends installing both versions side-by-side as we continue to work on features that in particular, still require classic Outlook libraries.
+After installing new Outlook and classic Outlook side-by-side:
+
+- Depending on your organization policy, users can try new Outlook while still using classic Outlook as needed.
+- Outlook behaves accordinding to an organization's existing configuration settings. For example, if the Admin Controlled Migration to the new Outlook policy is enabled, the **Try the new Outlook** toggle appears in classic Outlook and the user experience follows all Admin Controlled Migration policy settings. Learn more about these policy settings in [Policy for Admin-controlled migration to new Outlook](../manage/admin-controlled-migration-policy.md).
+- In the Start menu, both **Outlook (classic)** and **Outlook (new)** appear and are available for use based on an organization's policy settings.
+
+Additionally, some features such as .pst support, [offline capabilities](https://support.microsoft.com/office/2460e4a8-16c7-47fc-b204-b1549275aac9), and [delegation permissions](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5) are still dependant on classic Outlook libraries. Other features are available in new Outlook, but users might want to try them out first. For these reasons, Microsoft recommends installing both versions side-by-side while new Outlook continues to evolve.
 
 For a list of available features, see [Feature comparison between new and classic Outlook](https://support.microsoft.com/office/de453583-1e76-48bf-975a-2e9cd2ee16dd).
 
-When both apps are installed:
+### Download and install new Outlook using an offline installer:
 
-- Outlook behaves accordinding to the organization's existing configuration settings. For example, if the Admin Controlled Migration to the new Outlook policy is enabled, the **Try the new Outlook** toggle appears in classic Outlook and the user experience follows all Admin Controlled Migration policy settings.  
-- In the Start menu, both **Outlook (classic)** and **Outlook (new)** appear and available for use based on an organization's policy settings.
+Admins can also use a local Outlook MSIX to provision new Outlook to minimize the amount of bandwidth used for the initial installation. For this option, download the MSIX packages for offline situations. Select the MSIX package for your needs:
 
-If new Outlook is already deployed, but your organization isn't ready to migrate, or the choice to opt-in isn't suitable at this time, admins can set the **Outlook (new)** toggle off. However, since new Outlook will eventually replace classic Outlook, Microsoft strongly suggests running Outlook side-by-side to encourage users to try new Outlook. Learn more in [Policy for Admin-controlled migration to new Outlook](../manage/admin-controlled-migration-policy.md).  
+- [X64 Windows](https://go.microsoft.com/fwlink/?linkid=2195164)
+- [X86 Windows](https://go.microsoft.com/fwlink/?linkid=2195278)
+- [Arm64 Windows](https://go.microsoft.com/fwlink/?linkid=2195438)
+
+Package info:
+
+- Package Identity/Name: Microsoft.OutlookForWindows
+- Package Family Name: Microsoft.OutlookForWindows_8wekyb3d8bbwe
+
+Admins can install the above packages using the appropriate package for their scenario:
+
+- For one user on a machine: [Add-AppxPackage (Appx)](/powershell/module/appx/add-appxpackage?view=windowsserver2025-ps)
+- For all users on a machine: [Add-AppxProvisionedPackage (DISM)](/powershell/module/dism/add-appxprovisionedpackage?view=windowsserver2022-ps)
 
 ### Control the release of new Outlook
 
