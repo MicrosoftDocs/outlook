@@ -112,18 +112,16 @@ With the ODT, admins can choose to:
 
 #### Why run new Outlook and classic Outlook side-by-side?
 
-Some features such as .pst support, [offline capabilities](https://support.microsoft.com/office/2460e4a8-16c7-47fc-b204-b1549275aac9), and [delegation permissions](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5) aren't fully available in new Outlook as yet.
+Some features such as .pst support, [offline capabilities](https://support.microsoft.com/office/2460e4a8-16c7-47fc-b204-b1549275aac9), and [delegation permissions](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5) aren't fully available in new Outlook as yet. Other features are available, but users might want to try them out in new Outlook first. Therefore, Microsoft recommends installing both versions side-by-side as we continue to work on features that in particular, still require classic Outlook libraries.
 
-Other features are available, but users might want to try them out in new Outlook first.
-
-For a list of available features, see [Feature comparison between new and classic Outlook](https://support.microsoft.com/office/de453583-1e76-48bf-975a-2e9cd2ee16dd). While Microsoft continues to work on features in new Outlook that still require classic Outlook libraries, we recommend installing both versions side-by-side.
+For a list of available features, see [Feature comparison between new and classic Outlook](https://support.microsoft.com/office/de453583-1e76-48bf-975a-2e9cd2ee16dd).
 
 When both apps are installed:
 
 - Outlook behaves accordinding to the organization's existing configuration settings. For example, if the Admin Controlled Migration to the new Outlook policy is enabled, the **Try the new Outlook** toggle appears in classic Outlook and the user experience follows all Admin Controlled Migration policy settings.  
 - In the Start menu, both **Outlook (classic)** and **Outlook (new)** appear and available for use based on an organization's policy settings.
 
-If new Outlook is already deployed, but the organization isn't ready to migrate, or the choice to opt-in isn't suitable at this time, admins can set the **Outlook (new)** toggle off. However, since new Outlook will eventually replace classic Outlook, Microsoft strongly suggests running Outlook side-by-side to encourage users to try new Outlook. Learn more in [Policy for Admin-controlled migration to new Outlook](../manage/admin-controlled-migration-policy.md).  
+If new Outlook is already deployed, but your organization isn't ready to migrate, or the choice to opt-in isn't suitable at this time, admins can set the **Outlook (new)** toggle off. However, since new Outlook will eventually replace classic Outlook, Microsoft strongly suggests running Outlook side-by-side to encourage users to try new Outlook. Learn more in [Policy for Admin-controlled migration to new Outlook](../manage/admin-controlled-migration-policy.md).  
 
 ### Control the release of new Outlook
 
