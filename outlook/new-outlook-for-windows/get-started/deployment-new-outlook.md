@@ -100,7 +100,7 @@ A Setup.exe bootstrapper can be used for a straightforward per-user installation
    .\Setup.exe --quiet --start-
    ```
 
-### New Outlook installation for new Microsoft 365 deployments 
+## Install new Outlook with a new Microsoft 365 deployment 
 
 For new Microsoft 365 deployments, new Outlook is now an option along with the already available classic Outlook app in the Office Deployment Tool (ODT). The toggle is set to install both by default to allow users in your organization to [run classic and new Outlook side-by-side](https://support.microsoft.com/office/a624c36d-c50f-43bc-9c8b-dd17b5690ffb). For help with the ODT, see [Overview of the Office Deployment Tool](/microsoft-365-apps/deploy/overview-office-deployment-tool)
 
@@ -108,9 +108,9 @@ With the ODT, admins can choose to:
 
 - Install new Outlook only
 - Install classic Outlook only
-- Install both to give users the option to run side-by-side for a gradual migration
+- Install both new and classic Outlook giving users the option to run the apps side-by-side for a gradual migration
 
-#### Why run new Outlook and classic Outlook side-by-side?
+### Why run new Outlook and classic Outlook side-by-side?
 
 Some features such as .pst support, [offline capabilities](https://support.microsoft.com/office/2460e4a8-16c7-47fc-b204-b1549275aac9), and [delegation permissions](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5) aren't fully available in new Outlook as yet. Other features are available, but users might want to try them out in new Outlook first. Therefore, Microsoft recommends installing both versions side-by-side as we continue to work on features that in particular, still require classic Outlook libraries.
 
