@@ -107,7 +107,7 @@ You can also set this policy as a [Cloud Policy](../../admin-center/overview-clo
     Windows Registry Editor Version 5.00
     
     [HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Options\General]
-    “DoNewOutlookAutoMigration”: dword:00000001
+    “DoNewOutlookAutoMigration”= dword:00000001
     ```
 
     **Disable the new Outlook migration:** This value stops the migration flow as previously described.
@@ -115,7 +115,7 @@ You can also set this policy as a [Cloud Policy](../../admin-center/overview-clo
     Windows Registry Editor Version 5.00
     
     [HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Options\General]
-    “DoNewOutlookAutoMigration”: dword:00000000
+    “DoNewOutlookAutoMigration”= dword:00000000
     ```
     > [!NOTE]
     > You can also create the *DoNewOutlookAutoMigration* DWORD under the user's policy key *HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Outlook\Options\General* to prevent users from changing the registry value to a different value.
