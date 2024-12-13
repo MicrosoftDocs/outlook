@@ -57,7 +57,7 @@ This teaching callout might not appear in some cases, for example, if a higher p
 - If users select **Switch now**, classic Outlook is closed and new Outlook is launched.
 - If users select **Switch next time** or close the dialog or the app, they'll automatically be taken to the new Outlook experience on the next launch of classic Outlook.
 
-    :::image type="content" source="media/admin-controlled-migration-policy/outlook-install-notice.png" alt-text="Installation notice in Outlook informing users that the new Outlook for Windows is installed, with options to switch now or next time." lightbox="media/admin-controlled-migration-policy/outlook-install-notice-lb.png":::
+:::image type="content" source="media/admin-controlled-migration-policy/outlook-install-notice.png" alt-text="Installation notice in Outlook informing users that the new Outlook for Windows is installed, with options to switch now or next time." lightbox="media/admin-controlled-migration-policy/outlook-install-notice-lb.png":::
 
 Users are able to toggle back to classic Outlook for Windows anytime.
 
@@ -107,7 +107,7 @@ You can also set this policy as a [Cloud Policy](../../admin-center/overview-clo
     Windows Registry Editor Version 5.00
     
     [HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Options\General]
-    “DoNewOutlookAutoMigration”: dword:00000001
+    “DoNewOutlookAutoMigration”= dword:00000001
     ```
 
     **Disable the new Outlook migration:** This value stops the migration flow as previously described.
@@ -115,7 +115,7 @@ You can also set this policy as a [Cloud Policy](../../admin-center/overview-clo
     Windows Registry Editor Version 5.00
     
     [HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Options\General]
-    “DoNewOutlookAutoMigration”: dword:00000000
+    “DoNewOutlookAutoMigration”= dword:00000000
     ```
     > [!NOTE]
     > You can also create the *DoNewOutlookAutoMigration* DWORD under the user's policy key *HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Outlook\Options\General* to prevent users from changing the registry value to a different value.
@@ -202,7 +202,7 @@ You can also set this policy as a [Cloud Policy](../../admin-center/overview-clo
 
 1. Save the file as *.reg* in a location that's easy to find. For example: *C:\Data\New Outlook migration interval.reg*.
 
-1. Run the *.reg* file and select  **Yes**  in the confirmation dialog that appears.
+1. Run the *.reg* file and select **Yes**  in the confirmation dialog that appears.
 
 > [!TIP]
 > You can manage this setting in Intune using administrative templates, as it is an ADMX policy. For more information, see [Use Windows 10/11 templates to configure group policy settings in Microsoft Intune](/mem/intune/configuration/administrative-templates-windows?tabs=template). Download the latest ADMX template from [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=49030&msockid=22d43a6aa2e46c5b0a7c29aea3576d18).
@@ -230,7 +230,7 @@ It's a mailbox policy that can be set through Exchange PowerShell –
 
 ## Tracking new Outlook usage
 
-While Microsofts work to include the new Outlook in the email apps report for Exchange usage, use the steps from [Monitor adoption of new Outlook](monitor-usage-reports.md) to get a proxy and approximate usage in your organization.
+While Microsoft work to include the new Outlook in the email apps report for Exchange usage, use the steps from [Monitor adoption of new Outlook](monitor-usage-reports.md) to get a proxy and approximate usage in your organization.
 
 ## View your organization’s feedback
 
