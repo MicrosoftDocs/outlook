@@ -106,19 +106,22 @@ Starting with Version 2501 (to be updated in January 2025), new deployments of M
 
 The toggle to install both Outlooks is turned on by default to encourage organizations to [run classic and new Outlook side-by-side](https://support.microsoft.com/office/a624c36d-c50f-43bc-9c8b-dd17b5690ffb) for a gradual migration of users to new Outlook. However, admins can choose to install new Outlook or classic Outlook only by toggling the desired app off or on.
 
-To exclude either Outlook, use the [Office Customization Tool](https://config.office.com/deploymentsettings) or configure with configuration XML directly <link to ODT config options - exclude apps section>.
+To exclude either Outlook, admins can use the [Office Customization Tool](https://config.office.com/deploymentsettings) (recommended) by selecting the toggle to include or exclude **Outlook (classic)** or **Outlook (new)**. Or, admins configure the XML directly. See[Configuration options for the Office Deployment Tool - ExcludeApp element](/microsoft-365-apps/deploy/office-deployment-tool-configuration-options#example-7).
 
-Administrators can always remove new Outlook later after an install by following the steps in [Control the installation and use of new Outlook](../get-started/control-install.md). Removing new Outlook this way doesn't affect existing installations.
+If new Outlook was already installed, admins can always remove it by following the steps in [Control the installation and use of new Outlook](../get-started/control-install.md). Removing new Outlook in this way doesn't affect existing installations.
 
-After installing new Outlook and classic Outlook side-by-side:
+### Running new and classic Outlook side-by-side ###
+
+There are benefits to running new Outlook and classic Outlook side-by-side such as:
 
 - Depending on your organization policy, users can try new Outlook while still using classic Outlook as needed.
-- Outlook behaves according to an organization's existing configuration settings. For example, if the Admin Controlled Migration to the new Outlook policy is enabled, the **Try the new Outlook** toggle appears in classic Outlook and the user experience follows all Admin Controlled Migration policy settings. Learn more about these policy settings in [Policy for Admin-controlled migration to new Outlook](../manage/admin-controlled-migration-policy.md).
-- In the Start menu, both **Outlook (classic)** and **Outlook (new)** appear and are available for use based on an organization's policy settings.
+- Outlook behaves according to your organization's existing configuration settings. For example, if the Admin Controlled Migration to the new Outlook policy is enabled, the **Try the new Outlook** toggle appears in classic Outlook and the user experience follows all Admin Controlled Migration policy settings. Learn more about these policy settings in [Policy for Admin-controlled migration to new Outlook](../manage/admin-controlled-migration-policy.md).
+- Both **Outlook (classic)** and **Outlook (new)** appear in the Start menu and are available for use based on an organization's policy settings.
 
-Additionally, some features such as .pst support, [offline capabilities](https://support.microsoft.com/office/2460e4a8-16c7-47fc-b204-b1549275aac9), and [delegation permissions](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5) are still dependant on classic Outlook libraries. Other features are available in new Outlook, but users might want to try them out first. For these reasons, Microsoft recommends installing both versions side-by-side while new Outlook continues to evolve.
+**Known issues with new Outlook:**
+To customers with configurations using known features such as full .pst support in Outlook and integrated email features such as **Mail merge** in Word, **People picker**, **@ Mentions**, **People cards** in Office apps and **Share To in Windows**, Microsoft recommends installing new Outlook and classic Outlook side-by-side. Until the features are fully available in new Outlook, running the apps side-by-side ensures features that still rely on classic Outlook libraries will continue to work seamlessly in other Office apps.
 
-For a list of available features, see [Feature comparison between new and classic Outlook](https://support.microsoft.com/office/de453583-1e76-48bf-975a-2e9cd2ee16dd).
+Learn more about .pst feature progress in new Outlook in: [Work offline in Outlook](https://support.microsoft.com/office/2460e4a8-16c7-47fc-b204-b1549275aac9).
 
 ### Download and install new Outlook using an offline installer
 
