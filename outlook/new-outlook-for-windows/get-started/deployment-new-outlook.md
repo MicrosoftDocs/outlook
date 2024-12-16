@@ -104,11 +104,13 @@ A Setup.exe bootstrapper can be used for a straightforward per-user installation
 
 Starting with Version 2501 (to be updated in January 2025), new deployments of Microsoft 365 desktop client apps on Windows devices will include the new Outlook app by default. Admins might choose to exclude classic or new Outlook, or to have both installed side-by-side.  
 
-The toggle to install both Outlooks is turned on by default to encourage organizations to [run classic and new Outlook side-by-side](https://support.microsoft.com/office/a624c36d-c50f-43bc-9c8b-dd17b5690ffb) for a gradual migration of users to new Outlook. However, admins can choose to install new Outlook or classic Outlook only by toggling the desired app off or on.
+To help users with a gradual migration to new Outlook and avoid the disruption abrupt changes might cause later on, organizations are encouraged to run classic and new Outlook side-by-side. For this reason, both Outlooks are turned on to install by default. However, if an organization chooses to install either new Outlook or classic Outlook only, admins can change the default behavior by configuring the install setting **off** or **on**.
 
-To exclude either Outlook, admins can use the [Office Customization Tool](https://config.office.com/deploymentsettings) (recommended) by selecting the toggle to include or exclude **Outlook (classic)** or **Outlook (new)**. Or, admins configure the XML directly. See[Configuration options for the Office Deployment Tool - ExcludeApp element](/microsoft-365-apps/deploy/office-deployment-tool-configuration-options#example-7).
+To exclude either Outlook, use the [Office Customization Tool](https://config.office.com/deploymentsettings) (recommended), turn the toggle on or off to include or exclude **Outlook (classic)** or **Outlook (new)**. Or, you can configure the XML directly. For help with making XML changes in the Office Deployment Tool (ODT), see [Configuration options for the Office Deployment Tool - ExcludeApp element](/microsoft-365-apps/deploy/office-deployment-tool-configuration-options#example-7).
 
 If new Outlook was already installed, admins can always remove it by following the steps in [Control the installation and use of new Outlook](../get-started/control-install.md). Removing new Outlook in this way doesn't affect existing installations.
+
+If the policy to block the **try the new Outlook** toggle is turned on in classic Outlook, that policy isn't affected by these configuration changes or installs of new Outlook. If users install new Outlook alongside classic, new Outlook appears in the apps list in the Start menu, and they can use it side-by-side with the classic app if desired.
 
 ### Running new and classic Outlook side-by-side ###
 
@@ -120,7 +122,7 @@ There are benefits to running new Outlook and classic Outlook side-by-side such 
 
 **Known issues with new Outlook:**
 
-Microsoft recommends installing new Outlook and classic Outlook side-by-side for organizations with configurations using known features such as full .pst support in Outlook and integrated email features such as **Mail merge** in Word, **People picker**, **@ Mentions**, **People cards** in Office apps and **Share To in Windows**. Until the features are fully available in new Outlook, running the apps side-by-side ensures that those features still relying on classic Outlook libraries will continue to work seamlessly in other Office apps.
+Microsoft recommends installing new Outlook and classic Outlook side-by-side for organizations with configurations using known features such as full .pst support in Outlook and integrated email features such as **Mail merge** in Word, **People picker**, **@ Mentions**, **People cards** in Office apps and **Share To in Windows**. Until the features are fully available in new Outlook, running the apps side-by-side ensures that those features still relying on classic Outlook libraries continue to work seamlessly in other Office apps.
 
 Learn more about .pst feature progress in new Outlook. See [Work offline in Outlook](https://support.microsoft.com/office/2460e4a8-16c7-47fc-b204-b1549275aac9).
 
