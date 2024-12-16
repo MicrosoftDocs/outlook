@@ -120,7 +120,7 @@ There are benefits to running new Outlook and classic Outlook side-by-side such 
 - Outlook behaves according to your organization's existing configuration settings. For example, if the Admin Controlled Migration to the new Outlook policy is enabled, the **Try the new Outlook** toggle appears in classic Outlook and the user experience follows all Admin Controlled Migration policy settings. Learn more about these policy settings in [Policy for Admin-controlled migration to new Outlook](../manage/admin-controlled-migration-policy.md).
 - Both **Outlook (classic)** and **Outlook (new)** appear in the Start menu and are available for use based on an organization's policy settings.
 
-**Known issues with new Outlook:**
+#### Known issues with new Outlook
 
 Microsoft recommends installing new Outlook and classic Outlook side-by-side for organizations with configurations using known features such as full .pst support in Outlook and integrated email features such as **Mail merge** in Word, **People picker**, **@ Mentions**, **People cards** in Office apps and **Share To in Windows**. Until the features are fully available in new Outlook, running the apps side-by-side ensures that those features still relying on classic Outlook libraries continue to work seamlessly in other Office apps.
 
