@@ -119,9 +119,10 @@ There are benefits to running new Outlook and classic Outlook side-by-side such 
 - Both **Outlook (classic)** and **Outlook (new)** appear in the Start menu and are available for use based on an organization's policy settings.
 
 **Known issues with new Outlook:**
-To customers with configurations using known features such as full .pst support in Outlook and integrated email features such as **Mail merge** in Word, **People picker**, **@ Mentions**, **People cards** in Office apps and **Share To in Windows**, Microsoft recommends installing new Outlook and classic Outlook side-by-side. Until the features are fully available in new Outlook, running the apps side-by-side ensures features that still rely on classic Outlook libraries will continue to work seamlessly in other Office apps.
 
-Learn more about .pst feature progress in new Outlook in: [Work offline in Outlook](https://support.microsoft.com/office/2460e4a8-16c7-47fc-b204-b1549275aac9).
+Microsoft recommends installing new Outlook and classic Outlook side-by-side for organizations with configurations using known features such as full .pst support in Outlook and integrated email features such as **Mail merge** in Word, **People picker**, **@ Mentions**, **People cards** in Office apps and **Share To in Windows**. Until the features are fully available in new Outlook, running the apps side-by-side ensures that those features still relying on classic Outlook libraries will continue to work seamlessly in other Office apps.
+
+Learn more about .pst feature progress in new Outlook. See [Work offline in Outlook](https://support.microsoft.com/office/2460e4a8-16c7-47fc-b204-b1549275aac9).
 
 ### Download and install new Outlook using an offline installer
 
