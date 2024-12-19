@@ -55,7 +55,7 @@ If your organization is currently using web add-ins, no extra effort is required
      | Cisco Webex Meetings                    | Online Meetings        | [Cisco Webex Scheduler](https://appsource.microsoft.com/product/office365/wa104382035)               |
      | Citrix Files for Outlook                | Attachment Management  | [ShareFile](https://appsource.microsoft.com/product/office365/wa104380913)                           |
      | Cofense Reporter                        | Phishing/Spam Reporting| PRIVATE- Cofense                    |
-     |Colligo|Email and attachment management|[Colligo Email Manager for Office 365](https://appsource.microsoft.com/product/office/WA104381868?tab=Overview"https://appsource.microsoft.com/product/office/wa104381868?tab=overview") |
+     |Colligo|Email and attachment management|[Colligo Email Manager for Office 365](https://appsource.microsoft.com/en-us/product/office/WA104381868?tab=Overview) |
      | Egress                                  | Encryption & Classification | [Egress Protect](https://appsource.microsoft.com/product/office365/wa104381968)               |
      | Evernote.Outlook                        | Productivity           | [Evernote](https://appsource.microsoft.com/product/office365/wa104379617)                            |
      | Google Meet Outlook Add-in              | Online Meetings        | [Google Meet Add-In](https://appsource.microsoft.com/product/office365/wa104381851)                  |
@@ -76,7 +76,6 @@ If your organization is currently using web add-ins, no extra effort is required
      
    - If you don't find your relevant COM add-ins on this list, search for them in the [Microsoft commercial marketplace](https://appsource.microsoft.com/home).
    
-           > [!TIP]
       > By default, users are given the option to install web add-in counterparts of their existing COM add-ins when they switch to new Outlook for Windows. For more information, see [Install web add-in counterparts of existing COM add-ins in new Outlook for Windows](install-web-add-ins.md). To learn how to prevent web add-in counterparts from being installed when a user switches to new Outlook for Windows, see [Prevent add-ins from being installed during setup](install-web-add-ins.md#prevent-add-ins-from-being-installed-during-setup).
 
    - Some developers build private web add-ins that aren't published to the store. Check with your partners to confirm if they developed or are developing a web add-in.
