@@ -102,7 +102,7 @@ A Setup.exe bootstrapper can be used for a straightforward per-user installation
 
 ## Install new Outlook with a new Microsoft 365 deployment
 
-Starting with Version 2501 (to be updated in January 2025), new deployments of Microsoft 365 desktop client apps on Windows devices will include the new Outlook app by default. Admins might choose to exclude classic or new Outlook, or to have both installed side-by-side.  
+Starting with Version 2502, new deployments of Microsoft 365 desktop client apps on Windows devices will include the new Outlook app by default. Admins might choose to exclude classic or new Outlook, or to have both installed side-by-side.  
 
 To help users with a gradual migration to new Outlook and avoid the disruption abrupt changes might cause later on, organizations are encouraged to run classic and new Outlook side-by-side. For this reason, both Outlooks are turned on to install by default. However, if an organization chooses to install either new Outlook or classic Outlook only, admins can change the default behavior by configuring the install setting **off** or **on**.
 
