@@ -100,9 +100,49 @@ A Setup.exe bootstrapper can be used for a straightforward per-user installation
    .\Setup.exe --quiet --start-
    ```
 
-## Future integration of new Outlook in new Microsoft 365 deployments
+## Install new Outlook with a new Microsoft 365 deployment
 
-In a future release after the commercial preview stage, new Outlook will be an option in place of the classic Outlook experience for new Microsoft 365 deployments.
+Starting with Version 2501 (to be updated in January 2025), new deployments of Microsoft 365 desktop client apps on Windows devices will include the new Outlook app by default. Admins might choose to exclude classic or new Outlook, or to have both installed side-by-side.  
+
+To help users with a gradual migration to new Outlook and avoid the disruption abrupt changes might cause later on, organizations are encouraged to run classic and new Outlook side-by-side. For this reason, both Outlooks are turned on to install by default. However, if an organization chooses to install either new Outlook or classic Outlook only, admins can change the default behavior by configuring the install setting **off** or **on**.
+
+To exclude either Outlook, use the [Office Customization Tool](https://config.office.com/deploymentsettings) (recommended), turn the toggle on or off to include or exclude **Outlook (classic)** or **Outlook (new)**. Or, you can configure the XML directly. For help with making XML changes in the Office Deployment Tool (ODT), see [Configuration options for the Office Deployment Tool - ExcludeApp element](/microsoft-365-apps/deploy/office-deployment-tool-configuration-options#example-7).
+
+If new Outlook was already installed, admins can always remove it by following the steps in [Control the installation and use of new Outlook](../get-started/control-install.md). Removing new Outlook in this way doesn't affect existing installations.
+
+If the policy to block the **try the new Outlook** toggle is turned on in classic Outlook, that policy isn't affected by these configuration changes or installs of new Outlook. If users install new Outlook alongside classic, new Outlook appears in the apps list in the Start menu, and they can use it side-by-side with the classic app if desired.
+
+### Running new and classic Outlook side-by-side ###
+
+There are benefits to running new Outlook and classic Outlook side-by-side such as:
+
+- Depending on your organization policy, users can try new Outlook while still using classic Outlook as needed.
+- Outlook behaves according to your organization's existing configuration settings. For example, if the Admin Controlled Migration to the new Outlook policy is enabled, the **Try the new Outlook** toggle appears in classic Outlook and the user experience follows all Admin Controlled Migration policy settings. Learn more about these policy settings in [Policy for Admin-controlled migration to new Outlook](../manage/admin-controlled-migration-policy.md).
+- Both **Outlook (classic)** and **Outlook (new)** appear in the Start menu and are available for use based on an organization's policy settings.
+
+#### Known issues with new Outlook
+
+Microsoft recommends installing new Outlook and classic Outlook side-by-side for organizations with configurations using known features such as full .pst support in Outlook and integrated email features such as **Mail merge** in Word, **People picker**, **@ Mentions**, **People cards** in Office apps and **Share To in Windows**. Until the features are fully available in new Outlook, running the apps side-by-side ensures that those features still relying on classic Outlook libraries continue to work seamlessly in other Office apps.
+
+Learn more about .pst feature progress in new Outlook. See [Work offline in Outlook](https://support.microsoft.com/office/2460e4a8-16c7-47fc-b204-b1549275aac9).
+
+### Download and install new Outlook using an offline installer
+
+Admins can also use a local Outlook MSIX to provision new Outlook to minimize the amount of bandwidth used for the initial installation. For this option, download the MSIX packages for offline situations. Select the MSIX package for your needs:
+
+- [X64 Windows](https://go.microsoft.com/fwlink/?linkid=2195164)
+- [X86 Windows](https://go.microsoft.com/fwlink/?linkid=2195278)
+- [Arm64 Windows](https://go.microsoft.com/fwlink/?linkid=2195438)
+
+Package info:
+
+- Package Identity/Name: Microsoft.OutlookForWindows
+- Package Family Name: Microsoft.OutlookForWindows_8wekyb3d8bbwe
+
+Admins can install the above packages using the appropriate package for their scenario:
+
+- For one user on a machine: [Add-AppxPackage (Appx)](/powershell/module/appx/add-appxpackage?view=windowsserver2025-ps)
+- For all users on a machine: [Add-AppxProvisionedPackage (DISM)](/powershell/module/dism/add-appxprovisionedpackage?view=windowsserver2022-ps)
 
 ### Control the release of new Outlook
 
