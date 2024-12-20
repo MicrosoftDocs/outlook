@@ -14,6 +14,8 @@ items:
         href: get-started/deployment-new-outlook.md
       - name: Control new Outlook installation
         href: get-started/control-install.md
+      - name: Virtualized desktop infrastructure (VDI)  
+        href: get-started/virtualized-desktop-infrastructure.md
       - name: COM add-ins 
         items:
           - name: Identify COM add-ins in your organization
