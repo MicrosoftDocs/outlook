@@ -28,6 +28,9 @@ This article outlines the requirements, limitations, and deployment guidance for
 | **WebView2**   | Update to the latest version. For more information, see [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise). |
 | **.NET Framework** | 4.7.2 or later                                                                          |
 
+> [!NOTE]
+> Windows Server 2019 and Windows Server 2016 are not supported.
+
 To avoid startup issues, add these processes to the exclusion list in your antivirus software:
 - `olk.exe`
 - `olkPushNotificationBackgroundTask.exe`
@@ -78,6 +81,8 @@ For detailed instructions, see [Deploy New Outlook](/microsoft-365-apps/outlook/
 
 > [!NOTE]
 > If **AllowAllTrustedApps** is disabled, the new Outlook app installation fails. This issue was fixed in the October cumulative update KB5031455 for [Windows 11](https://support.microsoft.com/topic/october-31-2023-kb5031455-os-builds-22621-2506-and-22631-2506-preview-6513c5ec-c5a2-4aaf-97f5-44c13d29e0d4) and [Windows 10](https://support.microsoft.com/topic/october-26-2023-kb5031445-os-build-19045-3636-preview-03f350cb-57f9-45e6-bfd7-438895d3c7fa). If this update is unavailable, the November security update includes the fix.
+
+For more information, see [Installation issues due to policy restrictions](/outlook/troubleshoot/troubleshoot-deployment-new-outlook.md#installation-issues-due-to-policy-restrictions)
 
 ## Disk Footprint – Key Folders and Location
 
