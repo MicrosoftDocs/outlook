@@ -42,40 +42,40 @@ If your organization is currently using web add-ins, no extra effort is required
 
    Some Microsoft COM add-ins might be deployed within your organization. The plan for these COM add-ins is detailed in [Identify COM add-ins in your organization](state-of-com-add-ins.md).
 
-3. **Check if web add-ins are available for use**: If a web add-in is available, install, test, and assess it for usage with the new Outlook for Windows. You can follow the steps in [Deploy and manage Office Add-ins](/microsoft-365/admin/manage/office-addins) to install a web add-in.
+1. **Check if web add-ins are available for use**: If a web add-in is available, install, test, and assess it for usage with the new Outlook for Windows. You can follow the steps in [Deploy and manage Office Add-ins](/microsoft-365/admin/manage/office-addins) to install a web add-in.
 
    - Some widely used COM add-in publishers also published their web add-ins. The ones marked `PRIVATE` don't have a web add-in published to the store but have a private web add-in; you can reach out to the partners for requesting access to it.
-
-      | COM Add-in                              | Scenario               | Web add-in                          |
-      |-----------------------------------------|------------------------|-------------------------------------|
-      | Adobe Acrobat Sign                      | Signature Management   | [Adobe Acrobat Sign for Microsoft Outlook](https://appsource.microsoft.com/product/office365/wa104381158) |
-      | Barracuda Archive Search for Outlook    | Attachment Management  | [Barracuda Essentials for Outlook](https://appsource.microsoft.com/product/office365/wa104381249)    |
-      | Blue jeans Outlook Add-in               | Online Meetings        | [BlueJeans Meetings](https://appsource.microsoft.com/product/office365/wa104381523)                  |
-      | Calendly for Outlook                    | Meeting Boosters       | [Calendly for Outlook](https://appsource.microsoft.com/product/office365/wa104381446)                |
-      | Cisco Webex Meetings                    | Online Meetings        | [Cisco Webex Scheduler](https://appsource.microsoft.com/product/office365/wa104382035)               |
-      | Citrix Files for Outlook                | Attachment Management  | [ShareFile](https://appsource.microsoft.com/product/office365/wa104380913)                           |
-      | Cofense Reporter                        | Phishing/Spam Reporting| PRIVATE- Cofense                    |
-      | Egress                                  | Encryption & Classification | [Egress Protect](https://appsource.microsoft.com/product/office365/wa104381968)               |
-      | Evernote.Outlook                        | Productivity           | [Evernote](https://appsource.microsoft.com/product/office365/wa104379617)                            |
-      | Google Meet Outlook Add-in              | Online Meetings        | [Google Meet Add-In](https://appsource.microsoft.com/product/office365/wa104381851)                  |
-      | GoToMeeting Outlook COM Add-in          | Online Meetings        | [GoTo for Outlook](https://appsource.microsoft.com/product/office365/WA200001676)                    |
-      | harmon.ie                               | Attachment Management  | [harmon.ie web add-in](https://appsource.microsoft.com/product/office/wa200005667)                |
-      | Jira                                    | Project Management     | [Jira Cloud](https://appsource.microsoft.com/product/office365/wa200002140)                          |
-      | Mimecast for Outlook                    | Phishing/Spam Reporting| [Mimecast Essentials for Outlook](https://appsource.microsoft.com/product/office365/wa200002175)     |
-      | OnePlaceMail                            | Attachment Management  | [OnePlaceMail for Outlook](https://appsource.microsoft.com/product/office365/wa104380723)            |
-      | KnowBe4 PhishAlarm Outlook Add-In       | Phishing/Spam Reporting| PRIVATE-KnowBe4                     |
-      | Proofpoint Outlook Plug-in              | Phishing/Spam Reporting| PRIVATE-Proofpoint                  |
-      | Proofpoint Plug-in                      | Phishing/Spam Reporting| PRIVATE-Proofpoint                  |
-      | RingCentral Meetings Outlook Plugin     | Online Meetings        | [RingCentral Scheduler](https://appsource.microsoft.com/product/office365/wa200001471)               |
-      | Salesforce for Outlook                  | CRM                    | [Salesforce](https://appsource.microsoft.com/product/office365/wa104379334)                          |
-      | Symantec Endpoint Protection Outlook Add in | DLP                | PRIVATE-Symantec                    |
-      | Vera AddIn for Outlook                  | DLP                    | Private Vera                        |
-      | Virtru For Outlook                      | DLP                    | PRIVATE-Virtru                      |
-      | Zoom Outlook Plugin                     | Online Meetings        | [Zoom for Outlook Extension](https://appsource.microsoft.com/product/office365/wa104381712)          |
-
+   
+     | COM Add-in                              | Scenario               | Web add-in                          |
+     |-----------------------------------------|------------------------|-------------------------------------|
+     | Adobe Acrobat Sign                      | Signature Management   | [Adobe Acrobat Sign for Microsoft Outlook](https://appsource.microsoft.com/product/office365/wa104381158) |
+     | Barracuda Archive Search for Outlook    | Attachment Management  | [Barracuda Essentials for Outlook](https://appsource.microsoft.com/product/office365/wa104381249)    |
+     | Blue jeans Outlook Add-in               | Online Meetings        | [BlueJeans Meetings](https://appsource.microsoft.com/product/office365/wa104381523)                  |
+     | Calendly for Outlook                    | Meeting Boosters       | [Calendly for Outlook](https://appsource.microsoft.com/product/office365/wa104381446)                |
+     | Cisco Webex Meetings                    | Online Meetings        | [Cisco Webex Scheduler](https://appsource.microsoft.com/product/office365/wa104382035)               |
+     | Citrix Files for Outlook                | Attachment Management  | [ShareFile](https://appsource.microsoft.com/product/office365/wa104380913)                           |
+     | Cofense Reporter                        | Phishing/Spam Reporting| PRIVATE- Cofense                    |
+     |Colligo|Email and attachment management|[Colligo Email Manager for Office 365](https://appsource.microsoft.com/en-us/product/office/WA104381868?tab=Overview) |
+     | Egress                                  | Encryption & Classification | [Egress Protect](https://appsource.microsoft.com/product/office365/wa104381968)               |
+     | Evernote.Outlook                        | Productivity           | [Evernote](https://appsource.microsoft.com/product/office365/wa104379617)                            |
+     | Google Meet Outlook Add-in              | Online Meetings        | [Google Meet Add-In](https://appsource.microsoft.com/product/office365/wa104381851)                  |
+     | GoToMeeting Outlook COM Add-in          | Online Meetings        | [GoTo for Outlook](https://appsource.microsoft.com/product/office365/WA200001676)                    |
+     | harmon.ie                               | Attachment Management  | [harmon.ie web add-in](https://appsource.microsoft.com/product/office/wa200005667)                |
+     | Jira                                    | Project Management     | [Jira Cloud](https://appsource.microsoft.com/product/office365/wa200002140)                          |
+     | Mimecast for Outlook                    | Phishing/Spam Reporting| [Mimecast Essentials for Outlook](https://appsource.microsoft.com/product/office365/wa200002175)     |
+     | OnePlaceMail                            | Attachment Management  | [OnePlaceMail for Outlook](https://appsource.microsoft.com/product/office365/wa104380723)            |
+     | KnowBe4 PhishAlarm Outlook Add-In       | Phishing/Spam Reporting| PRIVATE-KnowBe4                     |
+     | Proofpoint Outlook Plug-in              | Phishing/Spam Reporting| PRIVATE-Proofpoint                  |
+     | Proofpoint Plug-in                      | Phishing/Spam Reporting| PRIVATE-Proofpoint                  |
+     | RingCentral Meetings Outlook Plugin     | Online Meetings        | [RingCentral Scheduler](https://appsource.microsoft.com/product/office365/wa200001471)               |
+     | Salesforce for Outlook                  | CRM                    | [Salesforce](https://appsource.microsoft.com/product/office365/wa104379334)                          |
+     | Symantec Endpoint Protection Outlook Add in | DLP                | PRIVATE-Symantec                    |
+     | Vera AddIn for Outlook                  | DLP                    | Private Vera                        |
+     | Virtru For Outlook                      | DLP                    | PRIVATE-Virtru                      |
+     | Zoom Outlook Plugin                     | Online Meetings        | [Zoom for Outlook Extension](https://appsource.microsoft.com/product/office365/wa104381712)          |
+     
    - If you don't find your relevant COM add-ins on this list, search for them in the [Microsoft commercial marketplace](https://appsource.microsoft.com/home).
-
-      > [!TIP]
+   
       > By default, users are given the option to install web add-in counterparts of their existing COM add-ins when they switch to new Outlook for Windows. For more information, see [Install web add-in counterparts of existing COM add-ins in new Outlook for Windows](install-web-add-ins.md). To learn how to prevent web add-in counterparts from being installed when a user switches to new Outlook for Windows, see [Prevent add-ins from being installed during setup](install-web-add-ins.md#prevent-add-ins-from-being-installed-during-setup).
 
    - Some developers build private web add-ins that aren't published to the store. Check with your partners to confirm if they developed or are developing a web add-in.
@@ -115,5 +115,5 @@ If you find gaps in the web add-in platform that don't support core workflows li
 
 2. **What are the JS API requirements sets supported in new Outlook?**: Web add-in JS API set up to 1.14 is supported in the new Outlook for Windows. This provides support for spam reporting and phishing scenarios among several others. Learn more about the JS APIs in this requirement set here: [Outlook API reference](/javascript/api/outlook).
 
-3. **How can spam reporting web add-ins replace the 'Report' button in new Outlook?**: Non-Microsoft spam reporting add-ins can replace the **Report** button in new Outlook by making a manifest change. It requires the web add-in manifest to set xsi:type attribute of the ExtensionPoint element to ReportPhishingCommandSurface. More details on the implementation here: [Implement an integrated spam-reporting add-in](/office/dev/add-ins/outlook/spam-reporting#configure-the-manifest).
- 
+1. **How can spam reporting web add-ins replace the 'Report' button in new Outlook?**: Non-Microsoft spam reporting add-ins can replace the **Report** button in new Outlook by making a manifest change. It requires the web add-in manifest to set xsi:type attribute of the ExtensionPoint element to ReportPhishingCommandSurface. More details on the implementation here: [Implement an integrated spam-reporting add-in](/office/dev/add-ins/outlook/spam-reporting#configure-the-manifest).
+
