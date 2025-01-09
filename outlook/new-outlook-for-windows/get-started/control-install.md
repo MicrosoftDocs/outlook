@@ -158,7 +158,7 @@ The policy can be configured with the following values:
 - **1 (Enable)**: If you enable this policy, the user setting for automatic migration is enforced. Automatic migration to the new Outlook is allowed, and users can't change the setting.
 - **0 (Disable)**: If you disable this policy, the user setting for automatic migration is turned off. Automatic migration to the new Outlook is blocked, and users can't change the setting.
 
-> **Note**  
+> [!NOTE]
 > This policy does not apply to migrations initiated through the "Admin-Controlled Migration to New Outlook" policy. For more information, see: [Admin-Controlled Migration Policy](../manage/admin-controlled-migration-policy.md#hide-the-toggle-in-new-outlook-for-windows).
 
 #### Configuring the policy using the Windows registry
