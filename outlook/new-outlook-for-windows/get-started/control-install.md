@@ -56,9 +56,9 @@ More details are available in [Enable or disable access to the new Outlook for W
 
 ## Block new Outlook preinstall on Windows
 
-Windows builds after 23H2 have the new Outlook app preinstalled for all users, as it will replace the preinstalled Mail and Calendar apps by the end of 2024.
+**Windows 11**
 
-Currently, there isn't a way to block the new Outlook from being installed before it's first installed as a replacement for the Mail & Calendar app. If you prefer not to have new Outlook show up on your organization's devices, you can remove it after it's installed as part of the update.
+Windows 11 builds after 23H2 have the new Outlook app preinstalled for all users. Currently, there isn't a way to block the new Outlook from being installed - if you prefer not to have new Outlook show up on your organization's devices, you can remove it after it's installed as part of the update.
 
 To remove the app package, use the [Remove-AppxProvisionedPackage](/powershell/module/dism/remove-appxprovisionedpackage) cmdlet with the *PackageName* parameter value `Microsoft.OutlookForWindows`. After removal, Windows updates won't reinstall new Outlook.
 
@@ -76,6 +76,33 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\Orchestrator\UScheduler_Oobe
 
 For any device that installed the March 2024 Non-Security Preview release (or later cumulative update) for Windows 11 Version 23H2, Windows Orchestrator respects the deprovisioning cmdlet and it's not necessary to remove this registry value.
 
+**Windows 10**
+
+The new Outlook for Windows will be automatically installed on Windows 10 devices as part of the optional Windows 10 release on January 28, 2025, and more broadly released as part of the monthly security update release for Windows 10 on February 11, 2025.
+
+Currently, there isn't a way to block the new Outlook from being installed - if you prefer not to have new Outlook show up on your organization's devices, you can remove it after it's installed as part of the update.
+
+To remove the app package, use the [Remove-AppxProvisionedPackage](/powershell/module/dism/remove-appxprovisionedpackage) cmdlet with the *PackageName* parameter value `Microsoft.OutlookForWindows`. 
+
+Use the following command in Windows PowerShell:
+
+```PowerShell
+Remove-AppxProvisionedPackage -AllUsers -Online -PackageName (Get-AppxPackage Microsoft.OutlookForWindows).PackageFullName
+```
+
+You will also need to add this reg value: 
+
+```console
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\Orchestrator\UScheduler_Oobe\OutlookUpdate
+```
+Then add a REG_SZ registry setting, named BlockedOobeUpdaters, with a value of ["MS_Outlook"].
+
+
+After removal, Windows updates won't reinstall new Outlook.
+
+
+**User Installs**
+
 In cases of user installs, for example, if users used the toggle to install the new Outlook for Windows, use [Remove-AppxPackage](/powershell/module/appx/remove-appxpackage). The AppxPackage cmdlets are used for managing applications for current users, while AppxProvisionedPackage cmdlets are used for managing default applications for both current and future users of the system.
 
 Use this Windows PowerShell command to remove the new Outlook for Windows for all users:
@@ -89,7 +116,7 @@ Remove-AppxPackage -AllUsers -Package (Get-AppxPackage Microsoft.OutlookForWindo
 
 ## Block new Outlook installation as part of Mail and Calendar deprecation
 
-Users can switch to new Outlook from the Mail and Calendar apps included with Windows. Support for Windows Mail and Calendar ends on December 31, 2024. We're automatically switching active users to the new Outlook app.
+Users can switch to new Outlook from the Mail and Calendar apps included with Windows. Support for Windows Mail and Calendar ended on December 31, 2024. We're automatically switching active users to the new Outlook app.
 
 If you would like to block your users from acquiring the new Outlook from Windows Mail and Calendar applications, you can uninstall these apps from the user's devices.
 
@@ -131,7 +158,7 @@ The policy can be configured with the following values:
 - **1 (Enable)**: If you enable this policy, the user setting for automatic migration is enforced. Automatic migration to the new Outlook is allowed, and users can't change the setting.
 - **0 (Disable)**: If you disable this policy, the user setting for automatic migration is turned off. Automatic migration to the new Outlook is blocked, and users can't change the setting.
 
-> **Note**  
+> [!NOTE]
 > This policy does not apply to migrations initiated through the "Admin-Controlled Migration to New Outlook" policy. For more information, see: [Admin-Controlled Migration Policy](../manage/admin-controlled-migration-policy.md#hide-the-toggle-in-new-outlook-for-windows).
 
 #### Configuring the policy using the Windows registry
