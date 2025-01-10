@@ -32,7 +32,7 @@ New Outlook now supports data loss prevention (DLP) policy tips with commonly us
 |E5 and equivalent licenses     |- Content contains built-in or custom sensitive information types</br>- Content is shared</br>- Content contains sensitivity labels (works for email and Office and PDF file types)</br>- Sender is</br>- Sender is member of (Only Distribution lists, Azure-based Dynamic Distribution groups, and email-enabled Security groups are supported)</br>- Sender domain is</br>- Recipient is</br>- Recipient is a member of (Only Distribution lists, Azure-based Dynamic Distribution groups, and email-enabled Security groups are supported)</br>- Recipient domain is</br>- Subject contains words     |
 
 > [!NOTE]
-> Conditions related to attachments such as Office files, PDF files, message, and emails are currently not supported. See the [new Outlook roadmap](https://aka.ms/newOutlookforWindows) for details on future updates.
+> Conditions related to attachments such as Office files, PDF files, messages (.msg), and emails (.eml) are currently not supported. See the [new Outlook roadmap](https://aka.ms/newOutlookforWindows) for details on future updates.
 
 ## Actions that support policy tips
 
