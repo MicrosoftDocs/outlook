@@ -45,7 +45,7 @@ items:
       - name: Security and compliance
         href: security/security-compliance.md
       - name: Data loss prevention policy tips
-        href: security/dlp-policy-reference-new-outlook.md             
+        href: /purview/dlp-policy-reference-new-outlook.md             
 
   - name: Troubleshoot
     items:
