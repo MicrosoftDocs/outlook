@@ -80,23 +80,20 @@ For any device that installed the March 2024 Non-Security Preview release (or la
 
 The new Outlook for Windows will be automatically installed on Windows 10 devices as part of the optional Windows 10 release on January 28, 2025, and more broadly released as part of the monthly security update release for Windows 10 on February 11, 2025.
 
-Currently, there isn't a way to block the new Outlook from being installed - if you prefer not to have new Outlook show up on your organization's devices, you can remove it after it's installed as part of the update.
-
-To remove the app package, use the [Remove-AppxProvisionedPackage](/powershell/module/dism/remove-appxprovisionedpackage) cmdlet with the *PackageName* parameter value `Microsoft.OutlookForWindows`. 
-
-Use the following command in Windows PowerShell:
-
-```PowerShell
-Remove-AppxProvisionedPackage -AllUsers -Online -PackageName (Get-AppxPackage Microsoft.OutlookForWindows).PackageFullName
-```
-
-You will also need to add this reg value: 
+To prevent the install of new Outlook on your organization's devices, add this reg value:
 
 ```console
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\Orchestrator\UScheduler_Oobe\OutlookUpdate
 ```
 Then add a REG_SZ registry setting, named BlockedOobeUpdaters, with a value of ["MS_Outlook"].
 
+To remove the app package after it is installed, use the [Remove-AppxProvisionedPackage](/powershell/module/dism/remove-appxprovisionedpackage) cmdlet with the *PackageName* parameter value `Microsoft.OutlookForWindows`. 
+
+Use the following command in Windows PowerShell:
+
+```PowerShell
+Remove-AppxProvisionedPackage -AllUsers -Online -PackageName (Get-AppxPackage Microsoft.OutlookForWindows).PackageFullName
+```
 
 After removal, Windows updates won't reinstall new Outlook.
 
