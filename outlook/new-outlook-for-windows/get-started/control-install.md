@@ -83,7 +83,7 @@ The new Outlook for Windows will be automatically installed on Windows 10 device
 To prevent the install of new Outlook on your organization's devices, add this reg value:
 
 ```console
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\Orchestrator\UScheduler_Oobe\OutlookUpdate
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\Orchestrator\UScheduler_Oobe
 ```
 Then add a REG_SZ registry setting, named BlockedOobeUpdaters, with a value of ["MS_Outlook"].
 
