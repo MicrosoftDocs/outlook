@@ -87,7 +87,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\Orchestrator\UScheduler_Oobe
 ```
 Then add a REG_SZ registry setting, named BlockedOobeUpdaters, with a value of ["MS_Outlook"].
 
-To remove the app package after it is installed, use the [Remove-AppxProvisionedPackage](/powershell/module/dism/remove-appxprovisionedpackage) cmdlet with the *PackageName* parameter value `Microsoft.OutlookForWindows`. 
+To remove the app package after it's installed, use the [Remove-AppxProvisionedPackage](/powershell/module/dism/remove-appxprovisionedpackage) cmdlet with the *PackageName* parameter value `Microsoft.OutlookForWindows`. 
 
 Use the following command in Windows PowerShell:
 
@@ -156,7 +156,7 @@ The policy can be configured with the following values:
 - **0 (Disable)**: If you disable this policy, the user setting for automatic migration is turned off. Automatic migration to the new Outlook is blocked, and users can't change the setting.
 
 > [!NOTE]
-> This policy does not apply to migrations initiated through the "Admin-Controlled Migration to New Outlook" policy. For more information, see: [Admin-Controlled Migration Policy](../manage/admin-controlled-migration-policy.md#hide-the-toggle-in-new-outlook-for-windows).
+> This policy doesn't apply to migrations initiated through the "Admin-Controlled Migration to New Outlook" policy. For more information, see: [Admin-Controlled Migration Policy](../manage/admin-controlled-migration-policy.md#hide-the-toggle-in-new-outlook-for-windows).
 
 #### Configuring the policy using the Windows registry
 
@@ -172,9 +172,16 @@ To enable automatic migration:
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\outlook\preferences]
 "NewOutlookMigrationUserSetting"=dword:00000001
 ```
-#### Future availability
+#### Setting as a Group Policy
 
-This policy will also be available through Group Policy, Cloud Policy, and Intune.
+You can download the latest group policy from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=49030).
+
+#### Setting as a Cloud Policy
+
+You can also set this policy as a [Cloud Policy](../../admin-center/overview-cloud-policy.md) from the [Microsoft 365 Apps admin center](https://config.office.com/). For more information about Cloud Policy, see [Overview of Cloud Policy service for Microsoft 365](../../admin-center/overview-cloud-policy.md).
+
+> [!TIP]
+> You can manage this setting in Intune using administrative templates, as it's an ADMX policy. For more information, see [Use Windows 10/11 templates to configure group policy settings in Microsoft Intune](/mem/intune/configuration/administrative-templates-windows?tabs=template). Download the latest ADMX template from [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=49030&msockid=22d43a6aa2e46c5b0a7c29aea3576d18).
 
 ## Conditional access to the new Outlook App
 
