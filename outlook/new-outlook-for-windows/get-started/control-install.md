@@ -85,7 +85,7 @@ To prevent the install of new Outlook on your organization's devices, add this r
 ```console
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\Orchestrator\UScheduler_Oobe
 ```
-Then add a REG_SZ registry setting, named BlockedOobeUpdaters, with a value of ["MS_Outlook"].
+Then add a REG_SZ registry setting, named BlockedOobeUpdaters, with a value of `["MS_Outlook"]`.
 
 To remove the app package after it's installed, use the [Remove-AppxProvisionedPackage](/powershell/module/dism/remove-appxprovisionedpackage) cmdlet with the *PackageName* parameter value `Microsoft.OutlookForWindows`. 
 
