@@ -29,7 +29,7 @@ The preview version of the new Outlook for Windows supports the following accoun
 - **Gmail** 
 - **Yahoo** 
 - **iCloud** 
-- **Other accounts connecting via IMAP** 
+- **Other accounts connecting via IMAP and POP** 
 
 :::image type="content" source="../get-started/media/supported-account-types/add-email-accounts.png" alt-text="Screenshot of the list of supported email accounts." lightbox="../get-started/media/supported-account-types/add-email-accounts-lb.png":::
 
