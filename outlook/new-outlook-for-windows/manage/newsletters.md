@@ -19,7 +19,7 @@ ms.date: 02/11/2025
 
 Newsletters in Outlook let you create and send structured, professional newsletters quickly from within Outlook. This feature helps you keep your team informed and engaged. While in Preview, admins can enable it for some or all users in an organization. Users without access can't use this feature.
 
-End user support documentation: [Newsletters](https://support.microsoft.com/en-us/topic/b35566e6-d319-450d-8930-86e483cda3ee?preview=true)
+End user support documentation: [Newsletters](https://support.microsoft.com/topic/b35566e6-d319-450d-8930-86e483cda3ee)
 
 ## Managing access
 
