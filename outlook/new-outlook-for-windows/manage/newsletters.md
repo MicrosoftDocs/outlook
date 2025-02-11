@@ -13,7 +13,7 @@ ms.collection:
 ms.localizationpriority: medium
 ms.custom: intro-overview
 recommendations: true
-ms.date: 2/4/2025
+ms.date: 02/11/2025
 ---
 # Newsletters in Outlook (Preview)
 
@@ -43,9 +43,15 @@ Authors can disable these engagement features when publishing a newsletter. Admi
 
 ### Recommended newsletters
 
-Newsletter editions published with Outlook Newsletters include recommendations to other content published with Outlook Newsletters to encourage greater readership in your organization. Such recommendations are included in the footer of published newsletter editions. Authors can disable these recommendations for each individual newsletter edition they publish, or the administrator can disable these recommendations for a set of users or your entire organization using the `OwaMailboxPolicy.OutlookNewslettersShowMore` property. 
+Newsletter editions by default include recommendations to other content published with Outlook Newsletters to encourage greater readership in your organization. Such recommendations are included in the footer of published newsletter editions. Authors can disable these recommendations for each individual newsletter edition as they're published, or the administrator can disable these recommendations for a set of users or the entire organization using the `OwaMailboxPolicy.OutlookNewslettersShowMore` property. 
 
 ## Other tasks
+
+### Admin view
+
+Newsletters include a simple administrator console accessible via the **Admin** link in the navigation panel. This view only shows up for users in your organization with the ExchangeServiceAdmin or GlobalServiceAdmin roles assigned. 
+
+This Admin view can be used to view the Newsletter pages in your organization and their owners. It includes a filter to identify Newsletter pages without owners, such as when a user leaves your organization, or pages with only one owner if your organization requires multiple owners for shared resources. Clicking on the name of the page in the admin view navigates to its page view where the admin can remediate ownership issues. 
 
 ### Audit logging
 
