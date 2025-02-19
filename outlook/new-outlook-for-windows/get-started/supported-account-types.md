@@ -33,7 +33,7 @@ The preview version of the new Outlook for Windows supports the following accoun
 
 :::image type="content" source="../get-started/media/supported-account-types/add-email-accounts.png" alt-text="Screenshot of the list of supported email accounts." lightbox="../get-started/media/supported-account-types/add-email-accounts-lb.png":::
 
-Currently, POP and on-premises Exchange accounts aren't supported. When attempting to add an account that isn't supported, an error message is displayed: **We couldn’t reach the email server. Please try again.** 
+Currently, the on-premises Exchange accounts aren't supported. When attempting to add an account that isn't supported, an error message is displayed: **We couldn’t reach the email server. Please try again.** 
 
 Accounts associated with SKUs that don't carry licenses for Outlook client apps are also not supported. If users attempt to add those accounts, they see an error: **This account is not supported in Outlook for Windows due to the license provided by your work or school. Try to login with another account or go to [Outlook on the web](https://outlook.office.com/)**.
 
@@ -55,7 +55,7 @@ Cross-account functionalities are being planned, including the functionalities m
 
 Prevent end users from adding personal accounts once their work or school account is added in the new Outlook for Windows by setting the “PersonalAccountsEnabled” OwaMailboxPolicy parameter to `$false`. For more information, see [Set-OwaMailboxPolicy](/powershell/module/exchange/set-owamailboxpolicy#-personalaccountsenabled).
 
-Any personal accounts that have already been added by end users remain connected. We're working on a change to place these accounts into a disconnected state, based on the same “PersonalAccountsEnabled” parameter (no new parameter needs to be set).
+Any personal accounts that have already been added by end users remain connected. We're working on a change wherein if the PersonalAccountsEnabled” parameter  is set as False, the already added personal accounts enter into the disconnected state in addition to prevention of adding new personal accounts.
 
 ## Policy management with multiple accounts 
 
