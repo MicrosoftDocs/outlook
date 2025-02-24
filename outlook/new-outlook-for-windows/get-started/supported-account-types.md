@@ -55,7 +55,7 @@ Cross-account functionalities are being planned, including the functionalities m
 
 Prevent end users from adding personal accounts once their work or school account is added in the new Outlook for Windows by setting the “PersonalAccountsEnabled” OwaMailboxPolicy parameter to `$false`. For more information, see [Set-OwaMailboxPolicy](/powershell/module/exchange/set-owamailboxpolicy#-personalaccountsenabled).
 
-Any personal accounts that have already been added by end users remain connected. We're working on a change wherein if the PersonalAccountsEnabled” parameter  is set as False, the already added personal accounts enter into the disconnected state, in addition to prevention of adding new personal accounts.
+Any personal accounts that have already been added by end users remain connected. We're working on a change wherein if the “PersonalAccountsEnabled” parameter  is set as False, the already added personal accounts enter into the disconnected state, in addition to prevention of adding new personal accounts.
 
 ## Policy management with multiple accounts 
 
