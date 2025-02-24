@@ -13,7 +13,7 @@ ms.collection:
 ms.localizationpriority: medium
 ms.custom: intro-overview
 recommendations: true
-ms.date: 02/11/2025
+ms.date: 02/24/2025
 ---
 # Newsletters in Outlook (Preview)
 
@@ -32,6 +32,9 @@ Access to Outlook Newsletters is managed using the OwaMailboxPolicy.OutlookNewsl
 
 > [!NOTE]
 > All users can read the email messages generated when publishing a newsletter to mail recipients, regardless of the `ReadOnly` permission level.  
+
+### Licensing requirements
+Newsletters is available to be enabled for any users who have both an Exchange Online mailbox and access to SharePoint. This includes all Microsoft 365 and Office 365 plans for Enterprise, Education, and Business. Exchange Online standalone plans that do not have access to SharePoint are excluded, as SharePoint is needed for storing the data. Government cloud support is not yet available.
 
 ## Managing features
 
