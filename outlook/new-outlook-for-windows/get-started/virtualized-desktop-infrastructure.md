@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.custom: intro-overview
 recommendations: true
 description: "Provides an overview of the new Outlook for Windows for VDI"
-ms.date: 12/23/2024
+ms.date: 02/24/2025
 ---
 
 # Deploy the New Outlook for Windows on Virtualized Desktop Infrastructure
@@ -30,14 +30,6 @@ This article outlines the requirements, limitations, and deployment guidance for
 
 > [!NOTE]
 > Windows Server 2019 and Windows Server 2016 are not supported.
-
-To avoid startup issues, add these processes to the exclusion list in your antivirus software:
-- `olk.exe`
-- `olkPushNotificationBackgroundTask.exe`
-- `xpdAgent.exe`
-- `relaunchNativeHost.exe`
-
-Alternatively, add these processes to the allowlist in your data loss prevention (DLP) software. For specific instructions, contact your DLP software provider.
 
 ## Virtualization Provider Requirements
 
