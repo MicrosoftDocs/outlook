@@ -1,0 +1,12 @@
+items:
+- name: Learn
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft 365 Apps
+    tocHref: /microsoft-365-apps/
+    topicHref: /microsoft-365-apps/index
+    items:
+      - name: Outlook
+        tocHref: /microsoft-365-apps/outlook/
+        topicHref: /microsoft-365-apps/outlook/index
