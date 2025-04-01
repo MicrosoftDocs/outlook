@@ -1,2 +1,12 @@
-- name: Index
-  href: index.md
+items:
+- name: Outlook documentation
+  href: index.yml
+  items:
+  - name: Overview
+    items:
+    - name: What is Outlook and Classic Outlook?
+      href: what-is-outlook.md
+    - name: Outlook
+      href: overview-outlook.md
+    - name: Classic Outlook
+      href: classic/overview-classic-outlook.md
