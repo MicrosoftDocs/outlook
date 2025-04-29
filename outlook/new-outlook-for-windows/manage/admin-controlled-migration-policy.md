@@ -230,7 +230,7 @@ It's a mailbox policy that can be set through Exchange PowerShell –
 
 ## Tracking new Outlook usage
 
-While Microsoft work to include the new Outlook in the email apps report for Exchange usage, use the steps from [Monitor adoption of new Outlook](monitor-usage-reports.md) to get a proxy and approximate usage in your organization.
+While Microsoft work to include the new Outlook in the email apps report for Exchange usage, use the steps in [Microsoft 365 Reports in the admin center](/microsoft-365/admin/activity-reports/microsoft365-apps-usage) to get a proxy and approximate usage in your organization.
 
 ## View your organization’s feedback
 
