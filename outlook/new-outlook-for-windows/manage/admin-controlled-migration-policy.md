@@ -95,7 +95,7 @@ You can download the latest group policy from the [Microsoft Download Center](ht
 
 #### Setting as a Cloud Policy
 
-You can also set this policy as a [Cloud Policy](../../admin-center/overview-cloud-policy.md) from the [Microsoft 365 Apps admin center](https://config.office.com/). For more information about Cloud Policy, see [Overview of Cloud Policy service for Microsoft 365](../../admin-center/overview-cloud-policy.md)
+You can also set this policy as a [Cloud Policy](/microsoft-365-apps/admin-center/overview-cloud-policy) from the [Microsoft 365 Apps admin center](https://config.office.com/). For more information about Cloud Policy, see [Overview of Cloud Policy service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy)
 
 #### Setting as a registry value
 
@@ -164,7 +164,7 @@ You can download the latest group policy from the [Microsoft Download Center](ht
 
 #### Setting as a Cloud Policy
 
-You can also set this policy as a [Cloud Policy](../../admin-center/overview-cloud-policy.md) from the [Microsoft 365 Apps admin center](https://config.office.com/). For more information about Cloud Policy, see [Overview of Cloud Policy service for Microsoft 365](../../admin-center/overview-cloud-policy.md).
+You can also set this policy as a [Cloud Policy](/microsoft-365-apps/admin-center/overview-cloud-policy) from the [Microsoft 365 Apps admin center](https://config.office.com/). For more information about Cloud Policy, see [Overview of Cloud Policy service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy).
 
 #### Setting as a registry key
 
