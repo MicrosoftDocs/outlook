@@ -2,44 +2,44 @@
   "build": {
     "content": [
       {
-        "src": "outlook/classic-outlook-for-windows",
+        "src": "classic-outlook-for-windows",
         "files": ["**/*.md", "**/*.yml"],
         "dest": "."
       },
       {
-        "src": "outlook/classic-outlook-for-mac",
+        "src": "classic-outlook-for-mac",
         "files": ["**/*.md", "**/*.yml"],
         "dest": "."
       },
       {
-        "src": "outlook/new-outlook-for-windows",
+        "src": "new-outlook-for-windows",
         "files": ["**/*.md", "**/*.yml"],
         "dest": "."
       },
       {
-        "src": "outlook/new-outlook-for-mac",
+        "src": "new-outlook-for-mac",
         "files": ["**/*.md", "**/*.yml"],
         "dest": "."
       }
     ],
     "resource": [
       {
-        "src": "outlook/classic-outlook-for-windows",
+        "src": "classic-outlook-for-windows",
         "files": ["**/*.png", "**/*.jpg", "**/*.gif", "**/*.svg"],
         "dest": "."
       },
       {
-        "src": "outlook/classic-outlook-for-mac",
+        "src": "classic-outlook-for-mac",
         "files": ["**/*.png", "**/*.jpg", "**/*.gif", "**/*.svg"],
         "dest": "."
       },
       {
-        "src": "outlook/new-outlook-for-windows",
+        "src": "new-outlook-for-windows",
         "files": ["**/*.png", "**/*.jpg", "**/*.gif", "**/*.svg"],
         "dest": "."
       },
       {
-        "src": "outlook/new-outlook-for-mac",
+        "src": "new-outlook-for-mac",
         "files": ["**/*.png", "**/*.jpg", "**/*.gif", "**/*.svg"],
         "dest": "."
       }
