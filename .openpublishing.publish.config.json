@@ -16,5 +16,16 @@
     }
   ],
   "notification_subscribers": [],
-  "need_preview_pull_request": true
+  "need_preview_pull_request": true,
+  "redirection_files": [
+    ".openpublishing.redirection.json"
+  ],
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
+      "branch": "main",
+      "branch_mapping": {}
+    }
+  ]
 }
