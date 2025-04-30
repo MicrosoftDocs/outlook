@@ -2,44 +2,44 @@
   "build": {
     "content": [
       {
-        "src": "outlook/classic-outlook-for-windows",
+        "src": "classic-outlook-for-windows",
         "files": ["**/*.md", "**/*.yml"],
         "dest": "."
       },
       {
-        "src": "outlook/classic-outlook-for-mac",
+        "src": "classic-outlook-for-mac",
         "files": ["**/*.md", "**/*.yml"],
         "dest": "."
       },
       {
-        "src": "outlook/new-outlook-for-windows",
+        "src": "new-outlook-for-windows",
         "files": ["**/*.md", "**/*.yml"],
         "dest": "."
       },
       {
-        "src": "outlook/new-outlook-for-mac",
+        "src": "new-outlook-for-mac",
         "files": ["**/*.md", "**/*.yml"],
         "dest": "."
       }
     ],
     "resource": [
       {
-        "src": "outlook/classic-outlook-for-windows",
+        "src": "classic-outlook-for-windows",
         "files": ["**/*.png", "**/*.jpg", "**/*.gif", "**/*.svg"],
         "dest": "."
       },
       {
-        "src": "outlook/classic-outlook-for-mac",
+        "src": "classic-outlook-for-mac",
         "files": ["**/*.png", "**/*.jpg", "**/*.gif", "**/*.svg"],
         "dest": "."
       },
       {
-        "src": "outlook/new-outlook-for-windows",
+        "src": "new-outlook-for-windows",
         "files": ["**/*.png", "**/*.jpg", "**/*.gif", "**/*.svg"],
         "dest": "."
       },
       {
-        "src": "outlook/new-outlook-for-mac",
+        "src": "new-outlook-for-mac",
         "files": ["**/*.png", "**/*.jpg", "**/*.gif", "**/*.svg"],
         "dest": "."
       }
@@ -47,10 +47,26 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "~/breadcrumb/m365-apps-outlook/toc.yml",
+      "breadcrumb_path": "/microsoft-365-apps/outlook/breadcrumb/m365-apps-outlook/toc.json",
       "feedback_system": "Standard",
       "permissioned-type": "public",
-      "uhfHeaderId": "MSDocsHeader-Outlook"
+      "uhfHeaderId": "MSDocsHeader-Outlook",
+      "contributors_to_exclude": [ 
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric",
+        "v-stchambers",
+        "v-stsavell",
+        "American-Dipper",
+        "padmagit77",
+        "aditisrivastava07",
+        "Ruchika-mittal01",
+        "shdyas"
+        ]
     },
     "fileMetadata": {},
     "template": []
