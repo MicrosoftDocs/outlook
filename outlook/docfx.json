@@ -50,7 +50,23 @@
       "breadcrumb_path": "~/breadcrumb/m365-apps-outlook/toc.yml",
       "feedback_system": "Standard",
       "permissioned-type": "public",
-      "uhfHeaderId": "MSDocsHeader-Outlook"
+      "uhfHeaderId": "MSDocsHeader-Outlook",
+      "contributors_to_exclude": [ 
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric",
+        "v-stchambers",
+        "v-stsavell",
+        "American-Dipper",
+        "padmagit77",
+        "aditisrivastava07",
+        "Ruchika-mittal01",
+        "shdyas"
+        ]
     },
     "fileMetadata": {},
     "template": []
