@@ -1,224 +1,84 @@
-### YamlMime:Hub
+### YamlMime:Landing
 
 #root section (Required)
-title: <Service name> documentation # < 60 chars
-summary: Describe the content of the page as it relates to customer intent # < 400 chars
-brand: Add product brand name (corresponds to background color in hero) # brand: aspnet | azure | bash | bizapps | bot-framework | dotnet | dynamics | education | enterprise-mobility | gaming | graph | m365 | nuget | office | powershell | playfab | power-apps | power-automate | power-bi | power-platform | power-virtual-agents | project | sharepoint | sql | surface | system-center | teams | visual-studio | windows | workplace-analytics
+title: Outlook deployment documentation # < 60 chars
+summary: Resources for IT professionals and admins on how to deploy and manage Outlook. # < 400 chars
+brand: m365
 
 metadata:
-  title: title # Required; page title displayed in search results. Include the brand. < 65 chars.
-  description: description # Required; article description that is displayed in search results. < 165 chars.
-  ms.service: service #Required; use service/product value per approved list.
-  ms.subservice: subservice # Optional; Remove if not applicable.
+  title: Outlook deployment documentation # Required; page title displayed in search results. Include the brand. < 65 chars.
+  description: Learn how to deploy and manage Outlook # Required; article description that is displayed in search results. < 165 chars.
+  ms.service: o365-proplus-itpro #Required; use service/product value per approved list.
   ms.topic: hub-page # Required
-  author: githubauthor #Required; your GitHub user alias, with correct capitalization.
-  ms.author: msauthor #Required; microsoft alias of author; optional team alias.
-  ms.date: 09/24/2023 #Required; mm/dd/yyyy format.
+  author: Cloud-Writer #Required; your GitHub user alias, with correct capitalization.
+  ms.author: meerak #Required; microsoft alias of author; optional team alias.
+  ms.date: 04/29/2025 #Required; mm/dd/yyyy format.
 
-# highlightedContent section (Optional; Remove if not applicable.)
-# Maximum of 8 items
-highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | training | overview | quickstart | reference | sample | tutorial | video | whats-new
-  items:
-    # Card
-    - title: cardtitle1
-      itemType: itemType
-      url: ./file1.md OR /file1
-    # Card
-    - title: cardtitle2
-      itemType: itemType
-      url: ./file2.md OR /file2
-    # Card
-    - title: cardtitle3
-      itemType: itemType
-      url: ./file3.md OR /file3
-    # Card
-    - title: cardtitle4
-      itemType: itemType
-      url: ./file4.md OR /file4
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | tutorial | overview | quickstart | reference | sample | tutorial | video | whats-new
 
-# productDirectory section (Optional; Remove if not applicable.)
-productDirectory:
-  title: sectiontitle # Optional but good for SEO. Remove if not applicable.
-  summary: sectionsummary # Optional but good for SEO. Remove if not applicable.
-  items:
-    # Card
-    - title: cardtitle1
-      # imageSrc should be square in ratio with no white space
-      imageSrc: ./media/index/image1.svg OR /media/logos/image1.svg
-      links:
-        - url: ./file1a.md OR /file1a
-          text: linktext1a
-        - url: ./file1b.md OR /file1b
-          text: linktext1b
-    # Card
-    - title: cardtitle2
-      imageSrc: ./media/index/image2.svg OR /media/logos/image2.svg
-      links:
-        - url: ./file2a.md OR /file2a
-          text: linktext2a
-        - url: ./file2b.md OR /file2b
-          text: linktext2b
-    # Card
-    - title: cardtitle3
-      imageSrc: ./media/index/image3.svg OR /media/logos/image3.svg
-      links:
-        - url: ./file3a.md OR /file3a
-          text: linktext3a
-        - url: ./file3b.md OR /file3b
-          text: linktext3b
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card 
+  - title: About [service]
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is [service]?
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
 
-# conceptualContent section (Optional; Remove if not applicable.)
-conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | training | overview | quickstart | reference | sample | tutorial | video | whats-new
-  # Supports up to 3 subsections
-  sections:
-    - title: subsectiontitle1 # Optional but good for SEO. Remove if not applicable.
-      summary: subsectionsummary1 # Optional but good for SEO. Remove if not applicable.
-      items:
-        # Card
-        - title: cardtitle1
-          summary: # Optional but good for SEO. Remove if not applicable.
-          links:
-            - url: ./file1.md OR /file1
-              itemType: itemType
-              text: linktext1
-            - url: ./file2.md OR /file2
-              itemType: itemType
-              text: linktext2
-            - url: ./file3.md OR /file3
-              itemType: itemType
-              text: linktext3
-          # footerLink (Optional; Remove if not applicable.)
-          footerLink:
-            url: ./filefooter.md OR /filefooter
-            text: See more
-        # Card
-        - title: cardtitle2
-          summary: # Optional but good for SEO. Remove if not applicable.
-          links:
-            - url: ./file1.md OR /file1
-              itemType: itemType
-              text: linktext1
-            - url: ./file2.md OR /file2
-              itemType: itemType
-              text: linktext2
-            - url: ./file3.md OR /file3
-              itemType: itemType
-              text: linktext3
-          # footerLink (Optional; Remove if not applicable.)
-          footerLink:
-            url: ./filefooter.md OR /filefooter
-            text: See more
-    - title: subsectiontitle2 # Optional but good for SEO. Remove if not applicable.
-      summary: subsectionsummary2 # Optional but good for SEO. Remove if not applicable.
-      items:
-        # Card
-        - title: cardtitle1
-          summary: # Optional but good for SEO. Remove if not applicable.
-          links:
-            - url: ./file1.md OR /file1
-              itemType: itemType
-              text: linktext1
-            - url: ./file2.md OR /file2
-              itemType: itemType
-              text: linktext2
-            - url: ./file3.md OR /file3
-              itemType: itemType
-              text: linktext3
-          # footerLink (Optional; Remove if not applicable.)
-          footerLink:
-            url: ./filefooter.md OR /filefooter
-            text: See more
-        # Card
-        - title: cardtitle2
-          summary: # Optional but good for SEO. Remove if not applicable.
-          links:
-            - url: ./file1.md OR /file1
-              itemType: itemType
-              text: linktext1
-            - url: ./file2.md OR /file2
-              itemType: itemType
-              text: linktext2
-            - url: ./file3.md OR /file3
-              itemType: itemType
-              text: linktext3
-          # footerLink (Optional; Remove if not applicable.)
-          footerLink:
-            url: ./filefooter.md OR /filefooter
-            text: See more
+  # Card 
+  - title: Get started
+    linkLists:
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
 
-# tools section (Optional; Remove if not applicable.)
-tools:
-  title: sectiontitle # Optional but good for SEO. Remove if not applicable.
-  summary: sectionsummary # Optional but good for SEO. Remove if not applicable.
-  items:
-    # Card
-    - title: cardtitle1
-      # imageSrc should be square in ratio with no white space
-      imageSrc: ./media/index/image1.svg OR /media/logos/image1.svg
-      url: ./file1.md
-    # Card
-    - title: cardtitle2
-      imageSrc: ./media/index/image2.svg OR /media/logos/image2.svg
-      url: ./file2.md
-    # Card
-    - title: cardtitle3
-      imageSrc: ./media/index/image3.svg OR /media/logos/image3.svg
-      url: ./file3.md
+  # Card
+  - title: cardtitle3
+    linkLists:
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
 
-# additionalContent section (Optional; Remove if not applicable.)
-# Card with summary style
-additionalContent:
-  # Supports up to 4 subsections
-  sections:
-    - title: subsectiontitle1 # Optional but good for SEO. Remove if not applicable.
-      summary: subsectionsummary1 # Optional but good for SEO. Remove if not applicable.
-      items:
-        # Card
-        - title: cardtitle1
-          summary: cardsummary1
-          url: ./file1.md OR /file1
-        # Card
-        - title: cardtitle2
-          summary: cardsummary2
-          url: ./file1.md OR /file2
-        # Card
-        - title: cardtitle3
-          summary: cardsummary3
-          url: ./file1.md OR /file3
-  # footer (Optional; Remove if not applicable.)
-  footer: "footertext [linktext](/footerfile)"
-
-# additionalContent section (Optional; Remove if not applicable.)
-# Card with links style
-additionalContent:
-  # Supports up to 4 subsections
-  sections:
-    - title: subsectiontitle1 # Optional but good for SEO. Remove if not applicable.
-      summary: subsectionsummary1 # Optional but good for SEO. Remove if not applicable.
-      items:
-        # Card
-        - title: cardtitle1
-          summary: # Optional but good for SEO. Remove if not applicable.
-          links:
-            - text: link1a
-              url: ./file1a.md OR /file1a
-            - text: link1b
-              url: ./file1b.md OR /file1b
-        # Card
-        - title: cardtitle2
-          summary: # Optional but good for SEO. Remove if not applicable.
-          links:
-            - text: link2a
-              url: ./file2a.md OR /file2a
-            - text: link2b
-              url: ./file2b.md OR /file2b
-        # Card
-        - title: cardtitle3
-          summary: # Optional but good for SEO. Remove if not applicable.
-          links:
-            - text: link3a
-              url: ./file3a.md OR /file3a
-            - text: link3b
-              url: ./file3b.md OR /file3b
+  # Card (Optional; Remove if not applicable.)
+  - title: cardtitle4
+    linkLists:
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
