@@ -93,7 +93,7 @@ To set the `CacheOthersMail` registry value, you can:
 
 #### Configure the Windows Registry manually
 
-[!INCLUDE [Important registry alert](../../../includes/registry-important-alert.md)]
+[!INCLUDE [Important registry alert](../../includes/registry-important-alert.md)]
 
 Use the following steps to change the caching behavior for shared folders in Outlook 2016 or later versions:
 

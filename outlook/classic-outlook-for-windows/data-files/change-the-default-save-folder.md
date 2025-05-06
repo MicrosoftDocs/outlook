@@ -35,7 +35,7 @@ You can change this default location by adding the following registry value to p
 
 Follow these steps:
 
-[!INCLUDE [Important registry alert](../../../includes/registry-important-alert.md)]
+[!INCLUDE [Important registry alert](../../includes/registry-important-alert.md)]
 
 1. Select **Start**, and then select **Run**.
 2. In the **Open** box, type *regedit*, and then press Enter.

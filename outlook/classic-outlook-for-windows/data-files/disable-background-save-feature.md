@@ -28,7 +28,7 @@ When you create an email message that has one or more attachments in Microsoft O
 In an environment that has low bandwidth, you can disable the background save feature in Outlook by configuring the `DisableBGSave` registry key.
 Use the following steps:
 
-[!INCLUDE [Important registry alert](../../../includes/registry-important-alert.md)]
+[!INCLUDE [Important registry alert](../../includes/registry-important-alert.md)]
 
 1. Exit all Microsoft Office applications.
 2. Start Registry Editor.

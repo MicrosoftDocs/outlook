@@ -69,7 +69,7 @@ If the value is set to 1, Outlook uses the GAL instead of the OAB to resolve amb
 - An email message is sent.
 - A reply is sent to a one-off SMTP address.
 
-[!INCLUDE [Important registry alert](../../../includes/registry-important-alert.md)]
+[!INCLUDE [Important registry alert](../../includes/registry-important-alert.md)]
 
 To add the `ANR Include Online GAL` registry subkey to the registry manually, use the following steps:
 

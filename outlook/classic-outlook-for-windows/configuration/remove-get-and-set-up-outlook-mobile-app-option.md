@@ -43,7 +43,7 @@ Microsoft Outlook 2019, Outlook 2016, Outlook for Microsoft 365, and Outlook on 
 
    **Get the Outlook app for iPhone, iPad, Android, or Windows 10 Mobile.**
 
-   :::image type="content" source="../../media/how-to-remove-get-and-set-up-outlook-mobile-app-on-my-phone-option/get-the-outlook-app-for-iphone-ipad-android,-or-windows-10-mobile.png" alt-text="Screenshot of the Outlook app for iPhone, iPad, Android, or Windows 10 Mobile link in the Info page." border="false":::
+   :::image type="content" source="../../media/how-to-remove-get-and-set-up-outlook-mobile-app-on-my-phone-option/get-the-outlook-app-for-iphone-ipad-android-or-windows-10-mobile.png" alt-text="Screenshot of the Outlook app for iPhone, iPad, Android, or Windows 10 Mobile link in the Info page." border="false":::
 
 - The final page of the **Add Account** wizard contains a check box that has the following label:
 

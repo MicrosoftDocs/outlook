@@ -35,7 +35,7 @@ The browser stores your preference and opens the meeting in your Teams desktop a
 
 Use this method if you can't set your Teams meeting preference in the browser, or if you want to set the preference on behalf of your users.
 
-[!INCLUDE [Important registry alert](../../../includes/registry-important-alert.md)]
+[!INCLUDE [Important registry alert](../../includes/registry-important-alert.md)]
 
 1. Create a text file named *teams-desktop.reg*.
 

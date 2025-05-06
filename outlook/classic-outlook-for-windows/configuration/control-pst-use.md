@@ -24,7 +24,7 @@ ms.reviewer: gbratton
 
 In Microsoft Outlook, users can create PST files or add new items to existing PST files. This article describes how to control these behaviors.
 
-[!INCLUDE [Important registry alert](../../../includes/registry-important-alert.md)]
+[!INCLUDE [Important registry alert](../../includes/registry-important-alert.md)]
 
 ## Prevent additions to an existing .pst file
 

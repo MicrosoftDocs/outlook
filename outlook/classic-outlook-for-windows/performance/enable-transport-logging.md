@@ -37,7 +37,7 @@ Use the following steps:
 
 ## Logging results
 
-[!INCLUDE [Important registry alert](../../../includes/registry-important-alert.md)]
+[!INCLUDE [Important registry alert](../../includes/registry-important-alert.md)]
 
 When you enable logging, the following registry key is configured:
 

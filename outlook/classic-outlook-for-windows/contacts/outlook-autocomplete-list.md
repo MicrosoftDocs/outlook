@@ -102,7 +102,7 @@ The AutoComplete cache can become corrupted over time and might not save new ent
 
 Because this configuration is untested, we don’t recommend it. When a large nickname cache becomes corrupted, it's unusable and you can lose many cached entries. Use this information with caution.
 
-[!INCLUDE [Important registry alert](../../../includes/registry-important-alert.md)]
+[!INCLUDE [Important registry alert](../../includes/registry-important-alert.md)]
 
 1. Exit Outlook.
 2. Start Registry Editor.
