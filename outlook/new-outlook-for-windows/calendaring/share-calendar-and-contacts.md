@@ -75,13 +75,13 @@ To set up a common, shared calendar or contacts list that people in your organiz
 Before you begin, sign in to the Microsoft 365 portal, and then select **Admin** in the top navigation.
 
 1. Go to **Admin** > **Users & Groups**.
-2. On the **Users & Groups page**, select **Shared Mailboxes**, and then select **Add**![Add icon](./media/how-to-share-calendar-and-contacts/add-icon.png).
+2. On the **Users & Groups page**, select **Shared Mailboxes**, and then select **Add**![Add icon](../../media/how-to-share-calendar-and-contacts/add-icon.png).
 3. On the **Add a shared mailbox** page, enter the following information:
 
    - **Mailbox name**: This name appears in the address book, on the To field in email, and in the list of shared mailboxes on the Shared Mailboxes page. It's required and should be user-friendly so people recognize what it is.
    - **Email address**: Enter the email address for the shared mailbox. It's required.
 4. Select **Next**.
-5. On the **Add members** page, select **Add**![Add icon](./media/how-to-share-calendar-and-contacts/add-icon.png).
+5. On the **Add members** page, select **Add**![Add icon](../../media/how-to-share-calendar-and-contacts/add-icon.png).
 6. In the search field, type a person's name and then select **Search**. The person is added to the list of members.
 7. When you're done adding members, select **Finish**.
 
@@ -147,7 +147,7 @@ To set up a shared calendar or contacts list that people in your organization ca
 Before you begin, sign in to the Exchange admin center (EAC) at [https://outlook.office365.com/ecp/](https://outlook.office365.com/ecp/) using your Microsoft 365 tenant administrator credentials. As a Microsoft 365 Enterprises, Midsize, or Education admin, you can also access EAC by selecting **Admin** > **Exchange** in the Microsoft Online Portal.
 
 1. In the EAC, navigate to **Recipients** > **Groups**.
-2. Select **New**![New icon](./media/how-to-share-calendar-and-contacts/new-icon.gif) > **Security group**.
+2. Select **New**![New icon](../../media/how-to-share-calendar-and-contacts/new-icon.gif) > **Security group**.
 3. On the **New security group page**, provide the appropriate details for the security group, including the membership for the new security group.
 
 > [!NOTE]
@@ -166,7 +166,7 @@ Before you begin, sign in to the Exchange admin center (EAC) at [https://outlook
 
 ##### Step 1: Create the shared mailbox
 
-1. Go to **Recipients** > **Shared** > **Add**![Add icon](./media/how-to-share-calendar-and-contacts/add-icon.png).
+1. Go to **Recipients** > **Shared** > **Add**![Add icon](../../media/how-to-share-calendar-and-contacts/add-icon.png).
 2. Type values in the required Display name and Email address fields.
 
    > [!NOTE]
@@ -175,7 +175,7 @@ Before you begin, sign in to the Exchange admin center (EAC) at [https://outlook
 
 ##### Step 2: Assign the security group Full Access permission to the shared mailbox
 
-1. In EAC, under **Recipients** > **Shared**, double-click the shared mailbox that you created in the previous step, and then select **Mailbox delegation**. Under **Full Access**, select **Add**![Add icon](./media/how-to-share-calendar-and-contacts/add-icon.png), and then select the security group that you want to be able to access the shared calendar and contacts list for the shared mailbox.
+1. In EAC, under **Recipients** > **Shared**, double-click the shared mailbox that you created in the previous step, and then select **Mailbox delegation**. Under **Full Access**, select **Add**![Add icon](../../media/how-to-share-calendar-and-contacts/add-icon.png), and then select the security group that you want to be able to access the shared calendar and contacts list for the shared mailbox.
 
 2. Select **Save** to save your changes and create the shared mailbox. These steps let the members of the security group access the shared calendar and contact list.
 
@@ -386,7 +386,7 @@ The calendar will display under PEOPLE'S CALENDARS.
 2. Do one of the following, and then select **Save**:
 
    - Use the drop-down menu to change the level of details that you're sharing with a person.
-   - Select the delete icon![delete icon](./media/how-to-share-calendar-and-contacts/delete-icon.png) to stop sharing your calendar with a person.
+   - Select the delete icon![delete icon](../../media/how-to-share-calendar-and-contacts/delete-icon.png) to stop sharing your calendar with a person.
 
         :::image type="content" source="../../media/how-to-share-calendar-and-contacts/stop-sharing-calendar.png" alt-text="The calendar displayed under PEOPLE'S CALENDARS 3" border="false":::
 
@@ -584,8 +584,8 @@ If you're a Microsoft 365 administrator, you can change the default sharing poli
 Before you begin, sign in to the Exchange admin center (EAC) at [https://outlook.office365.com/ecp/](https://outlook.office365.com/ecp/) using your Microsoft 365 tenant administrator credentials. As a Microsoft 365 Small Business admin, you need to access EAC by using the direct URL. The Microsoft 365 Small Business Microsoft Online Portal doesn't have an option to access EAC.  As a Microsoft 365 Small Business admin, you need to access EAC by using the direct URL. The Microsoft 365 Small Business Microsoft Online Portal doesn't have an option to access EAC.
 
 1. Navigate to **Organization** > **Sharing**.
-2. In the list view, under **Individual Sharing**, select the **Default Sharing Policy**, and then select **Edit**![Edit icon](./media/how-to-share-calendar-and-contacts/edit-icon.gif).
-3. In the **Sharing Policy** dialog box, select **Sharing with all domains**, and then select **Edit**![Edit icon](./media/how-to-share-calendar-and-contacts/edit-icon.gif).
+2. In the list view, under **Individual Sharing**, select the **Default Sharing Policy**, and then select **Edit**![Edit icon](../../media/how-to-share-calendar-and-contacts/edit-icon.gif).
+3. In the **Sharing Policy** dialog box, select **Sharing with all domains**, and then select **Edit**![Edit icon](../../media/how-to-share-calendar-and-contacts/edit-icon.gif).
 
 4. To let your users share full calendar details with people outside of your organization, select **Share your calendar** folder. Then, under **Specify what information you want to share**, select **All calendar appointment information, including time, subject, location and title**.
 
@@ -598,8 +598,8 @@ Before you begin, sign in to the Exchange admin center (EAC) at [https://outlook
 Before you begin, sign in to the Exchange admin center (EAC) at [https://outlook.office365.com/ecp/](https://outlook.office365.com/ecp/) using your Microsoft 365 tenant administrator credentials. As a Microsoft 365 admin for Enterprises, Midsize, or Education, you can also access EAC by selecting **Admin** > **Exchange** in the Microsoft Online Portal.
 
 1. Navigate to **Organization** > **Sharing**.
-2. In the list view, under **Individual Sharing**, select the **Default Sharing** **Policy**, and then select **Edit**![Edit icon](./media/how-to-share-calendar-and-contacts/edit-icon.gif).
-3. In the **Sharing Policy** dialog box, select **Sharing with all domains**, and then select **Edit**![Edit icon](./media/how-to-share-calendar-and-contacts/edit-icon.gif).
+2. In the list view, under **Individual Sharing**, select the **Default Sharing** **Policy**, and then select **Edit**![Edit icon](../../media/how-to-share-calendar-and-contacts/edit-icon.gif).
+3. In the **Sharing Policy** dialog box, select **Sharing with all domains**, and then select **Edit**![Edit icon](../../media/how-to-share-calendar-and-contacts/edit-icon.gif).
 
 4. To let your users share full calendar details with people outside of your organization, select **Share your calendar** folder. Then, under **Specify what information you want to share**, select **All calendar appointment information, including time, subject, location and title**.
 
