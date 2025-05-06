@@ -1,14 +1,17 @@
 {
   "build": {
-    "dest": "m365-apps-outlook",
-
     "content": [
       {
         "files": [
           "**/*.md",
           "**/*.yml"
         ],
+        "dest": ".",
         "exclude": [
+          "classic-outlook-for-windows/**",
+          "new-outlook-for-windows/**",
+          "classic-outlook-for-mac/**",
+          "new-outlook-for-mac/**",
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
@@ -119,10 +122,20 @@
       "permissioned-type": "public",
       "uhfHeaderId": "MSDocsHeader-Outlook",
       "contributors_to_exclude": [
-        "rjagiewich","traya1","rmca14","claydetels19",
-        "jborsecnik","tiburd","garycentric","v-stchambers",
-        "v-stsavell","American-Dipper","padmagit77",
-        "aditisrivastava07","Ruchika-mittal01","shdyas"
+        "rjagiewich",
+        "traya1",
+        "rmca14",
+        "claydetels19",
+        "jborsecnik",
+        "tiburd",
+        "garycentric",
+        "v-stchambers",
+        "v-stsavell",
+        "American-Dipper",
+        "padmagit77",
+        "aditisrivastava07",
+        "Ruchika-mittal01",
+        "shdyas"
       ]
     },
     "overwrite": [],
