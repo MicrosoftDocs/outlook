@@ -151,7 +151,7 @@ If you see the following results in the output from these cmdlets, then the room
 
 - All rooms and workspaces have the same value for the **City** property.
 
- :::image type="content" source="media/configure-room-finder-rooms-workspaces/get-place-cmdlet.png" alt-text="Screenshot of the command output. Highlighted text shows the city, capacity, floor, and floor label information, and the segment of the SMTP address that follows the @ character in Identity and Localities.":::
+ :::image type="content" source="../../media/configure-room-finder-rooms-workspaces/get-place-cmdlet.png" alt-text="Screenshot of the command output. Highlighted text shows the city, capacity, floor, and floor label information, and the segment of the SMTP address that follows the @ character in Identity and Localities.":::
 
 If you don't see these results for all the rooms and workspaces, reconfigure the properties only for the rooms and workspaces that don't have the same results as the others.
 

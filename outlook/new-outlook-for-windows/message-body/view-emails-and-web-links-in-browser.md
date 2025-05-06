@@ -66,7 +66,7 @@ Follow these steps to manage the policy in the [Cloud Policy service for Microso
 
 7. Under **Configure Settings**, search for "Choose which browser opens web links".
 
-   :::image type="content" source="media/view-emails-and-web-links-in-browser/microsoft365-policy-settings.png" alt-text="Screenshot of a settings page in the Cloud Policy service for Microsoft 365.":::
+   :::image type="content" source="../../media/view-emails-and-web-links-in-browser/microsoft365-policy-settings.png" alt-text="Screenshot of a settings page in the Cloud Policy service for Microsoft 365.":::
 
 8. Select the **Choose which browser opens web links** policy.
 
@@ -90,7 +90,7 @@ Follow these steps to manage the policy in the [Cloud Policy service for Microso
 
 5. Select **Apply**.
 
-   :::image type="content" source="media/view-emails-and-web-links-in-browser/administrative-templates-group-policy.png" alt-text="Screenshot of the 'Choose which browser opens web links' policy in the Group Policy Management Editor.":::
+   :::image type="content" source="../../media/view-emails-and-web-links-in-browser/administrative-templates-group-policy.png" alt-text="Screenshot of the 'Choose which browser opens web links' policy in the Group Policy Management Editor.":::
 
 > [!NOTE]
 > If your organization uses the **Microsoft 365 for business** plan, then you can use the _Choose Which Browser Opens Web Links_ policy to manage the feature for Teams. However, the policy is unavailable for Outlook with this plan. Your users will need to manage the feature by using Outlook settings as described in the following section.
@@ -104,7 +104,7 @@ If you prefer to let your users manage this feature, then either leave the _Choo
 - Teams: **Settings** \> **Files and links** \> **Link open preference**.
 - Banner notification: A banner notification is shown when users first see the experience. They can either select the **Try Edge** option to keep using the feature or select **Manage my settings** to revert to their system's default browser experience. 
 
-  :::image type="content" source="media/view-emails-and-web-links-in-browser/microsoft-edge-banner.png" alt-text="Screenshot of the Microsoft Edge banner that asks users to select how to open email links.":::
+  :::image type="content" source="../../media/view-emails-and-web-links-in-browser/microsoft-edge-banner.png" alt-text="Screenshot of the Microsoft Edge banner that asks users to select how to open email links.":::
 
 The choices that a user makes in Outlook settings or Teams settings will apply across both apps. 
 

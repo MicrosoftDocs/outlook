@@ -28,7 +28,7 @@ Consider that you have a profile which is configured in Cached Exchange mode in 
 
 The following screenshot displays the shared Inbox folder of a user. You can identify that this folder is being cached in Outlook because the status bar displays **Connected** when this folder is selected in the navigation pane.
 
-:::image type="content" source="media/by-default-shared-mail-folders-are-downloaded-in-cashed/example-of-cached-shared-mailbox.png" alt-text="Screenshot of a shared mailbox that's being cached.":::
+:::image type="content" source="../../media/by-default-shared-mail-folders-are-downloaded-in-cashed/example-of-cached-shared-mailbox.png" alt-text="Screenshot of a shared mailbox that's being cached.":::
 
 Mail folders typically contain more items that non-mail folders. In the versions of Outlook earlier than Outlook 2010 when hard disk space was at a premium, only non-mail folders were cached by default. With hardware advancements, increased disk sizes and speeds, the impact of caching more data locally was reduced. Therefore later versions of Outlook were changed to also cache mail folders by default.
 
@@ -83,7 +83,7 @@ The default value is 1.
 
 After the caching of shared mail folders is disabled, the status bar in Outlook will display **Online** when you select a shared mail folder in the navigation pane as shown in the following screenshot.
 
-:::image type="content" source="media/by-default-shared-mail-folders-are-downloaded-in-cashed/outlook-status-bar-shows-online.png" alt-text="Screenshot of the Outlook status bar which displays Online.":::
+:::image type="content" source="../../media/by-default-shared-mail-folders-are-downloaded-in-cashed/outlook-status-bar-shows-online.png" alt-text="Screenshot of the Outlook status bar which displays Online.":::
 
 To set the `CacheOthersMail` registry value, you can:
 
@@ -150,7 +150,7 @@ To deploy the registry setting by using the Outlook Group Policy template, use t
 
 6. In the Group Policy Object Editor or the Group Policy Management Console, under **User Configuration**, expand **Administrative Templates**, expand your version of **Microsoft Outlook**, expand **Outlook Options**, and then select the **Delegates** node.
 
-    :::image type="content" source="media/by-default-shared-mail-folders-are-downloaded-in-cashed/disable-shared-mail-folder-caching.png" alt-text="Screenshot of the Local Group Policy Editor for Outlook 2013.":::
+    :::image type="content" source="../../media/by-default-shared-mail-folders-are-downloaded-in-cashed/disable-shared-mail-folder-caching.png" alt-text="Screenshot of the Local Group Policy Editor for Outlook 2013.":::
 
 7. Under **Delegates**, double-click **Disable shared mail folder caching**.
 8. To revert to the default setting, select **Disabled**, and then select **OK**. To change to the non-default setting of only caching non-mail folders, select **Enabled**, and then select **OK**.
@@ -211,7 +211,7 @@ It's possible to disable caching for shared folders in all Cached mode profiles.
 
 In the OCT for Outlook 2016 and later versions, the setting that controls caching for all shared folders is named **Download shared non-mail folders**. It's located under **Modify user settings** > your version of Microsoft Outlook > **Account Settings** > **Exchange** > **Cached Exchange Mode**.
 
-:::image type="content" source="media/by-default-shared-mail-folders-are-downloaded-in-cashed/settings-in-office-customization-tool.png" alt-text="Screenshot shows the setting in the Outlook OCT.":::
+:::image type="content" source="../../media/by-default-shared-mail-folders-are-downloaded-in-cashed/settings-in-office-customization-tool.png" alt-text="Screenshot shows the setting in the Outlook OCT.":::
 
 When the OCT is used to disable this setting, the following registry key value is configured on Outlook clients:
 
@@ -229,7 +229,7 @@ If the value of the registry key is set to `0`, this indicates that a non-defaul
 
 In the Group Policy Template for Outlook 2016 and later versions, the setting that controls the caching of all shared folders is named **Download shared non-mail folders**. It's located under **User Configuration** > **Administrative Templates** > your version of Microsoft Outlook > **Account Settings** > **Exchange** > **Cached Exchange Mode**.
 
-:::image type="content" source="media/by-default-shared-mail-folders-are-downloaded-in-cashed/setting-in-local-group-policy-editor.png" alt-text="Screenshot of the Group Policy Management Editor that controls the setting for caching in Outlook.":::
+:::image type="content" source="../../media/by-default-shared-mail-folders-are-downloaded-in-cashed/setting-in-local-group-policy-editor.png" alt-text="Screenshot of the Group Policy Management Editor that controls the setting for caching in Outlook.":::
 
 When you use a Group Policy to disable this setting, the following registry key value is configured on Outlook clients:
 

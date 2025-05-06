@@ -26,18 +26,18 @@ In new Microsoft Outlook for Windows, you need to add public folders to **Favori
 
 1. Right-click the name of the account and select **Add public folder to Favorites**.
 
-   :::image type="content" source="media/navigate-to-public-folders-in-new-outlook/select-add-pf-to-favorites.png" alt-text="Screenshot of the Add public folders to Favorites menu option after you right-click the account name." border="true":::
+   :::image type="content" source="../../media/navigate-to-public-folders-in-new-outlook/select-add-pf-to-favorites.png" alt-text="Screenshot of the Add public folders to Favorites menu option after you right-click the account name." border="true":::
   
    **Notes**:
    - If you don't see this option, make sure that public folders are deployed in your tenant. Public folders that are deployed in Microsoft Exchange On-premises and hybrid Exchange environments can't be accessed from new Outlook for Windows.
    - If public folders are deployed but you don't see the option, ask an administrator to check the [Microsoft 365 admin center](https://aka.ms/pfcte) for troubleshooting steps.
 1. In the pane that displays the public folder hierarchy, expand **All Public Folders**.
 
-   :::image type="content" source="media/navigate-to-public-folders-in-new-outlook/pf-hierarchy-display.png" alt-text="Screenshot of the public folder hierarchy in the new Outlook for Windows." border="true":::
+   :::image type="content" source="../../media/navigate-to-public-folders-in-new-outlook/pf-hierarchy-display.png" alt-text="Screenshot of the public folder hierarchy in the new Outlook for Windows." border="true":::
   
 1. Select the public folder that you want to add to **Favorites** and then select **Add Public Folder**.
 
-   :::image type="content" source="media/navigate-to-public-folders-in-new-outlook/select-pf-and-add-pf.png" alt-text="Screenshot of a public folder selected from the list and the Add Public Folders option highlighted." border="true":::
+   :::image type="content" source="../../media/navigate-to-public-folders-in-new-outlook/select-pf-and-add-pf.png" alt-text="Screenshot of a public folder selected from the list and the Add Public Folders option highlighted." border="true":::
 
 1. After the public folder is added, select it from the list of **Favorites** to access it.
 
@@ -51,8 +51,8 @@ In the redesigned user interface in classic Outlook, you see that:
 
 To access public folders in the updated design, select **More Apps** \> **Folders**.
 
-:::image type="content" source="media/navigate-to-public-folders-in-new-outlook/outlook-new-look-apps-menu.png" alt-text="Screenshot of the Folders icon in the More Apps menu in the new Outlook for Windows." border="true":::
+:::image type="content" source="../../media/navigate-to-public-folders-in-new-outlook/outlook-new-look-apps-menu.png" alt-text="Screenshot of the Folders icon in the More Apps menu in the new Outlook for Windows." border="true":::
 
 When you select **Folders**, the navigation bar shows a **Folders** icon. To permanently pin the **Folders** icon to the navigation bar, right-click the icon, and then select **Pin**.
 
-:::image type="content" source="media/navigate-to-public-folders-in-new-outlook/outlook-new-look-folders-pin.png" alt-text="Screenshot of the Pin option in the right-click menu for the Folders icon." border="true":::
+:::image type="content" source="../../media/navigate-to-public-folders-in-new-outlook/outlook-new-look-folders-pin.png" alt-text="Screenshot of the Pin option in the right-click menu for the Folders icon." border="true":::

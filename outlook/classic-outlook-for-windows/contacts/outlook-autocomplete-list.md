@@ -52,7 +52,7 @@ To access the AutoComplete setting, follow these steps:
 2. Select the **Mail** tab.
 3. Scroll down until you see **Send messages**. Make sure that the **Use Auto-Complete List to suggest names when typing in the To, Cc, and Bcc lines** box is checked.
 
-    :::image type="content" source="media/information-about-the-outlook-autocomplete-list/use-auto-complete-list-to-suggest-names.png" alt-text="Screenshot of Send messages window, with the Use Auto-Complete List to suggest names when typing in the To, Cc, and Bcc lines option checked.":::
+    :::image type="content" source="../../media/information-about-the-outlook-autocomplete-list/use-auto-complete-list-to-suggest-names.png" alt-text="Screenshot of Send messages window, with the Use Auto-Complete List to suggest names when typing in the To, Cc, and Bcc lines option checked.":::
 
 ## Copy the AutoComplete list
 

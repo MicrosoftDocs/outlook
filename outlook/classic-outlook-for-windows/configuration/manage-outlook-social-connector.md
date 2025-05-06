@@ -97,13 +97,13 @@ To manage the Outlook Social Connector in Outlook 2010 only if you're using the 
 
 3. Under **User Configuration**, expand **Classic Administrative Templates (ADM)** and then **Microsoft Outlook 2010**, and then select **Outlook Social Connector**.
 
-   :::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/outlook-social-connector.png" alt-text="The Outlook Social Connector setting under Microsoft Outlook 2010 in User Configuration.":::
+   :::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/outlook-social-connector.png" alt-text="The Outlook Social Connector setting under Microsoft Outlook 2010 in User Configuration.":::
 
 4. Double-click any setting in the details pane to configure the Group Policy setting. For example, double-click **Do not show social network info-bars** to manage the display of info-bar messages in the People Pane.
 
 5. In the dialog box for the policy setting, select **Enabled** to enable the policy. For example, the following figure shows the **Do not show social network info-bars**  policy in an **Enabled** state (The screenshot for this step is listed below).
 
-   :::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/do-not-show-social-network-info-bars.png" alt-text="Enable the Do not show social network info-bars policy setting." border="false":::
+   :::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/do-not-show-social-network-info-bars.png" alt-text="Enable the Do not show social network info-bars policy setting." border="false":::
 
 6. Select **OK**.
 7. Configure any remaining policy settings for the Outlook Social Connector.
@@ -125,13 +125,13 @@ To manage the Outlook Social Connector in Outlook 2010 only if you're using the 
 
 3. Under **User Configuration**, expand **Classic Administrative Templates (ADM)**, and then select **Outlook Social Connector**.
 
-   :::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/outlook-social-connector-under-adm.png" alt-text="The Outlook Social Connector setting under Classic Administrative Templates (ADM) in User Configuration.":::
+   :::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/outlook-social-connector-under-adm.png" alt-text="The Outlook Social Connector setting under Classic Administrative Templates (ADM) in User Configuration.":::
 
 4. Double-click any setting in the details pane to configure the Group Policy setting. For example, double-click **Do not display contact photo** to manage the display of contact photos in the People Pane.
 
 5. In the dialog box for the policy setting, select **Enabled** to enable the policy. For example, the following figure shows the **Do not display contact photo** policy configured as **Enabled**.
 
-   :::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/do-not-display-contact-photo.png" alt-text="Enable the Do not display contact photo policy setting." border="false":::
+   :::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/do-not-display-contact-photo.png" alt-text="Enable the Do not display contact photo policy setting." border="false":::
 
 6. Select **OK**.
 7. Configure any remaining policy setting for the Outlook Social Connector.
@@ -195,7 +195,7 @@ Values:
 >
 > Connect to social networks to show profile photos and activity updates of your colleagues in Outlook. Select here to add networks.
 
-:::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/connect-to-social-networks-to-show-profile-photos-message.png" alt-text="The info-bar message that is affected by this policy setting." border="false":::
+:::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/connect-to-social-networks-to-show-profile-photos-message.png" alt-text="The info-bar message that is affected by this policy setting." border="false":::
 
 You're prompted with this message when you don't have any social network providers configured in your Outlook profile.
 
@@ -249,7 +249,7 @@ Values:
 
 The following figure displays the expected results in the People Pane when **DisableActivityDownload** = 1.
 
-:::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/activities-info-when-disableactivitydownload-is-1.png" alt-text="The expected results in the People Pane when Disable Activity Download is set to 1." border="false":::
+:::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/activities-info-when-disableactivitydownload-is-1.png" alt-text="The expected results in the People Pane when Disable Activity Download is set to 1." border="false":::
 
 ### Block social network contact synchronization
 
@@ -265,14 +265,14 @@ Values:
 
 When a social network synchronizes network contact information with Outlook, the network contact is stored in a local contacts folder in your mailbox. The following figure shows the LinkedIn contacts folder that was created by the default synchronization with a LinkedIn account.
 
-:::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/linkedin-contacts-folder.png" alt-text="The LinkedIn contacts folder in your mailbox." border="false":::
+:::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/linkedin-contacts-folder.png" alt-text="The LinkedIn contacts folder in your mailbox." border="false":::
 
 This folder isn't created if **DisableContactDownload** = 1.
 
 > [!NOTE]
 > Activity synchronization with the social network still occurs when **DisableContactDownload** = 1. This is demonstrated in the following figure.
 
-:::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/activity-synchronization-still-works-when-disablecontactdownload-is-1.png" alt-text="The activity synchronization with the social network still occurs when Disable Contact Download is set to 1." border="false":::
+:::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/activity-synchronization-still-works-when-disablecontactdownload-is-1.png" alt-text="The activity synchronization with the social network still occurs when Disable Contact Download is set to 1." border="false":::
 
 In this scenario, the contact photo isn't displayed in the People Pane because the photo isn't available when the local contacts folder isn't in your mailbox.
 
@@ -291,7 +291,7 @@ Values:
 > [!NOTE]
 > The contact item inspector displays the **Update** button even when **DisableContactGALSync** = 1. Select **Update** in the contact item to force a synchronization of the Active Directory information with the local contact item (The screenshot for this step is listed below).
 
-:::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/update-button-in-contacts-card.png" alt-text="The Update button is still shown when Disable Contact G A L Sync is set to 1." border="false":::
+:::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/update-button-in-contacts-card.png" alt-text="The Update button is still shown when Disable Contact G A L Sync is set to 1." border="false":::
 
 ### Prevent social network connectivity or Disable Office connections to social networks
 
@@ -310,7 +310,7 @@ Values:
 >
 > The following figure shows the **Social Network Accounts** dialog box when **DisableSocialNetworkConnectivity** = 1.
 
-:::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/social-network-accounts-dialog-box.png" alt-text="The screenshot of the Social Network Accounts dialog box when Disable Social Network Connectivity is set to 1." border="false":::
+:::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/social-network-accounts-dialog-box.png" alt-text="The screenshot of the Social Network Accounts dialog box when Disable Social Network Connectivity is set to 1." border="false":::
 
 ### Do not download details from Active Directory (not available in the Outlk14.adm and Outlk15.admx templates)
 
@@ -337,7 +337,7 @@ Network contact
 
 If the contact details are stored only in Active Directory, such as a photo, the People Pane doesn't display the details. This can be seen in the following figure where the contact's photo is available only in Active Directory, but their company name (Wingtiptoys) and title (Tester) are available from the OAB.
 
-:::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/contact-detials-not-showing-photo.png" alt-text="The screenshot of the contact details when the contact details are stored only in Active Directory." border="false":::
+:::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/contact-detials-not-showing-photo.png" alt-text="The screenshot of the contact details when the contact details are stored only in Active Directory." border="false":::
 
 #### Online mode
 
@@ -348,11 +348,11 @@ Network contact
 
 If the contact details are stored only in Active Directory, the People Pane doesn't display the contact details. This can be seen in the following figure where the first contact's photo, company name and title aren't displayed.
 
-:::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/contact-details-in-online-mode.png" alt-text="The screenshot of the contact details in online mode when the contact details are stored only in Active Directory.":::
+:::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/contact-details-in-online-mode.png" alt-text="The screenshot of the contact details in online mode when the contact details are stored only in Active Directory.":::
 
 In this same figure, the second contact's details are available in the local Contacts folder, so they're displayed in the People Pane. The source of the contact details is confirmed if you put your pointer over the contact photo (The screenshot for this step is listed below).
 
-:::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/contact-details-available-in-local-contacts-folder.png" alt-text="The screenshot of the contact details in online mode when the contact details are stored in the local Contacts folder.":::
+:::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/contact-details-available-in-local-contacts-folder.png" alt-text="The screenshot of the contact details in online mode when the contact details are stored in the local Contacts folder.":::
 
 ### Do not allow on-demand activity synchronization
 
@@ -438,13 +438,13 @@ And, by default in Outlook 2010, if the People Pane is expanded, the contact pho
 
 When **TurnOffPhotograph** = 1, contact photos aren't displayed, as shown in the following figures.
 
-:::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/contact-photos-not-shown-when-turnoffphotograph-is-set-to-1-example-1.png" alt-text="Example 1 about contact photo isn't displayed when Turn Off Photograph is set to 1." border="false":::
+:::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/contact-photos-not-shown-when-turnoffphotograph-is-set-to-1-example-1.png" alt-text="Example 1 about contact photo isn't displayed when Turn Off Photograph is set to 1." border="false":::
 
-:::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/contact-photos-not-shown-when-turnoffphotograph-is-set-to-1-example-2.png" alt-text="Example 2 about contact photo isn't displayed when Turn Off Photograph is set to 1." border="false":::
+:::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/contact-photos-not-shown-when-turnoffphotograph-is-set-to-1-example-2.png" alt-text="Example 2 about contact photo isn't displayed when Turn Off Photograph is set to 1." border="false":::
 
 When **TurnOffPhotograph** = 1, contact photos are also not displayed in the Outlook 2010 Contact Card or in the Outlook 2010 Address Book dialog box, as shown in the following figures. Outlook 2003 and Outlook 2007 don't have a contact card such as the one that is shown below, and these Outlook versions also don't display photos in the Address Book dialog box.
 
-:::image type="content" source="media/how-to-manage-outlook-social-connector-via-group-policy/contact-card-that-does-not-has-photos-in-outlook-old-versions.png" alt-text="Outlook 2003 and Outlook 2007 don't display photos in the Address Book dialog box." border="false":::
+:::image type="content" source="../../media/how-to-manage-outlook-social-connector-via-group-policy/contact-card-that-does-not-has-photos-in-outlook-old-versions.png" alt-text="Outlook 2003 and Outlook 2007 don't display photos in the Address Book dialog box." border="false":::
 
 ### Maximum number of items displayed in the People Pane (not available in the Outlk14.adm and Outlk15.admx templates)
 
