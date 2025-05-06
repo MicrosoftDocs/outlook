@@ -432,7 +432,7 @@ If the external user's organization and your organization are federated through 
 2. Do one of the following, and then select **Save**:
 
    - Use the drop-down menu to change the level of details that you're sharing with a person.
-   - Select the delete icon :::image type="icon" source="./media/how-to-share-calendar-and-contacts/delete-icon.png" alt-text="Screenshot of the delete icon."::: to stop sharing your calendar with a person.
+   - Select the delete icon :::image type="icon" source="../../media/how-to-share-calendar-and-contacts/delete-icon.png" alt-text="Screenshot of the delete icon."::: to stop sharing your calendar with a person.
 
         :::image type="content" source="../../media/how-to-share-calendar-and-contacts/stop-sharing-calendar.png" alt-text="Screenshot that shows the save option to save the permission setting.":::
 
