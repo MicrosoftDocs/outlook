@@ -1,61 +1,56 @@
 {
   "build": {
+    "dest": "m365-apps-outlook",
+
     "content": [
-      {
-        "src": "classic-outlook-for-windows",
+      { "src": "classic-outlook-for-windows",
+        "dest": "outlook",
         "files": ["**/*.md", "**/*.yml"],
-        "dest": "."
-      },
-      {
-        "src": "classic-outlook-for-mac",
+        "exclude": ["**/obj/**", "**/includes/**", "_themes/**", "_themes.pdf/**", "README.md", "LICENSE", "LICENSE-CODE", "ThirdPartyNotices"] },
+
+      { "src": "new-outlook-for-windows",
+        "dest": "outlook",
         "files": ["**/*.md", "**/*.yml"],
-        "dest": "."
-      },
-      {
-        "src": "new-outlook-for-windows",
+        "exclude": ["**/obj/**", "**/includes/**", "_themes/**", "_themes.pdf/**", "README.md", "LICENSE", "LICENSE-CODE", "ThirdPartyNotices"] },
+
+      { "src": "classic-outlook-for-mac",
+        "dest": "outlook",
         "files": ["**/*.md", "**/*.yml"],
-        "dest": "."
-      },
-      {
-        "src": "new-outlook-for-mac",
+        "exclude": ["**/obj/**", "**/includes/**", "_themes/**", "_themes.pdf/**", "README.md", "LICENSE", "LICENSE-CODE", "ThirdPartyNotices"] },
+
+      { "src": "new-outlook-for-mac",
+        "dest": "outlook",
         "files": ["**/*.md", "**/*.yml"],
-        "dest": "."
-      }
+        "exclude": ["**/obj/**", "**/includes/**", "_themes/**", "_themes.pdf/**", "README.md", "LICENSE", "LICENSE-CODE", "ThirdPartyNotices"] }
     ],
+
     "resource": [
-      {
-        "src": "classic-outlook-for-windows",
-        "files": ["**/*.png", "**/*.jpg", "**/*.gif", "**/*.svg"],
-        "dest": "."
-      },
-      {
-        "src": "classic-outlook-for-mac",
-        "files": ["**/*.png", "**/*.jpg", "**/*.gif", "**/*.svg"],
-        "dest": "."
-      },
-      {
-        "src": "new-outlook-for-windows",
-        "files": ["**/*.png", "**/*.jpg", "**/*.gif", "**/*.svg"],
-        "dest": "."
-      },
-      {
-        "src": "new-outlook-for-mac",
-        "files": ["**/*.png", "**/*.jpg", "**/*.gif", "**/*.svg"],
-        "dest": "."
-      }
+      { "src": "includes",
+        "dest": "outlook/includes",
+        "files": ["**/*.md", "**/*.yml"],
+        "exclude": ["**/obj/**", "_themes/**", "_themes.pdf/**", "**/docfx.json"] },
+
+      { "src": "media",
+        "dest": "outlook/media",
+        "files": ["**/*.jpg", "**/*.jpeg", "**/*.png", "**/*.gif", "**/*.svg"],
+        "exclude": ["**/obj/**", "_themes/**", "_themes.pdf/**", "**/docfx.json"] },
+
+      { "src": ".",
+        "dest": "outlook",
+        "files": ["**/*.jpg", "**/*.jpeg", "**/*.png", "**/*.gif", "**/*.svg"],
+        "exclude": [ "**/obj/**", "**/includes/**", "media/**", "_themes/**", "_themes.pdf/**", "**/docfx.json" ] }
     ],
-    "overwrite": [],
-    "externalReference": [],
+
     "globalMetadata": {
       "breadcrumb_path": "/microsoft-365-apps/outlook/breadcrumb/m365-apps-outlook/toc.json",
       "feedback_system": "Standard",
       "permissioned-type": "public",
       "uhfHeaderId": "MSDocsHeader-Outlook",
-      "contributors_to_exclude": [ 
-        "rjagiewich", 
-        "traya1", 
-        "rmca14", 
-        "claydetels19", 
+      "contributors_to_exclude": [
+        "rjagiewich",
+        "traya1",
+        "rmca14",
+        "claydetels19",
         "jborsecnik",
         "tiburd",
         "garycentric",
@@ -66,8 +61,11 @@
         "aditisrivastava07",
         "Ruchika-mittal01",
         "shdyas"
-        ]
+      ]
     },
+
+    "overwrite": [],
+    "externalReference": [],
     "fileMetadata": {},
     "template": []
   }
