@@ -2,6 +2,8 @@
 title: Add a shared mailbox as an additional account in Outlook Desktop
 description: Describes how to add a shared or regular mailbox as an additional account in Outlook for improved mailbox functionality, such as event reminders.
 manager: dcscontentpm
+author: Cloud-Writer
+ms.author: meerak
 audience: ITPro
 ms.topic: troubleshooting
 ms.custom: 

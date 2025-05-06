@@ -2,6 +2,8 @@
 title: Access public folders in Outlook for Windows
 description: Describes how to access your public folders in multiple versions of Outlook for Windows.
 manager: dcscontentpm
+author: Cloud-Writer
+ms.author: meerak
 audience: ITPro
 ms.topic: troubleshooting
 ms.custom: 

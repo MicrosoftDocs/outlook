@@ -2,6 +2,8 @@
 title: Embed and play back videos in Outlook and Loop
 description: Provides an overview of a new feature to embed and play back videos in Outlook email messages and Loop pages.
 manager: dcscontentpm
+author: Cloud-Writer
+ms.author: meerak
 audience: ITPro
 ms.topic: troubleshooting
 ms.custom: 

@@ -3,6 +3,8 @@ title: Shareable links overview and troubleshooting
 description: Provides an overview of shareable links in Outlook and resolutions for common issues.
 manager: dcscontentpm
 audience: ITPro
+author: Cloud-Writer
+ms.author: meerak
 ms.topic: troubleshooting
 ms.custom: 
   - sap:People or Contacts\SharePoint contacts
