@@ -91,9 +91,9 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Troubleshoot new Outlook
-            url: troubleshoot/troubleshoot-overview-new-outlook.md    
+            url: new-outlook-for-windows/troubleshoot/troubleshoot-overview-new-outlook.md    
           - text: Deployment issues in new Outlook
-            url: troubleshoot/troubleshoot-deployment-new-outlook.md
+            url: new-outlook-for-windows/troubleshoot/troubleshoot-deployment-new-outlook.md
   #    - linkListType: linkListType
   #      links:
   #        - text: linktext1
