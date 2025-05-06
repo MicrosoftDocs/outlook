@@ -3,67 +3,72 @@
     "dest": "m365-apps-outlook",
 
     "content": [
-      { "src": "classic-outlook-for-windows",
-        "dest": "outlook",
+      {
+        "src": "classic-outlook-for-windows",
+        "dest": ".",
         "files": ["**/*.md", "**/*.yml"],
-        "exclude": ["**/obj/**", "**/includes/**", "_themes/**", "_themes.pdf/**", "README.md", "LICENSE", "LICENSE-CODE", "ThirdPartyNotices"] },
-
-      { "src": "new-outlook-for-windows",
-        "dest": "outlook",
+        "exclude": [ "**/obj/**", "**/includes/**", "_themes/**",
+                     "_themes.pdf/**", "README.md", "LICENSE",
+                     "LICENSE-CODE", "ThirdPartyNotices" ]
+      },
+      {
+        "src": "new-outlook-for-windows",
+        "dest": ".",
         "files": ["**/*.md", "**/*.yml"],
-        "exclude": ["**/obj/**", "**/includes/**", "_themes/**", "_themes.pdf/**", "README.md", "LICENSE", "LICENSE-CODE", "ThirdPartyNotices"] },
-
-      { "src": "classic-outlook-for-mac",
-        "dest": "outlook",
+        "exclude": [ "**/obj/**", "**/includes/**", "_themes/**",
+                     "_themes.pdf/**", "README.md", "LICENSE",
+                     "LICENSE-CODE", "ThirdPartyNotices" ]
+      },
+      {
+        "src": "classic-outlook-for-mac",
+        "dest": ".",
         "files": ["**/*.md", "**/*.yml"],
-        "exclude": ["**/obj/**", "**/includes/**", "_themes/**", "_themes.pdf/**", "README.md", "LICENSE", "LICENSE-CODE", "ThirdPartyNotices"] },
-
-      { "src": "new-outlook-for-mac",
-        "dest": "outlook",
+        "exclude": [ "**/obj/**", "**/includes/**", "_themes/**",
+                     "_themes.pdf/**", "README.md", "LICENSE",
+                     "LICENSE-CODE", "ThirdPartyNotices" ]
+      },
+      {
+        "src": "new-outlook-for-mac",
+        "dest": ".",
         "files": ["**/*.md", "**/*.yml"],
-        "exclude": ["**/obj/**", "**/includes/**", "_themes/**", "_themes.pdf/**", "README.md", "LICENSE", "LICENSE-CODE", "ThirdPartyNotices"] }
+        "exclude": [ "**/obj/**", "**/includes/**", "_themes/**",
+                     "_themes.pdf/**", "README.md", "LICENSE",
+                     "LICENSE-CODE", "ThirdPartyNotices" ]
+      }
     ],
-
     "resource": [
-      { "src": "includes",
-        "dest": "outlook/includes",
+      {
+        "src": "includes",
+        "dest": "includes",
         "files": ["**/*.md", "**/*.yml"],
-        "exclude": ["**/obj/**", "_themes/**", "_themes.pdf/**", "**/docfx.json"] },
-
-      { "src": "media",
-        "dest": "outlook/media",
-        "files": ["**/*.jpg", "**/*.jpeg", "**/*.png", "**/*.gif", "**/*.svg"],
-        "exclude": ["**/obj/**", "_themes/**", "_themes.pdf/**", "**/docfx.json"] },
-
-      { "src": ".",
-        "dest": "outlook",
-        "files": ["**/*.jpg", "**/*.jpeg", "**/*.png", "**/*.gif", "**/*.svg"],
-        "exclude": [ "**/obj/**", "**/includes/**", "media/**", "_themes/**", "_themes.pdf/**", "**/docfx.json" ] }
+        "exclude": ["**/obj/**", "_themes/**", "_themes.pdf/**", "**/docfx.json"]
+      },
+      {
+        "src": "media",
+        "dest": "media",
+        "files": [ "**/*.jpg", "**/*.jpeg", "**/*.png", "**/*.gif", "**/*.svg" ],
+        "exclude": ["**/obj/**", "_themes/**", "_themes.pdf/**", "**/docfx.json"]
+      },
+      {
+        "src": ".",
+        "dest": ".",
+        "files": [ "**/*.jpg", "**/*.jpeg", "**/*.png", "**/*.gif", "**/*.svg" ],
+        "exclude": [ "**/obj/**", "**/includes/**", "media/**",
+                     "_themes/**", "_themes.pdf/**", "**/docfx.json" ]
+      }
     ],
-
     "globalMetadata": {
       "breadcrumb_path": "/microsoft-365-apps/outlook/breadcrumb/m365-apps-outlook/toc.json",
       "feedback_system": "Standard",
       "permissioned-type": "public",
       "uhfHeaderId": "MSDocsHeader-Outlook",
       "contributors_to_exclude": [
-        "rjagiewich",
-        "traya1",
-        "rmca14",
-        "claydetels19",
-        "jborsecnik",
-        "tiburd",
-        "garycentric",
-        "v-stchambers",
-        "v-stsavell",
-        "American-Dipper",
-        "padmagit77",
-        "aditisrivastava07",
-        "Ruchika-mittal01",
-        "shdyas"
+        "rjagiewich","traya1","rmca14","claydetels19",
+        "jborsecnik","tiburd","garycentric","v-stchambers",
+        "v-stsavell","American-Dipper","padmagit77",
+        "aditisrivastava07","Ruchika-mittal01","shdyas"
       ]
     },
-
     "overwrite": [],
     "externalReference": [],
     "fileMetadata": {},
