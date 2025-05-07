@@ -1,5 +1,5 @@
 items:
-  name: Welcome to classic Outlook for Windows
+- name: Welcome to classic Outlook for Windows
   href: ../overview-classic-outlook-windows.md
   items:
   - name: Configuration
