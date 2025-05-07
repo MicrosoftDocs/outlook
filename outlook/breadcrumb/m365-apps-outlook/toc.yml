@@ -12,13 +12,13 @@ items:
         topicHref: /microsoft-365-apps/outlook-temp/index
         items:
           - name: Classic Outlook for Windows
-            tocHref: /microsoft-365-apps/outlook-temp/
+            tocHref: /microsoft-365-apps/outlook-temp/classic-outlook-for-windows
             topicHref: /microsoft-365-apps/outlook-temp/index
           - name: New Outlook for Mac
-            tocHref: /microsoft-365-apps/outlook-temp/
+            tocHref: /microsoft-365-apps/outlook-temp/new-outlook-for-mac
             topicHref: /microsoft-365-apps/outlook-temp/index
           - name: New Outlook for Windows
-            tocHref: /microsoft-365-apps/outlook-temp/
+            tocHref: /microsoft-365-apps/outlook-temp/new-outlook-for-windows
             topicHref: /microsoft-365-apps/outlook-temp/new-outlook-for-windows/overview-new-outlook
 
   - name: Microsoft 365 Apps
