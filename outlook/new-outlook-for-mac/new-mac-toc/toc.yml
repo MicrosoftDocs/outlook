@@ -2,10 +2,6 @@ items:
 - name: Welcome to new Outlook for Mac
   href: ../overview-new-outlook-mac.md
   items:
-    - name: Authentication
-      items:
-        - name: Manage the Google sign-in prompt
-          href: ../authentication/manage-google-sign-in-prompt.md
     - name: Connectivity
       items:
         - name: Suppress Microsoft 365 AutoDiscover redirect warning
