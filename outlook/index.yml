@@ -37,14 +37,14 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-          - text: Product availability
-            url: new-outlook-for-windows/get-started/guide-product-availability.md
+          - text: Deploy new Outlook
+            url: new-outlook-for-windows/get-started/deployment-new-outlook.md
           - text: Licensing options
             url: new-outlook-for-windows/get-started/licensing-options.md
           - text: Plan migration
             url: new-outlook-for-windows/get-started/migration-planning.md
-          - text: Deploy new Outlook
-            url: new-outlook-for-windows/get-started/deployment-new-outlook.md
+          - text: Product availability
+            url: new-outlook-for-windows/get-started/guide-product-availability.md
       #- linkListType: linkListType
       #  links:
       #    - text: linktext1
@@ -60,7 +60,7 @@ landingContent:
           - text: Manage updates
             url: new-outlook-for-windows/manage/manage-updates-new-outlook-windows.md
           - text: Microsoft 365 Reports in the admin center - Microsoft 365 Apps usage
-            url: /microsoft-365/admin/activity-reports/microsoft365-apps-usage
+            url: /microsoft-365/admin/activity-reports/microsoft365-apps-usage?context=/microsoft-365-apps/outlook-temp/context/new-windows-context
   #    - linkListType: linkListType
   #      links:
   #        - text: linktext1
@@ -73,10 +73,10 @@ landingContent:
     linkLists: 
       - linkListType: how-to-guide
         links:
+          - text: Data loss prevention policy tips
+            url: /purview/dlp-policy-reference-new-outlook?context=/microsoft-365-apps/outlook-temp/context/new-windows-context
           - text: Security and compliance
             url: new-outlook-for-windows/security/security-compliance.md
-          - text: Data loss prevention policy tips
-            url: /purview/dlp-policy-reference-new-outlook    
   #    - linkListType: linkListType
   #      links:
   #        - text: linktext1
@@ -89,10 +89,12 @@ landingContent:
     linkLists: 
       - linkListType: how-to-guide
         links:
-          - text: Troubleshoot new Outlook
-            url: new-outlook-for-windows/troubleshoot/troubleshoot-overview-new-outlook.md    
           - text: Deployment issues in new Outlook
             url: new-outlook-for-windows/troubleshoot/troubleshoot-deployment-new-outlook.md
+          - text: Shared mailbox issues in new Outlook
+            url: troubleshoot/troubleshoot-shared-mailboxes-new-outlook.md
+          - text: Troubleshoot new Outlook
+            url: new-outlook-for-windows/troubleshoot/troubleshoot-overview-new-outlook.md
   #    - linkListType: linkListType
   #      links:
   #        - text: linktext1
