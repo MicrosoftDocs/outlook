@@ -20,4 +20,4 @@ ms.date: 11/09/2023
 
 The classic Outlook for Windows is reimagined to be more agile, deliver faster feature deployment and availability, and provide a consistent experience in Windows.
 
-classic Outlook is currently offered as a preview for commercial accounts and is generally available for consumer accounts.
+Classic Outlook is currently offered as a preview for commercial accounts and is generally available for consumer accounts.
