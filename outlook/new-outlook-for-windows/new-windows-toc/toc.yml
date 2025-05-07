@@ -55,7 +55,7 @@ items:
     href: ../manage/admin-controlled-migration-policy.md
   - name: Policy management
     href: ../manage/policy-management.md
-- name: Manage
+- name: Message Body
   items:
   - name: Embed and play back videos in Outlook and Loop
     href: ../message-body/embed-playback-videos-in-outlook-and-loop.md
