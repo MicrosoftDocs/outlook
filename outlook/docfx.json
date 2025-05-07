@@ -141,6 +141,7 @@
     "overwrite": [],
     "externalReference": [],
     "fileMetadata": {},
+    "dest": "m365-apps-outlook",
     "template": []
   }
 }
