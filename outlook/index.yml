@@ -23,6 +23,10 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
+          - text: Welcome to Classic Outlook for Windows
+            url: classic-outlook-for-windows/overview-classic-outlook-windows.md
+          - text: Welcome to new Outlook for Mac
+            url: new-outlook-for-mac/overview-new-outlook-mac.md
           - text: Welcome to new Outlook for Windows
             url: new-outlook-for-windows/overview-new-outlook-windows.md
       #- linkListType: linkListType
