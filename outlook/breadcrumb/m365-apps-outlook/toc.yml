@@ -6,43 +6,27 @@ items:
   - name: Microsoft 365 Apps
     tocHref: /microsoft-365-apps/
     topicHref: /microsoft-365-apps/index
-    items:
-      - name: Outlook
-        tocHref: /microsoft-365-apps/outlook-temp/
-        topicHref: /microsoft-365-apps/outlook-temp/index
 
   - name: Microsoft 365 Apps
     tocHref: /purview/
     topicHref: /microsoft-365-apps/index
     items:
-      - name: Outlook
+      - name: New Outlook for Windows
         tocHref: /purview/
-        topicHref: /microsoft-365-apps/outlook-temp/index
-        items:
-          - name: New Outlook for Windows
-            tocHref: /purview/
-            topicHref: /microsoft-365-apps/outlook-temp/new-outlook-for-windows/overview-new-outlook
+        topicHref: /microsoft-365-apps/outlook-temp/new-outlook-for-windows/overview-new-outlook
 
   - name: Microsoft 365 Apps
     tocHref: /powershell/
     topicHref: /microsoft-365-apps/index
     items:
-      - name: Outlook
+      - name: New Outlook for Windows
         tocHref: /powershell/
-        topicHref: /microsoft-365-apps/outlook-temp/index
-        items:
-          - name: New Outlook for Windows
-            tocHref: /powershell/
-            topicHref: /microsoft-365-apps/outlook-temp/new-outlook-for-windows/overview-new-outlook
+        topicHref: /microsoft-365-apps/outlook-temp/new-outlook-for-windows/overview-new-outlook
 
   - name: Microsoft 365 Apps
     tocHref: /microsoft-365/
     topicHref: /microsoft-365-apps/index
     items:
-      - name: Outlook
+      - name: New Outlook for Windows
         tocHref: /microsoft-365/
-        topicHref: /microsoft-365-apps/outlook-temp/index
-        items:
-          - name: New Outlook for Windows
-            tocHref: /microsoft-365/
-            topicHref: /microsoft-365-apps/outlook-temp/new-outlook-for-windows/overview-new-outlook
+        topicHref: /microsoft-365-apps/outlook-temp/new-outlook-for-windows/overview-new-outlook
