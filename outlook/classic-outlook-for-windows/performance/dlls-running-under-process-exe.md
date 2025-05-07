@@ -31,13 +31,13 @@ Third-party add-ins or other software on your computer can potentially cause pro
 
    2. Select the **OUTLOOK.EXE** process.
 
-   3. Select **View** \> **Show Lower Pane** to show the lower pane.
+   3. Select **View** \> **Show Lower Pane** to show the lower pane.
 
-   4. Select **View** \> **Lower Pane View** \> **DLLs** to list the DLL files that run under the Outlook.exe process.
+   4. Select **View** \> **Lower Pane View** \> **DLLs** to list the DLL files that run under the Outlook.exe process.
 
    5. In the lower-pane, right-click on any column header, select the **Select Columns** \> **DLL** \> **Version** checkbox, and then select **OK**.
 
-   6. Select **File** \> **Save As** \> **Save** to save the lower-pane data to a tab-delimited text file.
+   6. Select **File** \> **Save As** \> **Save** to save the lower-pane data to a tab-delimited text file.
 
 3. In Microsoft Excel:
 
@@ -45,7 +45,7 @@ Third-party add-ins or other software on your computer can potentially cause pro
 
    2. In the Text Import Wizard, accept the default options, and then select **Finish**.
 
-   3. On the row that contains the **Name**, **Description**, **Company**, **Path**, and **Version** column headers:
+   3. On the row that contains the **Name**, **Description**, **Company**, **Path**, and **Version** column headers:
 
    4. Right-click the **Name** cell and add a [filter](https://support.microsoft.com/office/filter-data-in-a-range-or-table-01832226-31b5-4568-8806-38c37dcc180e) to only show values that contain ".dll". The filtered list contains all Microsoft and third-party DLLs that run under the Outlook.exe process.
 

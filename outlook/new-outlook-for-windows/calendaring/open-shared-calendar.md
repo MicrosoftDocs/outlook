@@ -26,11 +26,11 @@ If you're using Microsoft 365 and Exchange Online, see [Calendar sharing in Micr
 
 If you're using Microsoft Exchange Server, see the article that's appropriate for your Outlook email client:
 
-- Outlook for Windows: [Share an Outlook calendar with other people](https://support.microsoft.com/office/share-an-outlook-calendar-with-other-people-353ed2c1-3ec5-449d-8c73-6931a0adab88)
-- Outlook on the Web: [Share your calendar in Outlook on the web for business](https://support.microsoft.com/office/share-your-calendar-in-outlook-on-the-web-7ecef8ae-139c-40d9-bae2-a23977ee58d5)
-- Outlook for Mac: [Delegation and shared calendars in Outlook for Mac](https://support.microsoft.com/office/delegation-and-shared-calendars-in-outlook-for-mac-975d97a3-b43d-433d-8f26-e28be96986c5)
+- Outlook for Windows: [Share an Outlook calendar with other people](https://support.microsoft.com/office/share-an-outlook-calendar-with-other-people-353ed2c1-3ec5-449d-8c73-6931a0adab88)
+- Outlook on the Web: [Share your calendar in Outlook on the web for business](https://support.microsoft.com/office/share-your-calendar-in-outlook-on-the-web-7ecef8ae-139c-40d9-bae2-a23977ee58d5)
+- Outlook for Mac: [Delegation and shared calendars in Outlook for Mac](https://support.microsoft.com/office/delegation-and-shared-calendars-in-outlook-for-mac-975d97a3-b43d-433d-8f26-e28be96986c5)
 - Outlook for Mobile: [Calendar sharing in Outlook mobile](https://support.microsoft.com/office/calendar-sharing-in-outlook-mobile-e6c3563d-8dfb-4de3-bff8-c630d4a265ec)
-- Outlook.com: [Share your calendar in Outlook.com](https://support.microsoft.com/office/share-your-calendar-in-outlook-com-0fc1cb48-569d-4d1e-ac20-5a9b3f5e6ff2)
+- Outlook.com: [Share your calendar in Outlook.com](https://support.microsoft.com/office/share-your-calendar-in-outlook-com-0fc1cb48-569d-4d1e-ac20-5a9b3f5e6ff2)
 
 ## Open a calendar that's been shared with you
 

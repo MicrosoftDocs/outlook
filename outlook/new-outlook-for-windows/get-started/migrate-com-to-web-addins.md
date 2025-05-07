@@ -40,7 +40,7 @@ If your organization is currently using web add-ins, no extra effort is required
 1. **Check your installed COM add-ins**: You can check installed COM/VSTO add-ins from the Microsoft 365 Apps health dashboard in the [Microsoft 365 Apps admin center](https://config.office.com/). To find your installed apps, follow the instructions in [Add-in health](/microsoft-365-apps/admin-center/microsoft-365-apps-health#add-in-health)—and be sure to filter out only the Outlook add-ins.
 2. **Identify the mission-critical COM add-ins from this list**: Often, organizations have unused COM add-ins installed that are no longer relevant. It's important to identify and prioritize the COM add-ins that are actively used by your organization in preparation for the new Outlook for Windows. To identify the relevant COM add-ins, collaborate with your relevant business groups or IT teams.
 
-   Some Microsoft COM add-ins might be deployed within your organization. The plan for these COM add-ins is detailed in [Identify COM add-ins in your organization](state-of-com-add-ins.md).
+   Some Microsoft COM add-ins might be deployed within your organization. The plan for these COM add-ins is detailed in [Identify COM add-ins in your organization](state-of-com-add-ins.md).
 
 1. **Check if web add-ins are available for use**: If a web add-in is available, install, test, and assess it for usage with the new Outlook for Windows. You can follow the steps in [Deploy and manage Office Add-ins](/microsoft-365/admin/manage/office-addins) to install a web add-in.
 
@@ -55,7 +55,7 @@ If your organization is currently using web add-ins, no extra effort is required
      | Cisco Webex Meetings                    | Online Meetings        | [Cisco Webex Scheduler](https://appsource.microsoft.com/product/office365/wa104382035)               |
      | Citrix Files for Outlook                | Attachment Management  | [ShareFile](https://appsource.microsoft.com/product/office/WA200007922)                           |
      | Cofense Reporter                        | Phishing/Spam Reporting| PRIVATE- Cofense                    |
-     |Colligo|Email and attachment management|[Colligo Email Manager for Office 365](https://appsource.microsoft.com/en-us/product/office/WA104381868?tab=Overview) |
+     |Colligo|Email and attachment management|[Colligo Email Manager for Office 365](https://appsource.microsoft.com/en-us/product/office/WA104381868?tab=Overview) |
      | Egress                                  | Encryption & Classification | [Egress Protect](https://appsource.microsoft.com/product/office365/wa104381968)               |
      | Evernote.Outlook                        | Productivity           | [Evernote](https://appsource.microsoft.com/product/office365/wa104379617)                            |
      | Google Meet Outlook Add-in              | Online Meetings        | [Google Meet Add-In](https://appsource.microsoft.com/product/office365/wa104381851)                  |
