@@ -24,7 +24,7 @@ landingContent:
       - linkListType: overview
         links:
           - text: Welcome to new Outlook for Windows
-            url: new-outlook-for-windows/overview-new-outlook.md
+            url: new-outlook-for-windows/overview-new-outlook-windows.md
       #- linkListType: linkListType
       #  links:
       #    - text: linktext1
