@@ -92,7 +92,7 @@ landingContent:
           - text: Deployment issues in new Outlook
             url: new-outlook-for-windows/troubleshoot/troubleshoot-deployment-new-outlook.md
           - text: Shared mailbox issues in new Outlook
-            url: troubleshoot/troubleshoot-shared-mailboxes-new-outlook.md
+            url: new-outlook-for-windows/troubleshoot/troubleshoot-shared-mailboxes-new-outlook.md
           - text: Troubleshoot new Outlook
             url: new-outlook-for-windows/troubleshoot/troubleshoot-overview-new-outlook.md
   #    - linkListType: linkListType
