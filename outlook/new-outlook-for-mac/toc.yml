@@ -1,0 +1,18 @@
+- name: Welcome to new Outlook for Mac
+  items:
+    - name: Authentication
+      items:
+        - name: Manage the Google sign-in prompt
+          href: authentication/manage-google-sign-in-prompt.md
+    - name: Connectivity
+      items:
+        - name: Suppress Microsoft 365 AutoDiscover redirect warning
+          href: connectivity/suppress-autodiscover-redirect-warning.md
+    - name: Diagnostic Logging
+      items:
+        - name: Enable logging
+          href: diagnostic-logging/enable-logging.md
+    - name: Import/Export
+      items:
+        - name: Can't import .olm files
+          href: import-and-export/cannot-import-olm-files.md
