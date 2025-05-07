@@ -27,7 +27,7 @@ In today's collaborative work environment, content moves freely across devices, 
 
 The screenshot below shows the sensitivity label in the compose pane of a new message in new Outlook. Users can select the [sensitivity bar](/purview/sensitivity-labels-office-apps#sensitivity-bar) (1) to update the sensitivity label. Users can also apply the **Sensitivity** label from the ribbon (2) by selecting the **Options** tab, and then in the **Tags** group, select **Sensitivity**.
 
-:::image type="content" source="media/compose-sensitivity-label.png" alt-text="Screenshot of the compose message pane with the first callout showing the sensitivity label options after selecting the Sensitivity bar. The second callout shows the ribbon location of the Sensitivity icon in the Tags group":::
+:::image type="content" source="../../media/security-compliance/compose-sensitivity-label.png" alt-text="Screenshot of the compose message pane with the first callout showing the sensitivity label options after selecting the Sensitivity bar. The second callout shows the ribbon location of the Sensitivity icon in the Tags group":::
 
 > [!NOTE]
 > IRM protection can't be applied to a message that is already signed or encrypted using S/MIME. To apply IRM protection, S/MIME signature and encryption must be removed from the message. The same applies for IRM-protected messages; users can't sign or encrypt them by using S/MIME.
@@ -47,7 +47,7 @@ IRM protection can't be applied to a message that is already signed or encrypted
 
 Encryption can be applied using the **Encrypt** button in the ribbon or can be configured with Labels.
 
-:::image type="content" source="media/compose-encrypt.png" alt-text="Screenshot of a new message showing encryption options under the Options tab on the ribbon":::
+:::image type="content" source="../../media/security-compliance/compose-encrypt.png" alt-text="Screenshot of a new message showing encryption options under the Options tab on the ribbon":::
 
 For more information related to IRM, see [Email encryption](/purview/email-encryption).
 

@@ -45,7 +45,7 @@ Admins should use the following parameters on the **Set-OwaMailboxPolicy** cmdle
 
 Users can change the primary account in **Settings** \> **Accounts** \> **Email accounts** \> **Manage** for the account they want to designate as primary.
 
-:::image type="content" source="../manage/media/policy-management/policy-email-accounts-settings.png" alt-text="Screenshot that shows how to change the primary account in Email accounts Settings." lightbox="../manage/media/policy-management/policy-email-accounts-settings-lb.png":::
+:::image type="content" source="../../media/policy-management/policy-email-accounts-settings.png" alt-text="Screenshot that shows how to change the primary account in Email accounts Settings." lightbox="../../media/policy-management/policy-email-accounts-settings-lb.png":::
 
 The `ChangeSettingsAccountEnabled` parameter on the **Set-OwaMailboxPolicy** cmdlet allows admins to set the organization account as primary to ensure their policies are applied. Check the syntax at [Set-OwaMailboxPolicy -ChangeSettingsAccountEnabled](/powershell/module/exchange/set-owamailboxpolicy#-changesettingsaccountenabled).
 
@@ -133,7 +133,7 @@ For more information, see [Manage Loop components in OneDrive and SharePoint](/m
 
 Organizations can control whether connected experiences or diagnostic data can be sent from the new Outlook for Windows. This capability is part of our commitment to giving you the information and controls over your privacy.
 
-:::image type="content" source="../manage/media/policy-management/policy-privacy-settings.png" alt-text="Screenshot that shows how to turn on optional connected experiences in privacy settings." lightbox="../manage/media/policy-management/policy-privacy-settings-lb.png":::
+:::image type="content" source="../../media/policy-management/policy-privacy-settings.png" alt-text="Screenshot that shows how to turn on optional connected experiences in privacy settings." lightbox="../../media/policy-management/policy-privacy-settings-lb.png":::
 
 For more information, see [Use policy settings to manage privacy controls for Microsoft 365 Apps for enterprise](/microsoft-365-apps/privacy/manage-privacy-controls).
 
@@ -141,7 +141,7 @@ For more information, see [Use policy settings to manage privacy controls for Mi
 
 New Outlook provides [in-product feedback](/microsoft-365/admin/misc/feedback-user-control#in-product-feedback) that can be managed as part of Microsoft 365 wide settings for Feedback in Cloud Policy:
 
-:::image type="content" source="../manage/media/policy-management/policy-feeback.png" alt-text="Screenshot that shows how to provide in-product feedback through Feedback to Microsoft." lightbox="../manage/media/policy-management/policy-feeback-lb.png":::
+:::image type="content" source="../../media/policy-management/policy-feeback.png" alt-text="Screenshot that shows how to provide in-product feedback through Feedback to Microsoft." lightbox="../../media/policy-management/policy-feeback-lb.png":::
 
 For more information, see [Manage Microsoft feedback for your organization](/microsoft-365/admin/manage/manage-feedback-ms-org).
 
@@ -149,11 +149,11 @@ For more information, see [Manage Microsoft feedback for your organization](/mic
 
 Disable contact support is configured via [Cloud Policy](/microsoft-365-apps/admin-center/overview-cloud-policy) for a Microsoft 365 organization from the [Microsoft 365 Apps admin center](https://config.office.com), specifically on the [Office Policies](https://config.office.com/officeSettings/officePolicies) page.
 
-:::image type="content" source="../manage/media/policy-management/policy-configure-setting.png" alt-text="Screenshot of the Configure Settings page in the Microsoft 365 Apps admin center. It shows the policy management process with steps for Basics, Scope, Policies, and Review and publish. The Policies section lists five policies related to the new Outlook, including their platforms, applications, and status, all marked as Not configured." lightbox="../manage/media/policy-management/policy-configure-setting-lb.png":::
+:::image type="content" source="../../media/policy-management/policy-configure-setting.png" alt-text="Screenshot of the Configure Settings page in the Microsoft 365 Apps admin center. It shows the policy management process with steps for Basics, Scope, Policies, and Review and publish. The Policies section lists five policies related to the new Outlook, including their platforms, applications, and status, all marked as Not configured." lightbox="../../media/policy-management/policy-configure-setting-lb.png":::
 
 When you create a policy, after providing a name and setting a scope, you can search for *new outlook* from the Policies screen. It brings up all the available policies for new Outlook for Windows. One of those policies is *Allow access to Contact Support in the new Outlook*. This policy can be configured as **Disabled** to disable the **Contact Support** option under the Help menu in new Outlook.
 
-:::image type="content" source="../manage/media/policy-management/policy-allow-access-contact-small.png" alt-text="Screenshot of Allow access to Contact Support in the new Outlook policy settings, showing default, enabled, and disabled configurations, and a note on diagnostic troubleshooting. The configuration setting is shown as Disabled." lightbox="../manage/media/policy-management/policy-allow-access-contact-lb.png":::
+:::image type="content" source="../../media/policy-management/policy-allow-access-contact-small.png" alt-text="Screenshot of Allow access to Contact Support in the new Outlook policy settings, showing default, enabled, and disabled configurations, and a note on diagnostic troubleshooting. The configuration setting is shown as Disabled." lightbox="../../media/policy-management/policy-allow-access-contact-lb.png":::
 
 ## Disable toggle from classic Outlook for Windows
 

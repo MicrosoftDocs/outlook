@@ -76,7 +76,7 @@ For detailed instructions, see [Deploy New Outlook](/microsoft-365-apps/outlook/
 
 For more information, see [Installation issues due to policy restrictions](../troubleshoot/troubleshoot-deployment-new-outlook.md#installation-issues-due-to-policy-restrictions).
 
-## Disk Footprint – Key Folders and Location
+## Disk Footprint - Key Folders and Location
 
 > [!IMPORTANT]
 > For non-persistent VDI environments, [FSLogix](/fslogix/overview-what-is-fslogix) does not support roaming user data in the new Outlook for Windows.

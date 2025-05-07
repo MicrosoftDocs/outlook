@@ -25,10 +25,10 @@ End user support documentation: [Newsletters](https://support.microsoft.com/topi
 
 Access to Outlook Newsletters is managed using the OwaMailboxPolicy.OutlookNewslettersAccessLevel property. This property can be set using the `Set-OwaMailboxPolicy` cmdlet available in the Exchange Management Shell. There are four values for this property:
 
-`ReadWrite` – user has full authoring permissions to create pages and newsletters in the Outlook Newsletters module.  
-`ReadOnly` – user can read newsletters and browse pages in the Outlook Newsletters module. 
-`NoAccess` – user can't access the Outlook Newsletters module in the New Outlook for Windows or Outlook for the Web. They can still read any email messages sent or forwarded to them in Mail.  
-`Undefined` – if the value is undefined (never explicitly set by your organization's administrator), the Microsoft 365 service defaults to NoAccess while Outlook Newsletters is in Preview and to ReadWrite when it reaches global availability.
+`ReadWrite` - user has full authoring permissions to create pages and newsletters in the Outlook Newsletters module.  
+`ReadOnly` - user can read newsletters and browse pages in the Outlook Newsletters module. 
+`NoAccess` - user can't access the Outlook Newsletters module in the New Outlook for Windows or Outlook for the Web. They can still read any email messages sent or forwarded to them in Mail.  
+`Undefined` - if the value is undefined (never explicitly set by your organization's administrator), the Microsoft 365 service defaults to NoAccess while Outlook Newsletters is in Preview and to ReadWrite when it reaches global availability.
 
 > [!NOTE]
 > All users can read the email messages generated when publishing a newsletter to mail recipients, regardless of the `ReadOnly` permission level.  
