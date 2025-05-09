@@ -121,7 +121,7 @@ In Outlook 2016 for Mac version 15.12.3 and later versions, the log file opens i
 |Sync|outlook.sync|
 
 > [!NOTE]
-> The log file may also contain user information. This includes user name, sender and receiver's email addresses, and the contents of the user's email messages, notes, tasks, calendar, and contacts. Microsoft does not use this information to contact users without their consent. If you are concerned that the data file contains sensitive or confidential information, you may review the contents of the data file by using text-editing software and then remove the information from the file before you send the data file to support professionals. Authentication information is not included in the log files.
+> The log file may also contain user information. This includes user name, sender and receiver's email addresses, and the contents of the user's email messages, notes, tasks, calendar, and contacts. Microsoft doesn't use this information to contact users without their consent. If you are concerned that the data file contains sensitive or confidential information, you may review the contents of the data file by using text-editing software and then remove the information from the file before you send the data file to support professionals. Authentication information is not included in the log files.
 
 #### EWS SyncState message size
 
