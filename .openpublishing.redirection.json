@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "outlook/new-outlook-for-windows/index.yml",
+      "redirect_url": "/microsoft-365-apps/outlook/overview-new-outlook-windows",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "outlook/new-outlook-for-windows/overview-new-outlook.md",
       "redirect_url": "/microsoft-365-apps/outlook/overview-new-outlook-windows",
       "redirect_document_id": false
