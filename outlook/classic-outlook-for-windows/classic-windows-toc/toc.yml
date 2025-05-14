@@ -1,0 +1,94 @@
+items:
+- name: Welcome to classic Outlook for Windows
+  href: ../overview-classic-outlook-windows.md
+  items:
+  - name: Configuration
+    items:
+    - name: Cached Exchange Mode
+      href: ../configuration/cached-exchange-mode.md
+    - name: Control PST use and creation
+      href: ../configuration/control-pst-use.md
+    - name: Force Outlook to resolve proxy addresses and custom properties
+      href: ../configuration/force-outlook-to-resolve-proxy-addresses.md
+    - name: How to manage the Outlook Social Connector by using Group Policy
+      href: ../configuration/manage-outlook-social-connector.md
+    - name: Planning considerations
+      href: ../configuration/plan-outlook-deployment.md
+    - name: Remove the Get and set up Outlook Mobile app on my phone option
+      href: ../configuration/remove-get-and-set-up-outlook-mobile-app-option.md
+    - name: Synchronization monitor improvements
+      href: ../configuration/sync-monitor-improvements.md
+  - name: Connectivity
+    items:
+    - name: How to suppress AutoDiscover redirect warning
+      href: ../connectivity/suppress-autodiscover-redirect-warning.md
+    - name: Suppress AutoDiscover mismatch warning
+      href: ../connectivity/suppress-autodiscover-mismatch-warning.md
+  - name: Contacts
+    items:
+    - name: How to hide columns in Address Book
+      href: ../contacts/hide-columns-in-address-book.md
+    - name: The Outlook AutoComplete list
+      href: ../contacts/outlook-autocomplete-list.md
+  - name: Data Files
+    items:
+    - name: How to change the folder where emails and attachments are saved
+      href: ../data-files/change-the-default-save-folder.md
+    - name: How to disable the background save feature
+      href: ../data-files/disable-background-save-feature.md
+    - name: Inbox Repair tool (Scanpst.exe) can run multiple passes
+      href: ../data-files/scanpst-exe-runs-multiple-passes.md
+    - name: Manage download settings for shared mail folders
+      href: ../data-files/shared-mail-folders-in-cached-exchange-mode.md
+    - name: Only some emails are synchronized
+      href: ../data-files/fewer-emails-in-shared-mailboxes-or-public-folders.md
+  - name: Email Management
+    items:
+    - name: How to emulate Out of Office Assistant
+      href: ../email-management/emulate-out-of-office-assistant.md
+    - name: Remove duplicate folders when connected to an Exchange Server mailbox
+      href: ../email-management/remove-duplicate-folders.md
+    - name: Shareable links functionality
+      href: ../email-management/shareable-links-functionality.md
+  - name: Performance
+    items:
+    - name: Application event log entries for add-in load time
+      href: ../performance/log-entries-for-add-ins.md
+    - name: Enable transport logging
+      href: ../performance/enable-transport-logging.md
+    - name: Using Process Explorer to list dlls running under Outlook.exe
+      href: ../performance/dlls-running-under-process-exe.md
+  - name: Profiles and Accounts
+    items:
+    - name: Add a shared mailbox as an additional account
+      href: ../profiles-and-accounts/add-shared-mailbox-as-additional-account.md
+    - name: Enable ZeroConfigExchange automatically create first profile
+      href: ../profiles-and-accounts/zeroconfigexchange.md
+    - name: How to control AutoDiscover via Group Policy
+      href: ../profiles-and-accounts/control-autodiscover-via-group-policy.md
+    - name: Remove automapping for shared mailbox
+      href: ../profiles-and-accounts/remove-automapping-for-shared-mailbox.md
+  - name: Security
+    items:
+    - name: How to block additional attachment file name extensions
+      href: ../security/block-additional-attachment-file-name-extensions.md
+    - name: Information about email security settings
+      href: ../security/email-security-settings.md
+  - name: User Interface
+    items:
+    - name: Can't delete default Outlook folders
+      href: ../user-interface/cannot-delete-default-outlook-folders.md
+    - name: Customization options for Today view
+      href: ../user-interface/customize-outlook-today-view.md
+    - name: How time zone normalization works
+      href: ../user-interface/time-zone-normalization.md
+    - name: How to configure default message class for new items
+      href: ../user-interface/configure-default-message-class-for-new-items.md
+    - name: How to decide where to publish custom forms
+      href: ../user-interface/publish-custom-outlook-form.md
+    - name: MAPI is the only way to change profiles
+      href: ../user-interface/mapi-to-change-profiles.md
+    - name: Outlook Object Model can't run in a Windows service
+      href: ../user-interface/oom-unsuitable-in-windows-service.md
+    - name: Remove duration from retention tags
+      href: ../user-interface/remove-duration-info-in-retention-policy-tag.md

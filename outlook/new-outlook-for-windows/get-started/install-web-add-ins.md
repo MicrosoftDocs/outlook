@@ -33,7 +33,7 @@ If a user switches back to classic Outlook for Windows, web add-ins that were in
 
 There might be scenarios where your organization wouldn't want to install web add-in counterparts of a user's existing COM add-ins during the switch. In this case, you must configure the **Disable web add-in installation on migration to new Outlook for Windows** Group Policy setting on every applicable machine in your organization.
 
-:::image type="content" source="media/install-web-add-ins/com-to-web-add-in-gpo-setting.png" alt-text="Screenshot of the 'Disable web add-in installation on migration to new Outlook for Windows' Group Policy setting set to 'Not Configured'." lightbox="media/install-web-add-ins/com-to-web-add-in-gpo-setting.png":::
+:::image type="content" source="../../media/install-web-add-ins/com-to-web-add-in-gpo-setting.png" alt-text="Screenshot of the 'Disable web add-in installation on migration to new Outlook for Windows' Group Policy setting set to 'Not Configured'." lightbox="../../media/install-web-add-ins/com-to-web-add-in-gpo-setting.png":::
 
 By default, the setting is set to **Not Configured**. To prevent installing web add-in counterparts of existing COM add-ins during the switch, perform the following steps.
 
