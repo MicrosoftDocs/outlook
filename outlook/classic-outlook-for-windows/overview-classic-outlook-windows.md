@@ -11,7 +11,7 @@ ms.collection:
 ms.localizationpriority: medium
 ms.custom: intro
 recommendations: true
-description: "Provides an introduction to the content collection."
+description: "Provides an introduction to the topics in the content collection."
 ms.date: 05/08/2025
 ---
 
