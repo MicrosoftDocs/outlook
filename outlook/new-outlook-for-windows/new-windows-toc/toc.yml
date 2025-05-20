@@ -55,6 +55,8 @@ items:
     href: ../manage/admin-controlled-migration-policy.md
   - name: Policy management
     href: ../manage/policy-management.md
+  - name: Public folders in Outlook for Windows
+    href: ../manage/public-folders-in-new-outlook.md    
 - name: Message Body
   items:
   - name: Embed and play back videos in Outlook and Loop
@@ -79,7 +81,3 @@ items:
     href: ../troubleshoot/troubleshoot-shared-mailboxes-new-outlook.md
   - name: Troubleshoot new Outlook
     href: ../troubleshoot/troubleshoot-overview-new-outlook.md
-- name: User Interface
-  items:
-  - name: Access public folders in Outlook for Windows
-    href: ../user-interface/public-folders-in-new-outlook.md
