@@ -1,7 +1,7 @@
 ---
 title: "Configure shared mailboxes in new Outlook"
 ms.author: meerak
-author: cloud-writerT
+author: cloud-writer
 manager: dcscontentpm
 audience: ITPro
 ms.topic: overview
