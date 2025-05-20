@@ -1,26 +1,27 @@
 ---
-title: "Troubleshoot deployment issues in new Outlook"
-ms.author: janellem
-author: JanelleMcIntosh-MSFT
-manager: triciag
+title: "Resolve deployment issues"
+ms.author: meerak
+author: cloud-writer
+manager: dcscontentpm
 audience: ITPro
 ms.topic: overview
 ms.service: outlook
 ms.collection:
-- Tier3
-- deploy-new-outlook
+- administer-new-outlook
 ms.localizationpriority: medium
 ms.custom: intro-overview
 recommendations: true
-description: "Provides detailed solutions for troubleshooting deployment and installation issues encountered when transitioning to the new Outlook for Windows"
-ms.date: 11/21/2024
+description: "Provides instructions to resolve deployment issues when transitioning to the new Outlook for Windows"
+ms.date: 05/20/2025
+ms.reviewer: janellem
 ---
 
-# Troubleshoot deployment issues in new Outlook
+# Resolve deployment issues
 
 As organizations transition to new Outlook, which offers a more agile and consistent experience in Windows, admins and users could encounter issues, from toggle visibility in the classic Outlook to installation hurdles. This article provides step-by-step solutions to addressing these challenges, ensuring a smooth integration of new Outlook into your work environment, whether it's through direct installation, using various deployment options, or managing policy settings.
 
 ## Toggle in classic Outlook doesn’t work
+
 When the toggle in classic Outlook is visible but unresponsive, it's typically due to installation issues related to security settings. For resolving this issue, refer to [Troubleshooting installation issues in the new Outlook client](#troubleshoot-installation-issues-in-the-new-outlook-client) for detailed steps to address security-related installation problems.
 
 ## Toggle doesn't show in classic Outlook

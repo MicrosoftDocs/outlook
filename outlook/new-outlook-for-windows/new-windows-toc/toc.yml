@@ -1,6 +1,14 @@
 items:
 - name: Welcome to new Outlook for Windows
   href: ../overview-new-outlook-windows.md
+- name: Administration
+  items:
+  - name: Architecture changes in new Outlook
+    href: ../administration/architecture-changes-new-outlook.md
+  - name: Configure shared mailboxes
+    href: ../administration/configure-shared-mailboxes-new-outlook.md
+  - name: Resolve deploymet issues
+    href: ../administration/resolve-deployment-issues.md        
 - name: Calendaring
   items:
   - name: Configure rooms and workspaces for Room Finder
@@ -73,11 +81,3 @@ items:
     href: ../security/prevent-delegate-access-to-irm-messages.md
   - name: Security and compliance
     href: ../security/security-compliance.md
-- name: Troubleshoot
-  items:
-  - name: Deployment issues in new Outlook
-    href: ../troubleshoot/troubleshoot-deployment-new-outlook.md
-  - name: Shared mailbox issues in new Outlook
-    href: ../troubleshoot/troubleshoot-shared-mailboxes-new-outlook.md
-  - name: Troubleshoot new Outlook
-    href: ../troubleshoot/troubleshoot-overview-new-outlook.md
