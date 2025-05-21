@@ -26,7 +26,7 @@ items:
       href: ../connectivity/suppress-autodiscover-mismatch-warning.md
   - name: Contacts
     items:
-    - name: How to hide columns in Address Book
+    - name: Hide columns in the Address Book
       href: ../contacts/hide-columns-in-address-book.md
     - name: The Outlook AutoComplete list
       href: ../contacts/outlook-autocomplete-list.md
