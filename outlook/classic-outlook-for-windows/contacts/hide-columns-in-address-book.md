@@ -18,7 +18,7 @@ appliesto:
   - Outlook 2016
   - Outlook for Microsoft 365
 search.appverid: MET150
-ms.date: 05/20/2025
+ms.date: 05/21/2025
 ---
 # Hide columns in the Address Book in Outlook
 

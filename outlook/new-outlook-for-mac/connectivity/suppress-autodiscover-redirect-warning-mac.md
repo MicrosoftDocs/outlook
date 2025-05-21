@@ -12,10 +12,11 @@ ms.custom:
   - CSSTroubleshoot
 ms.reviewer: tasitae
 appliesto: 
-  - Outlook 2016 for Mac
+  - New Outlook for Mac
+  - Legacy Outlook for Mac
   - Exchange Online
 search.appverid: MET150
-ms.date: 05/15/2025
+ms.date: 05/21/2025
 ---
 # Suppress the Microsoft 365 AutoDiscover redirect warning in Outlook for Mac
 
@@ -29,7 +30,7 @@ When Microsoft Outlook for Mac connects to a Microsoft 365 account, the Autodisc
 > `https://autodiscover-s.outlook.com/autodiscover/autodiscover.xml`  
 > Click Allow only if you fully trust the source, or if your Exchange administrator instructs you to.
 
-When this warning message displays, you can select **Always use my response for this server**, and then select **Allow** to not be asked about this specific server again for the current Outlook for Mac profile.0
+When this warning message displays, you can select **Always use my response for this server**, and then select **Allow** to not be asked about this specific server again for the current Outlook for Mac profile.
 
 ## Resolution
 
