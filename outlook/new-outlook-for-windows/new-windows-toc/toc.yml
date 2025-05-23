@@ -47,8 +47,6 @@ items:
     href: ../administration/architecture-changes-new-outlook.md
   - name: Configure shared mailboxes
     href: ../administration/configure-shared-mailboxes-new-outlook.md
-  - name: Resolve deployment issues
-    href: ../administration/resolve-deployment-issues.md        
 - name: Calendaring
   items:
   - name: Configure rooms and workspaces for Room Finder
