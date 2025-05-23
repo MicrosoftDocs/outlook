@@ -39,6 +39,10 @@
       "source_path": "outlook/new-outlook-for-windows/troubleshoot/troubleshoot-shared-mailboxes-new-outlook.md",
       "redirect_url": "/microsoft-365-apps/outlook/administration/configure-shared-mailboxes-new-outlook",
       "redirect_document_id": false
-    }                                       
+    },   
+    {
+      "source_path": "outlook/new-outlook-for-windows/administration/resolve-deployment-issues.md",
+      "redirect_url": "/outlook/troubleshoot/deployment/resolve-deployment-issues"
+    }
   ]
 }
